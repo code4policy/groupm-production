@@ -5,10 +5,12 @@
         "instructors": [],
         "semester": "",
         "school": "FAS",
-        "group": "A",
-        "stem": false,
+        "stem": true,
         "topic": "demo",
-        "cross_register": true
+        "cross_register": true,
+        "stem_group_a": true,
+        "stem_group_b": false,
+        "link": "https://www.hks.harvard.edu/courses/apcomp-221"
     },
     {
         "course_number": "API 114",
@@ -16,10 +18,12 @@
         "instructors": [],
         "semester": "",
         "school": "HKS",
-        "group": "A",
         "stem": true,
         "topic": "demo",
-        "cross_register": true
+        "cross_register": true,
+        "stem_group_a": true,
+        "stem_group_b": false,
+        "link": "https://www.hks.harvard.edu/courses/api-114"
     },
     {
         "course_number": "API 135",
@@ -27,10 +31,12 @@
         "instructors": [],
         "semester": "",
         "school": "HKS",
-        "group": "A",
         "stem": true,
         "topic": "demo",
-        "cross_register": true
+        "cross_register": true,
+        "stem_group_a": true,
+        "stem_group_b": false,
+        "link": "https://www.hks.harvard.edu/courses/api-135"
     },
     {
         "course_number": "API 141",
@@ -38,10 +44,12 @@
         "instructors": [],
         "semester": "",
         "school": "HKS",
-        "group": "A",
         "stem": true,
         "topic": "demo",
-        "cross_register": true
+        "cross_register": true,
+        "stem_group_a": true,
+        "stem_group_b": false,
+        "link": "https://www.hks.harvard.edu/courses/api-141"
     },
     {
         "course_number": "API 148",
@@ -49,10 +57,12 @@
         "instructors": [],
         "semester": "",
         "school": "HKS",
-        "group": "A",
         "stem": true,
         "topic": "demo",
-        "cross_register": true
+        "cross_register": true,
+        "stem_group_a": true,
+        "stem_group_b": false,
+        "link": "https://www.hks.harvard.edu/courses/api-148"
     },
     {
         "course_number": "API 165",
@@ -60,10 +70,12 @@
         "instructors": [],
         "semester": "",
         "school": "HKS",
-        "group": "A",
         "stem": true,
         "topic": "demo",
-        "cross_register": true
+        "cross_register": true,
+        "stem_group_a": true,
+        "stem_group_b": false,
+        "link": "https://www.hks.harvard.edu/courses/api-165"
     },
     {
         "course_number": "API 201",
@@ -71,10 +83,12 @@
         "instructors": [],
         "semester": "",
         "school": "HKS",
-        "group": "A",
         "stem": true,
         "topic": "demo",
-        "cross_register": true
+        "cross_register": true,
+        "stem_group_a": true,
+        "stem_group_b": false,
+        "link": "https://www.hks.harvard.edu/courses/api-201"
     },
     {
         "course_number": "API 202M",
@@ -82,21 +96,25 @@
         "instructors": [],
         "semester": "",
         "school": "HKS",
-        "group": "A",
         "stem": true,
         "topic": "demo",
-        "cross_register": true
+        "cross_register": true,
+        "stem_group_a": true,
+        "stem_group_b": false,
+        "link": "https://www.hks.harvard.edu/courses/api-202m"
     },
     {
-        "course_number": "API 203M",
-        "course_title": "Empirical Methods II *Sections A and Z",
+        "course_number": "API 203M *Sections A and Z",
+        "course_title": "Empirical Methods II",
         "instructors": [],
         "semester": "",
         "school": "HKS",
-        "group": "A",
         "stem": true,
         "topic": "demo",
-        "cross_register": true
+        "cross_register": true,
+        "stem_group_a": true,
+        "stem_group_b": false,
+        "link": "https://www.hks.harvard.edu/courses/api-203m-*sections-a-and-z"
     },
     {
         "course_number": "API 205",
@@ -104,10 +122,12 @@
         "instructors": [],
         "semester": "",
         "school": "HKS",
-        "group": "A",
         "stem": true,
         "topic": "demo",
-        "cross_register": true
+        "cross_register": true,
+        "stem_group_a": true,
+        "stem_group_b": false,
+        "link": "https://www.hks.harvard.edu/courses/api-205"
     },
     {
         "course_number": "API 209",
@@ -115,10 +135,12 @@
         "instructors": [],
         "semester": "",
         "school": "HKS",
-        "group": "A",
         "stem": true,
         "topic": "demo",
-        "cross_register": true
+        "cross_register": true,
+        "stem_group_a": true,
+        "stem_group_b": false,
+        "link": "https://www.hks.harvard.edu/courses/api-209"
     },
     {
         "course_number": "API 210",
@@ -126,10 +148,12 @@
         "instructors": [],
         "semester": "",
         "school": "HKS",
-        "group": "A",
         "stem": true,
         "topic": "demo",
-        "cross_register": true
+        "cross_register": true,
+        "stem_group_a": true,
+        "stem_group_b": false,
+        "link": "https://www.hks.harvard.edu/courses/api-210"
     },
     {
         "course_number": "API 211",
@@ -137,10 +161,12 @@
         "instructors": [],
         "semester": "",
         "school": "HKS",
-        "group": "A",
         "stem": true,
         "topic": "demo",
-        "cross_register": true
+        "cross_register": true,
+        "stem_group_a": true,
+        "stem_group_b": false,
+        "link": "https://www.hks.harvard.edu/courses/api-211"
     },
     {
         "course_number": "API 222",
@@ -148,10 +174,12 @@
         "instructors": [],
         "semester": "",
         "school": "HKS",
-        "group": "A",
         "stem": true,
         "topic": "demo",
-        "cross_register": true
+        "cross_register": true,
+        "stem_group_a": true,
+        "stem_group_b": false,
+        "link": "https://www.hks.harvard.edu/courses/api-222"
     },
     {
         "course_number": "BGP 670",
@@ -159,10 +187,25 @@
         "instructors": [],
         "semester": "",
         "school": "HKS",
-        "group": "A",
         "stem": true,
         "topic": "demo",
-        "cross_register": true
+        "cross_register": true,
+        "stem_group_a": true,
+        "stem_group_b": false,
+        "link": "https://www.hks.harvard.edu/courses/bgp-670"
+    },
+    {
+        "course_number": "API 203M\u200b *Sections B,C,D\u200b",
+        "course_title": "Empirical Methods II",
+        "instructors": [],
+        "semester": "",
+        "school": "HKS",
+        "stem": true,
+        "topic": "demo",
+        "cross_register": true,
+        "stem_group_a": false,
+        "stem_group_b": true,
+        "link": "https://www.hks.harvard.edu/courses/api-203m\u200b-*sections-b,c,d\u200b"
     },
     {
         "course_number": "API 302",
@@ -170,10 +213,12 @@
         "instructors": [],
         "semester": "",
         "school": "HKS",
-        "group": "B",
         "stem": true,
         "topic": "demo",
-        "cross_register": true
+        "cross_register": true,
+        "stem_group_a": false,
+        "stem_group_b": true,
+        "link": "https://www.hks.harvard.edu/courses/api-302"
     },
     {
         "course_number": "API 303",
@@ -181,21 +226,38 @@
         "instructors": [],
         "semester": "",
         "school": "HKS",
-        "group": "B",
         "stem": true,
         "topic": "demo",
-        "cross_register": true
+        "cross_register": true,
+        "stem_group_a": false,
+        "stem_group_b": true,
+        "link": "https://www.hks.harvard.edu/courses/api-303"
     },
     {
-        "course_number": "DPI 307",
-        "course_title": "Threats and Challenges Facing American Democracy – in Historical Perspective [not offered in AY25]",
+        "course_number": "API 318",
+        "course_title": "Thinking Analytically in an Uncertain World",
         "instructors": [],
         "semester": "",
         "school": "HKS",
-        "group": "B",
-        "stem": false,
+        "stem": true,
         "topic": "demo",
-        "cross_register": true
+        "cross_register": true,
+        "stem_group_a": false,
+        "stem_group_b": true,
+        "link": "https://www.hks.harvard.edu/courses/api-318"
+    },
+    {
+        "course_number": "DPI 307",
+        "course_title": "Threats and Challenges Facing American Democracy \u2013 in Historical Perspective [not offered in AY25]",
+        "instructors": [],
+        "semester": "",
+        "school": "HKS",
+        "stem": true,
+        "topic": "demo",
+        "cross_register": true,
+        "stem_group_a": false,
+        "stem_group_b": true,
+        "link": "https://www.hks.harvard.edu/courses/dpi-307"
     },
     {
         "course_number": "DPI 608",
@@ -203,9 +265,106 @@
         "instructors": [],
         "semester": "",
         "school": "HKS",
-        "group": "B",
+        "stem": true,
+        "topic": "demo",
+        "cross_register": true,
+        "stem_group_a": false,
+        "stem_group_b": true,
+        "link": "https://www.hks.harvard.edu/courses/dpi-608"
+    },
+    {
+        "course_number": "DPI 610",
+        "course_title": "Data Science for Politics",
+        "instructors": [],
+        "semester": "",
+        "school": "HKS",
+        "stem": true,
+        "topic": "demo",
+        "cross_register": true,
+        "stem_group_a": false,
+        "stem_group_b": true,
+        "link": "https://www.hks.harvard.edu/courses/dpi-610"
+    },
+    {
+        "course_number": "API-101",
+        "course_title": "Resources, Incentives, and Choices I: Markets and Market Failures",
+        "instructors": [
+            "Christopher Norio Avery",
+            "P\u0131nar Do\u011fan",
+            "Anne Le Brun",
+            "Juan Saavedra"
+        ],
+        "semester": "",
+        "school": "",
         "stem": false,
         "topic": "demo",
-        "cross_register": true
+        "cross_register": true,
+        "stem_group_a": false,
+        "stem_group_b": false,
+        "link": "https://www.hks.harvard.edu/courses/api-101"
+    },
+    {
+        "course_number": "API-102",
+        "course_title": "Resources, Incentives, and Choices II: Analysis of Public Policy",
+        "instructors": [
+            "Joshua Abel",
+            "Robert Lawrence",
+            "Andr\u00e9s Maggi",
+            "Juan Saavedra",
+            "Mark Shepard"
+        ],
+        "semester": "",
+        "school": "",
+        "stem": false,
+        "topic": "demo",
+        "cross_register": true,
+        "stem_group_a": false,
+        "stem_group_b": false,
+        "link": "https://www.hks.harvard.edu/courses/api-102"
+    },
+    {
+        "course_number": "API-109",
+        "course_title": "Advanced Microeconomic Analysis I: Theory of Supply, Demand, and Equilibrium",
+        "instructors": [
+            "Luis Armona"
+        ],
+        "semester": "",
+        "school": "",
+        "stem": false,
+        "topic": "demo",
+        "cross_register": true,
+        "stem_group_a": false,
+        "stem_group_b": false,
+        "link": "https://www.hks.harvard.edu/courses/api-109"
+    },
+    {
+        "course_number": "API-110",
+        "course_title": "Advanced Microeconomic Analysis II: Game Theory and Information Economics",
+        "instructors": [
+            "Jie Bai"
+        ],
+        "semester": "",
+        "school": "",
+        "stem": false,
+        "topic": "demo",
+        "cross_register": true,
+        "stem_group_a": false,
+        "stem_group_b": false,
+        "link": "https://www.hks.harvard.edu/courses/api-110"
+    },
+    {
+        "course_number": "API-114",
+        "course_title": "Econometric Methods for Applied Research I",
+        "instructors": [
+            "Gregory Bruich"
+        ],
+        "semester": "",
+        "school": "",
+        "stem": false,
+        "topic": "demo",
+        "cross_register": true,
+        "stem_group_a": false,
+        "stem_group_b": false,
+        "link": "https://www.hks.harvard.edu/courses/api-114"
     }
 ]
