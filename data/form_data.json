@@ -1,0 +1,211 @@
+[
+    {
+        "course_number": "APCOMP 221",
+        "course_title": "Critical Thinking in Data Science",
+        "instructors": [],
+        "semester": "",
+        "school": "FAS",
+        "group": "A",
+        "stem": false,
+        "topic": "demo",
+        "cross_register": true
+    },
+    {
+        "course_number": "API 114",
+        "course_title": "Econometric Methods for Applied Research I",
+        "instructors": [],
+        "semester": "",
+        "school": "HKS",
+        "group": "A",
+        "stem": true,
+        "topic": "demo",
+        "cross_register": true
+    },
+    {
+        "course_number": "API 135",
+        "course_title": "Economics of Climate Change and Environmental Policy",
+        "instructors": [],
+        "semester": "",
+        "school": "HKS",
+        "group": "A",
+        "stem": true,
+        "topic": "demo",
+        "cross_register": true
+    },
+    {
+        "course_number": "API 141",
+        "course_title": "Finance",
+        "instructors": [],
+        "semester": "",
+        "school": "HKS",
+        "group": "A",
+        "stem": true,
+        "topic": "demo",
+        "cross_register": true
+    },
+    {
+        "course_number": "API 148",
+        "course_title": "Advanced Risk Management and Infrastructure Finance",
+        "instructors": [],
+        "semester": "",
+        "school": "HKS",
+        "group": "A",
+        "stem": true,
+        "topic": "demo",
+        "cross_register": true
+    },
+    {
+        "course_number": "API 165",
+        "course_title": "Energy and Environmental Economics and Policy",
+        "instructors": [],
+        "semester": "",
+        "school": "HKS",
+        "group": "A",
+        "stem": true,
+        "topic": "demo",
+        "cross_register": true
+    },
+    {
+        "course_number": "API 201",
+        "course_title": "Quantitative Analysis and Empirical Methods",
+        "instructors": [],
+        "semester": "",
+        "school": "HKS",
+        "group": "A",
+        "stem": true,
+        "topic": "demo",
+        "cross_register": true
+    },
+    {
+        "course_number": "API 202M",
+        "course_title": "Empirical Methods II",
+        "instructors": [],
+        "semester": "",
+        "school": "HKS",
+        "group": "A",
+        "stem": true,
+        "topic": "demo",
+        "cross_register": true
+    },
+    {
+        "course_number": "API 203M",
+        "course_title": "Empirical Methods II *Sections A and Z",
+        "instructors": [],
+        "semester": "",
+        "school": "HKS",
+        "group": "A",
+        "stem": true,
+        "topic": "demo",
+        "cross_register": true
+    },
+    {
+        "course_number": "API 205",
+        "course_title": "Politics and Policies: The Impact of Data and AI",
+        "instructors": [],
+        "semester": "",
+        "school": "HKS",
+        "group": "A",
+        "stem": true,
+        "topic": "demo",
+        "cross_register": true
+    },
+    {
+        "course_number": "API 209",
+        "course_title": "Advanced Quantitative Methods: Description and Prediction",
+        "instructors": [],
+        "semester": "",
+        "school": "HKS",
+        "group": "A",
+        "stem": true,
+        "topic": "demo",
+        "cross_register": true
+    },
+    {
+        "course_number": "API 210",
+        "course_title": "Advanced Quantitative Methods: Causal Inference",
+        "instructors": [],
+        "semester": "",
+        "school": "HKS",
+        "group": "A",
+        "stem": true,
+        "topic": "demo",
+        "cross_register": true
+    },
+    {
+        "course_number": "API 211",
+        "course_title": "Program Evaluation and Education Policy",
+        "instructors": [],
+        "semester": "",
+        "school": "HKS",
+        "group": "A",
+        "stem": true,
+        "topic": "demo",
+        "cross_register": true
+    },
+    {
+        "course_number": "API 222",
+        "course_title": "Machine Learning and Big Data Analytics",
+        "instructors": [],
+        "semester": "",
+        "school": "HKS",
+        "group": "A",
+        "stem": true,
+        "topic": "demo",
+        "cross_register": true
+    },
+    {
+        "course_number": "BGP 670",
+        "course_title": "Financial Crises: Concepts and Evidence",
+        "instructors": [],
+        "semester": "",
+        "school": "HKS",
+        "group": "A",
+        "stem": true,
+        "topic": "demo",
+        "cross_register": true
+    },
+    {
+        "course_number": "API 302",
+        "course_title": "Analytical Frames for Policy",
+        "instructors": [],
+        "semester": "",
+        "school": "HKS",
+        "group": "B",
+        "stem": true,
+        "topic": "demo",
+        "cross_register": true
+    },
+    {
+        "course_number": "API 303",
+        "course_title": "Game Theory and Strategic Decisions",
+        "instructors": [],
+        "semester": "",
+        "school": "HKS",
+        "group": "B",
+        "stem": true,
+        "topic": "demo",
+        "cross_register": true
+    },
+    {
+        "course_number": "DPI 307",
+        "course_title": "Threats and Challenges Facing American Democracy – in Historical Perspective [not offered in AY25]",
+        "instructors": [],
+        "semester": "",
+        "school": "HKS",
+        "group": "B",
+        "stem": false,
+        "topic": "demo",
+        "cross_register": true
+    },
+    {
+        "course_number": "DPI 608",
+        "course_title": "Political Communication Breakdown: Causes, Consequences, and Solutions",
+        "instructors": [],
+        "semester": "",
+        "school": "HKS",
+        "group": "B",
+        "stem": false,
+        "topic": "demo",
+        "cross_register": true
+    }
+]
