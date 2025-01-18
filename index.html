@@ -51,22 +51,41 @@
   <section class="red-banner">
     <div class="container text-white py-5">
         <h1>Courses</h1>
+      <section class="red-banner">
+    <div class="container text-white py-5">
+        <h1>Courses</h1>
         <form class="mt-3 d-flex justify-content-center align-items-center gap-3">
             <input type="text" id="search" class="form-control" placeholder="Search by course title or number">
-            <select id="semester" class="form-select">
-                <option value="">Topics</option>
-                <option value="Fall">Artificial Intelligence</option>
-                <option value="Spring">Climate</option>
-                <option value="J-Term">Gender</option>
-                <option value="Summer">Racism & Bias</option>
+            
+            <!-- STEM Filter -->
+            <select id="stem" class="form-select">
+                <option value="">STEM Eligable</option>
+                <option value="true">Group A - Quantitative Analysis</option>
+                <option value="false">Group B - Research Methods</option>
             </select>
-            <select id="instructor" class="form-select">
-                <option value="">Select Instructor</option>
-                <option value="Dhrumil Mehta">Dhrumil Mehta</option>
-                <option value="Aarushi Sahejpal">Aarushi Sahejpal</option>
+            
+            <!-- Cross-register Filter -->
+            <select id="cross-register" class="form-select">
+                <option value="">Cross-register</option>
+                <option value="true">Yes</option>
+                <option value="false">No</option>
             </select>
+            
+            <!-- Topic Filter -->
+            <select id="topic" class="form-select">
+                <option value="">Select Topic</option>
+                <option value="Artificial Intelligence">Artificial Intelligence</option>
+                <option value="Climate">Climate</option>
+                <option value="Gender">Gender</option>
+                <option value="Racism & Bias">Racism & Bias</option>
+                <option value="demo">Demo</option>
+            </select>
+            
             <button type="button" class="btn btn-light" id="search-btn">Search</button>
         </form>
+    </div>
+</section>
+
     </div>
 </section>
 
