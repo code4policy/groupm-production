@@ -1,152 +1,121 @@
-// Load the JSON data from the file
-const coursesDataPath = 'data/form_data.json';
+// Wait for the DOM to load
+document.addEventListener("DOMContentLoaded", () => {
+    // References to DOM elements
+    const stemRegister = document.getElementById("stem-register");
+    const crossRegister = document.getElementById("cross-register");
+    const courseTable = document.getElementById("course-table");
+    const searchInput = document.getElementById("search");
+    const filterButton = document.getElementById("filter-button");
 
-// Function to fetch course data
-async function fetchCourseData() {
-    try {
-        const response = await fetch(coursesDataPath);
-        if (!response.ok) {
-            throw new Error(`Failed to fetch courses data: ${response.status}`);
-        }
-        return await response.json();
-    } catch (error) {
-        console.error('Error fetching course data:', error);
-        return [];
+    let coursesData = [];
+
+    // Convert boolean values to strings
+    function getStemGroup(course) {
+        if (course.stem_group_a) return "Group A - Quantitative Analysis";
+        if (course.stem_group_b) return "Group B - Research Methods";
+        return "None";
     }
-}
 
-// Function to adjust column widths dynamically
-function adjustColumnWidths() {
-    const table = document.querySelector('.table');
-    if (!table) return;
+    function getCrossRegisterStatus(course) {
+        return course.cross_register ? "Yes" : "No";
+    }
 
-    const headerCells = table.querySelectorAll('thead th');
-    const bodyCells = table.querySelectorAll('tbody tr:first-child td');
+    // Fetch data from the JSON file
+    async function fetchData() {
+        try {
+            const response = await fetch('data/form_data.json');
+            if (!response.ok) {
+                throw new Error("Failed to load JSON file");
+            }
+            const data = await response.json();
+            
+            // Process data and add string properties for filtering
+            coursesData = data.map(course => ({
+                ...course,
+                stem_group: getStemGroup(course),
+                cross_register_status: getCrossRegisterStatus(course)
+            }));
 
-    headerCells.forEach((th, index) => {
-        const correspondingTd = bodyCells[index];
-        if (correspondingTd) {
-            const width = correspondingTd.offsetWidth + 'px';
-            th.style.width = width;
+            console.log('Data loaded:', coursesData.length, 'courses');
+            return coursesData;
+        } catch (error) {
+            console.error("Error fetching data:", error);
+            return [];
         }
-    });
-}
-
-// Function to filter and display courses
-async function filterCourses() {
-    const coursesData = await fetchCourseData();
-
-    // Get filter values
-    const stemToggle = document.getElementById('stem-toggle')?.checked || false;
-    const crossRegisterToggle = document.getElementById('cross-register-toggle')?.checked || false; // Changed default to false
-    const searchQuery = document.getElementById('search')?.value.toLowerCase() || '';
-    const selectedTopic = document.getElementById('semester')?.value || '';
-    const selectedInstructor = document.getElementById('instructor')?.value || '';
-    const selectedStem = document.getElementById('dropdown')?.value || '';
-
-    const tableBody = document.getElementById('course-table');
-    if (!tableBody) return;
-
-    // Clear the current table rows
-    tableBody.innerHTML = '';
+    }
 
     // Filter courses based on all criteria
-    const filteredCourses = coursesData.filter(course => {
-        const stemMatch = !stemToggle || course.stem_group_a;
-        const crossMatch = !crossRegisterToggle || (crossRegisterToggle && course.cross_register);
-        const searchMatch = !searchQuery || 
-            course.course_number.toLowerCase().includes(searchQuery) ||
-            course.course_title.toLowerCase().includes(searchQuery);
-        const topicMatch = !selectedTopic || course.topic === selectedTopic;
-        const instructorMatch = !selectedInstructor || 
-            (course.instructors &&
-             course.instructors.some(instructor => 
-                 instructor.toLowerCase().includes(selectedInstructor.toLowerCase())
-             ));
+    function filterCourses() {
+        const selectedStem = stemRegister.value;
+        const selectedCrossRegister = crossRegister.value;
+        const searchTerm = searchInput.value.toLowerCase();
 
-        return stemMatch && crossMatch && searchMatch && topicMatch && instructorMatch;
-    });
+        console.log('Filtering with:', { selectedStem, selectedCrossRegister, searchTerm });
 
-    // Populate the table with filtered courses
-    filteredCourses.forEach(course => {
-        const row = document.createElement('tr');
-        
-        const courseNumberCell = document.createElement('td');
-        courseNumberCell.textContent = course.course_number;
-        row.appendChild(courseNumberCell);
+        const filteredCourses = coursesData.filter(course => {
+            // Check STEM filter
+            const matchesStem = !selectedStem || 
+                              (selectedStem === "None" && course.stem_group === "None") ||
+                              course.stem_group === selectedStem;
 
-        const courseTitleCell = document.createElement('td');
-        courseTitleCell.textContent = course.course_title;
-        row.appendChild(courseTitleCell);
+            // Check Cross Registration filter
+            const matchesCrossRegister = !selectedCrossRegister || 
+                                       course.cross_register_status === selectedCrossRegister;
 
-        const instructorsCell = document.createElement('td');
-        instructorsCell.textContent = course.instructors.join(', ') || 'TBD';
-        row.appendChild(instructorsCell);
+            // Check search term
+            const matchesSearch = !searchTerm ||
+                                course.course_number.toLowerCase().includes(searchTerm) ||
+                                course.course_title.toLowerCase().includes(searchTerm);
 
-        tableBody.appendChild(row);
-    });
-
-    // Adjust column widths after rendering the table
-    adjustColumnWidths();
-}
-
-// Add event listeners once DOM is loaded
-document.addEventListener('DOMContentLoaded', () => {
-    const stemToggle = document.getElementById('stem-toggle');
-    const crossRegisterToggle = document.getElementById("cross-register-toggle");
-    const searchInput = document.getElementById('search');
-    const topicSelect = document.getElementById('semester');
-    const instructorSelect = document.getElementById('instructor');
-    const searchButton = document.getElementById('search-btn');
-
-    // Add event listeners for all filter changes
-    if (stemToggle) stemToggle.addEventListener('change', filterCourses);
-    if (searchInput) searchInput.addEventListener('input', filterCourses);
-    if (topicSelect) topicSelect.addEventListener('change', filterCourses);
-    if (instructorSelect) instructorSelect.addEventListener('change', filterCourses);
-    if (searchButton) searchButton.addEventListener('click', filterCourses);
-    if (crossRegisterToggle) {
-        crossRegisterToggle.addEventListener("change", filterCourses);
-    } else {
-        console.error("Cross-register toggle not found!");
-    }
-
-    // Initial load of courses
-    filterCourses();
-});
-
-// Function to populate instructor dropdown dynamically
-async function populateInstructorDropdown() {
-    try {
-        // Fetch course data
-        const response = await fetch('data/form_data.json');
-        if (!response.ok) throw new Error(`Failed to fetch courses data: ${response.status}`);
-        const coursesData = await response.json();
-
-        // Collect unique instructors
-        const instructorSet = new Set();
-        coursesData.forEach(course => {
-            course.instructors.forEach(instructor => instructorSet.add(instructor));
+            return matchesStem && matchesCrossRegister && matchesSearch;
         });
 
-        // Get the dropdown element
-        const instructorSelect = document.getElementById('instructor');
-        if (!instructorSelect) {
-            console.error("Instructor dropdown not found!");
+        console.log('Filtered results:', filteredCourses.length, 'courses');
+        displayCourses(filteredCourses);
+    }
+
+    // Display courses in the table
+    function displayCourses(courses) {
+        courseTable.innerHTML = '';
+        
+        if (courses.length === 0) {
+            const row = document.createElement('tr');
+            row.innerHTML = '<td colspan="3" class="text-center">No courses found matching the selected criteria</td>';
+            courseTable.appendChild(row);
             return;
         }
 
-        // Populate dropdown with unique instructors
-        instructorSet.forEach(instructor => {
-            const option = document.createElement('option');
-            option.value = instructor;
-            option.textContent = instructor;
-            instructorSelect.appendChild(option);
+        courses.forEach(course => {
+            const row = document.createElement('tr');
+            row.innerHTML = `
+                <td>${course.course_number}</td>
+                <td>
+                    ${course.link 
+                        ? `<a href="${course.link}" target="_blank">${course.course_title}</a>`
+                        : course.course_title}
+                </td>
+                <td>${course.instructors ? course.instructors.join(', ') : 'N/A'}</td>
+            `;
+            courseTable.appendChild(row);
         });
-    } catch (error) {
-        console.error("Error populating instructor dropdown:", error);
     }
-}
 
-// Call the function when the DOM is fully loaded
-document.addEventListener('DOMContentLoaded', populateInstructorDropdown);
+    // Event listeners
+    stemRegister.addEventListener("change", filterCourses);
+    crossRegister.addEventListener("change", filterCourses);
+    searchInput.addEventListener("input", filterCourses);
+    
+    filterButton.addEventListener("click", (e) => {
+        e.preventDefault();
+        stemRegister.value = '';
+        crossRegister.value = '';
+        searchInput.value = '';
+        filterCourses();
+    });
+
+    // Initialize
+    fetchData().then(() => {
+        console.log('Initial load complete');
+        filterCourses();
+    });
+});

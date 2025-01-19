@@ -62,41 +62,22 @@
 <input type="text" id="search" class="form-control" placeholder="Search by course title or number">
 <!-- End Course Table -->
 
-<!-- Filter Group -->
-<div class="filters-container">
-  <div class="filter-group">
-    <span class="filter-label">STEM Eligible:</span>
-    <label class="switch">
-      <input type="checkbox" id="stem-toggle">
-      <span class="slider"></span>
-    </label>
-  </div>
+<!-- Instructor STEM -->
+<select id="stem-register" class="form-select">
+    <option value="">Stem</option>
+    <option value="Group A - Quantitative Analysis">Group A - Quantitative Analysis</option>
+    <option value="Group B - Research Methods">Group B - Research Methods</option>
+</select>
 
-  <div class="filter-group">
-    <span class="filter-label">Cross-register:</span>
-    <label class="switch">
-      <input type="checkbox" id="cross-register-toggle">
-      <span class="slider"></span>
-    </label>
-  </div>
-</div>
+
+<!-- Instructor Cross Register -->
+<select id="cross-register" class="form-select">
+    <option value="">Cross Register</option>
+</select>
 
 <!-- Topic Filter -->
 <select id="semester" class="form-select">
     <option value="">All Topics</option>
-    <option value="AI">Artificial Intelligence</option>
-    <option value="Climate">Climate</option>
-    <option value="Gender">Gender</option>
-    <option value="RacismAndBias">Racism & Bias</option>
-    <option value="demo">Other</option>
-</select>
-
-
-<!-- Topic Filter -->
-<select id="stem-dropdown" class="form-select">
-    <option value="Stem">STEM</option>
-    <option value="Group A - Quantitative Analysis">Group A - Quantitative Analysis</option>
-    <option value="Group B - Research Methods">Group B - Research Methods</option>
 </select>
 
 <!-- Instructor Filter -->
@@ -104,10 +85,7 @@
     <option value="">All Instructors</option>
 </select>
 
-
-
 <!-- Filter Button -->
-<button type="button" class="btn btn-light" id="search-btn">Search</button>
 <button id="filter-button">Reset</button>
 </form>
 </div>
