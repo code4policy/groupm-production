@@ -12,7 +12,7 @@
         "school": "HKS",
         "stem": false,
         "topic": "",
-        "cross_register": true,
+        "cross_register": false,
         "stem_group_a": false,
         "stem_group_b": false,
         "link": "https://www.hks.harvard.edu/courses/api-101"
@@ -31,7 +31,7 @@
         "school": "HKS",
         "stem": false,
         "topic": "",
-        "cross_register": true,
+        "cross_register": false,
         "stem_group_a": false,
         "stem_group_b": false,
         "link": "https://www.hks.harvard.edu/courses/api-102"
@@ -46,7 +46,7 @@
         "school": "HKS",
         "stem": false,
         "topic": "",
-        "cross_register": true,
+        "cross_register": false,
         "stem_group_a": false,
         "stem_group_b": false,
         "link": "https://www.hks.harvard.edu/courses/api-109"
@@ -61,7 +61,7 @@
         "school": "HKS",
         "stem": false,
         "topic": "",
-        "cross_register": true,
+        "cross_register": false,
         "stem_group_a": false,
         "stem_group_b": false,
         "link": "https://www.hks.harvard.edu/courses/api-110"
@@ -76,7 +76,7 @@
         "school": "HKS",
         "stem": false,
         "topic": "",
-        "cross_register": true,
+        "cross_register": false,
         "stem_group_a": false,
         "stem_group_b": false,
         "link": "https://www.hks.harvard.edu/courses/api-111"
@@ -92,7 +92,7 @@
         "school": "HKS",
         "stem": false,
         "topic": "",
-        "cross_register": true,
+        "cross_register": false,
         "stem_group_a": false,
         "stem_group_b": false,
         "link": "https://www.hks.harvard.edu/courses/api-112"
@@ -107,7 +107,7 @@
         "school": "HKS",
         "stem": false,
         "topic": "",
-        "cross_register": true,
+        "cross_register": false,
         "stem_group_a": true,
         "stem_group_b": false,
         "link": "https://www.hks.harvard.edu/courses/api-114"
@@ -122,7 +122,7 @@
         "school": "HKS",
         "stem": false,
         "topic": "",
-        "cross_register": true,
+        "cross_register": false,
         "stem_group_a": false,
         "stem_group_b": false,
         "link": "https://www.hks.harvard.edu/courses/api-115"
@@ -137,7 +137,7 @@
         "school": "HKS",
         "stem": false,
         "topic": "",
-        "cross_register": true,
+        "cross_register": false,
         "stem_group_a": false,
         "stem_group_b": false,
         "link": "https://www.hks.harvard.edu/courses/api-119"
@@ -153,7 +153,7 @@
         "school": "HKS",
         "stem": false,
         "topic": "",
-        "cross_register": true,
+        "cross_register": false,
         "stem_group_a": false,
         "stem_group_b": false,
         "link": "https://www.hks.harvard.edu/courses/api-120"
@@ -166,7 +166,7 @@
         "school": "HKS",
         "stem": false,
         "topic": "",
-        "cross_register": true,
+        "cross_register": false,
         "stem_group_a": false,
         "stem_group_b": false,
         "link": "https://www.hks.harvard.edu/courses/api-129"
@@ -181,7 +181,7 @@
         "school": "HKS",
         "stem": false,
         "topic": "Climate",
-        "cross_register": true,
+        "cross_register": false,
         "stem_group_a": true,
         "stem_group_b": false,
         "link": "https://www.hks.harvard.edu/courses/api-135"
@@ -196,7 +196,7 @@
         "school": "HKS",
         "stem": false,
         "topic": "",
-        "cross_register": true,
+        "cross_register": false,
         "stem_group_a": true,
         "stem_group_b": false,
         "link": "https://www.hks.harvard.edu/courses/api-141"
@@ -211,7 +211,7 @@
         "school": "HKS",
         "stem": false,
         "topic": "",
-        "cross_register": true,
+        "cross_register": false,
         "stem_group_a": true,
         "stem_group_b": false,
         "link": "https://www.hks.harvard.edu/courses/api-148"
@@ -226,7 +226,7 @@
         "school": "HKS",
         "stem": false,
         "topic": "Climate",
-        "cross_register": true,
+        "cross_register": false,
         "stem_group_a": true,
         "stem_group_b": false,
         "link": "https://www.hks.harvard.edu/courses/api-165"
@@ -241,7 +241,7 @@
         "school": "HKS",
         "stem": false,
         "topic": "Climate",
-        "cross_register": true,
+        "cross_register": false,
         "stem_group_a": false,
         "stem_group_b": false,
         "link": "https://www.hks.harvard.edu/courses/api-170"
@@ -259,7 +259,7 @@
         "school": "HKS",
         "stem": false,
         "topic": "",
-        "cross_register": true,
+        "cross_register": false,
         "stem_group_a": true,
         "stem_group_b": false,
         "link": "https://www.hks.harvard.edu/courses/api-201"
@@ -277,7 +277,7 @@
         "school": "HKS",
         "stem": false,
         "topic": "",
-        "cross_register": true,
+        "cross_register": false,
         "stem_group_a": true,
         "stem_group_b": false,
         "link": "https://www.hks.harvard.edu/courses/api-202m"
@@ -295,7 +295,7 @@
         "school": "HKS",
         "stem": false,
         "topic": "",
-        "cross_register": true,
+        "cross_register": false,
         "stem_group_a": true,
         "stem_group_b": false,
         "link": "https://www.hks.harvard.edu/courses/api-203m"
@@ -310,7 +310,7 @@
         "school": "HKS",
         "stem": false,
         "topic": "",
-        "cross_register": true,
+        "cross_register": false,
         "stem_group_a": true,
         "stem_group_b": false,
         "link": "https://www.hks.harvard.edu/courses/api-205"
@@ -325,7 +325,7 @@
         "school": "HKS",
         "stem": false,
         "topic": "",
-        "cross_register": true,
+        "cross_register": false,
         "stem_group_a": true,
         "stem_group_b": false,
         "link": "https://www.hks.harvard.edu/courses/api-209"
@@ -340,7 +340,7 @@
         "school": "HKS",
         "stem": false,
         "topic": "",
-        "cross_register": true,
+        "cross_register": false,
         "stem_group_a": true,
         "stem_group_b": false,
         "link": "https://www.hks.harvard.edu/courses/api-210"
@@ -355,7 +355,7 @@
         "school": "HKS",
         "stem": false,
         "topic": "",
-        "cross_register": true,
+        "cross_register": false,
         "stem_group_a": true,
         "stem_group_b": false,
         "link": "https://www.hks.harvard.edu/courses/api-211"
@@ -370,7 +370,7 @@
         "school": "HKS",
         "stem": false,
         "topic": "",
-        "cross_register": true,
+        "cross_register": false,
         "stem_group_a": true,
         "stem_group_b": false,
         "link": "https://www.hks.harvard.edu/courses/api-222"
@@ -385,7 +385,7 @@
         "school": "HKS",
         "stem": false,
         "topic": "",
-        "cross_register": true,
+        "cross_register": false,
         "stem_group_a": false,
         "stem_group_b": false,
         "link": "https://www.hks.harvard.edu/courses/api-302"
@@ -400,7 +400,7 @@
         "school": "HKS",
         "stem": false,
         "topic": "",
-        "cross_register": true,
+        "cross_register": false,
         "stem_group_a": false,
         "stem_group_b": false,
         "link": "https://www.hks.harvard.edu/courses/api-303"
@@ -415,7 +415,7 @@
         "school": "HKS",
         "stem": false,
         "topic": "",
-        "cross_register": true,
+        "cross_register": false,
         "stem_group_a": false,
         "stem_group_b": false,
         "link": "https://www.hks.harvard.edu/courses/api-305"
@@ -430,7 +430,7 @@
         "school": "HKS",
         "stem": false,
         "topic": "",
-        "cross_register": true,
+        "cross_register": false,
         "stem_group_a": false,
         "stem_group_b": false,
         "link": "https://www.hks.harvard.edu/courses/api-318"
@@ -445,7 +445,7 @@
         "school": "HKS",
         "stem": false,
         "topic": "",
-        "cross_register": true,
+        "cross_register": false,
         "stem_group_a": false,
         "stem_group_b": false,
         "link": "https://www.hks.harvard.edu/courses/api-500m"
@@ -463,7 +463,7 @@
         "school": "HKS",
         "stem": false,
         "topic": "",
-        "cross_register": true,
+        "cross_register": false,
         "stem_group_a": false,
         "stem_group_b": false,
         "link": "https://www.hks.harvard.edu/courses/api-501"
@@ -478,7 +478,7 @@
         "school": "HKS",
         "stem": false,
         "topic": "",
-        "cross_register": true,
+        "cross_register": false,
         "stem_group_a": false,
         "stem_group_b": false,
         "link": "https://www.hks.harvard.edu/courses/api-505"
@@ -493,7 +493,7 @@
         "school": "HKS",
         "stem": false,
         "topic": "",
-        "cross_register": true,
+        "cross_register": false,
         "stem_group_a": false,
         "stem_group_b": false,
         "link": "https://www.hks.harvard.edu/courses/api-901"
@@ -509,7 +509,7 @@
         "school": "HKS",
         "stem": false,
         "topic": "",
-        "cross_register": true,
+        "cross_register": false,
         "stem_group_a": false,
         "stem_group_b": false,
         "link": "https://www.hks.harvard.edu/courses/api-902"
@@ -525,7 +525,7 @@
         "school": "HKS",
         "stem": false,
         "topic": "",
-        "cross_register": true,
+        "cross_register": false,
         "stem_group_a": false,
         "stem_group_b": false,
         "link": "https://www.hks.harvard.edu/courses/api-905y"
@@ -540,7 +540,7 @@
         "school": "HKS",
         "stem": false,
         "topic": "",
-        "cross_register": true,
+        "cross_register": false,
         "stem_group_a": false,
         "stem_group_b": false,
         "link": "https://www.hks.harvard.edu/courses/bgp-100"
@@ -555,7 +555,7 @@
         "school": "HKS",
         "stem": false,
         "topic": "",
-        "cross_register": true,
+        "cross_register": false,
         "stem_group_a": false,
         "stem_group_b": false,
         "link": "https://www.hks.harvard.edu/courses/bgp-150y"
@@ -570,7 +570,7 @@
         "school": "HKS",
         "stem": false,
         "topic": "Climate",
-        "cross_register": true,
+        "cross_register": false,
         "stem_group_a": false,
         "stem_group_b": false,
         "link": "https://www.hks.harvard.edu/courses/bgp-204"
@@ -586,7 +586,7 @@
         "school": "HKS",
         "stem": false,
         "topic": "",
-        "cross_register": true,
+        "cross_register": false,
         "stem_group_a": false,
         "stem_group_b": false,
         "link": "https://www.hks.harvard.edu/courses/bgp-215m"
@@ -601,7 +601,7 @@
         "school": "HKS",
         "stem": false,
         "topic": "",
-        "cross_register": true,
+        "cross_register": false,
         "stem_group_a": false,
         "stem_group_b": false,
         "link": "https://www.hks.harvard.edu/courses/bgp-235m"
@@ -616,7 +616,7 @@
         "school": "HKS",
         "stem": false,
         "topic": "",
-        "cross_register": true,
+        "cross_register": false,
         "stem_group_a": false,
         "stem_group_b": false,
         "link": "https://www.hks.harvard.edu/courses/bgp-264"
@@ -631,7 +631,7 @@
         "school": "HKS",
         "stem": false,
         "topic": "",
-        "cross_register": true,
+        "cross_register": false,
         "stem_group_a": false,
         "stem_group_b": false,
         "link": "https://www.hks.harvard.edu/courses/bgp-510y"
@@ -646,7 +646,7 @@
         "school": "HKS",
         "stem": false,
         "topic": "",
-        "cross_register": true,
+        "cross_register": false,
         "stem_group_a": false,
         "stem_group_b": false,
         "link": "https://www.hks.harvard.edu/courses/bgp-610"
@@ -661,7 +661,7 @@
         "school": "HKS",
         "stem": false,
         "topic": "",
-        "cross_register": true,
+        "cross_register": false,
         "stem_group_a": false,
         "stem_group_b": false,
         "link": "https://www.hks.harvard.edu/courses/bgp-631"
@@ -676,7 +676,7 @@
         "school": "HKS",
         "stem": false,
         "topic": "",
-        "cross_register": true,
+        "cross_register": false,
         "stem_group_a": true,
         "stem_group_b": false,
         "link": "https://www.hks.harvard.edu/courses/bgp-670"
@@ -692,7 +692,7 @@
         "school": "HKS",
         "stem": false,
         "topic": "",
-        "cross_register": true,
+        "cross_register": false,
         "stem_group_a": false,
         "stem_group_b": false,
         "link": "https://www.hks.harvard.edu/courses/dev-101"
@@ -708,7 +708,7 @@
         "school": "HKS",
         "stem": false,
         "topic": "",
-        "cross_register": true,
+        "cross_register": false,
         "stem_group_a": false,
         "stem_group_b": false,
         "link": "https://www.hks.harvard.edu/courses/dev-102m"
@@ -723,7 +723,7 @@
         "school": "HKS",
         "stem": false,
         "topic": "Racism & Bias",
-        "cross_register": true,
+        "cross_register": false,
         "stem_group_a": false,
         "stem_group_b": false,
         "link": "https://www.hks.harvard.edu/courses/dev-130"
@@ -738,7 +738,7 @@
         "school": "HKS",
         "stem": false,
         "topic": "",
-        "cross_register": true,
+        "cross_register": false,
         "stem_group_a": false,
         "stem_group_b": false,
         "link": "https://www.hks.harvard.edu/courses/dev-150y"
@@ -753,7 +753,7 @@
         "school": "HKS",
         "stem": false,
         "topic": "",
-        "cross_register": true,
+        "cross_register": false,
         "stem_group_a": false,
         "stem_group_b": false,
         "link": "https://www.hks.harvard.edu/courses/dev-206"
@@ -768,7 +768,7 @@
         "school": "HKS",
         "stem": false,
         "topic": "",
-        "cross_register": true,
+        "cross_register": false,
         "stem_group_a": false,
         "stem_group_b": false,
         "link": "https://www.hks.harvard.edu/courses/dev-209"
@@ -783,7 +783,7 @@
         "school": "HKS",
         "stem": false,
         "topic": "",
-        "cross_register": true,
+        "cross_register": false,
         "stem_group_a": false,
         "stem_group_b": false,
         "link": "https://www.hks.harvard.edu/courses/dev-210"
@@ -798,7 +798,7 @@
         "school": "HKS",
         "stem": false,
         "topic": "",
-        "cross_register": true,
+        "cross_register": false,
         "stem_group_a": true,
         "stem_group_b": false,
         "link": "https://www.hks.harvard.edu/courses/dev-215"
@@ -814,7 +814,7 @@
         "school": "HKS",
         "stem": false,
         "topic": "",
-        "cross_register": true,
+        "cross_register": false,
         "stem_group_a": false,
         "stem_group_b": false,
         "link": "https://www.hks.harvard.edu/courses/dev-233"
@@ -831,7 +831,7 @@
         "school": "HKS",
         "stem": false,
         "topic": "",
-        "cross_register": true,
+        "cross_register": false,
         "stem_group_a": false,
         "stem_group_b": false,
         "link": "https://www.hks.harvard.edu/courses/dev-250y"
@@ -846,7 +846,7 @@
         "school": "HKS",
         "stem": false,
         "topic": "",
-        "cross_register": true,
+        "cross_register": false,
         "stem_group_a": false,
         "stem_group_b": false,
         "link": "https://www.hks.harvard.edu/courses/dev-308"
@@ -861,7 +861,7 @@
         "school": "HKS",
         "stem": false,
         "topic": "Racism & Bias",
-        "cross_register": true,
+        "cross_register": false,
         "stem_group_a": true,
         "stem_group_b": false,
         "link": "https://www.hks.harvard.edu/courses/dev-309"
@@ -877,7 +877,7 @@
         "school": "HKS",
         "stem": false,
         "topic": "",
-        "cross_register": true,
+        "cross_register": false,
         "stem_group_a": false,
         "stem_group_b": false,
         "link": "https://www.hks.harvard.edu/courses/dev-320m"
@@ -892,7 +892,7 @@
         "school": "HKS",
         "stem": false,
         "topic": "",
-        "cross_register": true,
+        "cross_register": false,
         "stem_group_a": false,
         "stem_group_b": false,
         "link": "https://www.hks.harvard.edu/courses/dev-356"
@@ -907,7 +907,7 @@
         "school": "HKS",
         "stem": false,
         "topic": "",
-        "cross_register": true,
+        "cross_register": false,
         "stem_group_a": false,
         "stem_group_b": false,
         "link": "https://www.hks.harvard.edu/courses/dev-401y"
@@ -923,7 +923,7 @@
         "school": "HKS",
         "stem": false,
         "topic": "",
-        "cross_register": true,
+        "cross_register": false,
         "stem_group_a": false,
         "stem_group_b": false,
         "link": "https://www.hks.harvard.edu/courses/dev-501m"
@@ -938,7 +938,7 @@
         "school": "HKS",
         "stem": false,
         "topic": "",
-        "cross_register": true,
+        "cross_register": false,
         "stem_group_a": false,
         "stem_group_b": false,
         "link": "https://www.hks.harvard.edu/courses/dev-502"
@@ -953,7 +953,7 @@
         "school": "HKS",
         "stem": false,
         "topic": "",
-        "cross_register": true,
+        "cross_register": false,
         "stem_group_a": false,
         "stem_group_b": false,
         "link": "https://www.hks.harvard.edu/courses/dpi-115"
@@ -968,7 +968,7 @@
         "school": "HKS",
         "stem": false,
         "topic": "",
-        "cross_register": true,
+        "cross_register": false,
         "stem_group_a": false,
         "stem_group_b": false,
         "link": "https://www.hks.harvard.edu/courses/dpi-120"
@@ -983,7 +983,7 @@
         "school": "HKS",
         "stem": false,
         "topic": "",
-        "cross_register": true,
+        "cross_register": false,
         "stem_group_a": false,
         "stem_group_b": false,
         "link": "https://www.hks.harvard.edu/courses/dpi-122"
@@ -998,7 +998,7 @@
         "school": "HKS",
         "stem": false,
         "topic": "Racism & Bias",
-        "cross_register": true,
+        "cross_register": false,
         "stem_group_a": false,
         "stem_group_b": false,
         "link": "https://www.hks.harvard.edu/courses/dpi-127"
@@ -1013,7 +1013,7 @@
         "school": "HKS",
         "stem": false,
         "topic": "",
-        "cross_register": true,
+        "cross_register": false,
         "stem_group_a": false,
         "stem_group_b": false,
         "link": "https://www.hks.harvard.edu/courses/dpi-150y"
@@ -1032,7 +1032,7 @@
         "school": "HKS",
         "stem": false,
         "topic": "",
-        "cross_register": true,
+        "cross_register": false,
         "stem_group_a": false,
         "stem_group_b": false,
         "link": "https://www.hks.harvard.edu/courses/dpi-200"
@@ -1047,7 +1047,7 @@
         "school": "HKS",
         "stem": false,
         "topic": "",
-        "cross_register": true,
+        "cross_register": false,
         "stem_group_a": false,
         "stem_group_b": false,
         "link": "https://www.hks.harvard.edu/courses/dpi-202"
@@ -1062,7 +1062,7 @@
         "school": "HKS",
         "stem": false,
         "topic": "",
-        "cross_register": true,
+        "cross_register": false,
         "stem_group_a": false,
         "stem_group_b": false,
         "link": "https://www.hks.harvard.edu/courses/dpi-207"
@@ -1077,7 +1077,7 @@
         "school": "HKS",
         "stem": false,
         "topic": "",
-        "cross_register": true,
+        "cross_register": false,
         "stem_group_a": false,
         "stem_group_b": false,
         "link": "https://www.hks.harvard.edu/courses/dpi-208"
@@ -1092,7 +1092,7 @@
         "school": "HKS",
         "stem": false,
         "topic": "",
-        "cross_register": true,
+        "cross_register": false,
         "stem_group_a": false,
         "stem_group_b": false,
         "link": "https://www.hks.harvard.edu/courses/dpi-210"
@@ -1107,7 +1107,7 @@
         "school": "HKS",
         "stem": false,
         "topic": "",
-        "cross_register": true,
+        "cross_register": false,
         "stem_group_a": false,
         "stem_group_b": false,
         "link": "https://www.hks.harvard.edu/courses/dpi-247"
@@ -1122,7 +1122,7 @@
         "school": "HKS",
         "stem": false,
         "topic": "",
-        "cross_register": true,
+        "cross_register": false,
         "stem_group_a": false,
         "stem_group_b": false,
         "link": "https://www.hks.harvard.edu/courses/dpi-342"
@@ -1137,7 +1137,7 @@
         "school": "HKS",
         "stem": false,
         "topic": "",
-        "cross_register": true,
+        "cross_register": false,
         "stem_group_a": false,
         "stem_group_b": false,
         "link": "https://www.hks.harvard.edu/courses/dpi-348"
@@ -1152,7 +1152,7 @@
         "school": "HKS",
         "stem": false,
         "topic": "",
-        "cross_register": true,
+        "cross_register": false,
         "stem_group_a": false,
         "stem_group_b": false,
         "link": "https://www.hks.harvard.edu/courses/dpi-376"
@@ -1169,7 +1169,7 @@
         "school": "HKS",
         "stem": false,
         "topic": "",
-        "cross_register": true,
+        "cross_register": false,
         "stem_group_a": false,
         "stem_group_b": false,
         "link": "https://www.hks.harvard.edu/courses/dpi-386m"
@@ -1184,7 +1184,7 @@
         "school": "HKS",
         "stem": false,
         "topic": "",
-        "cross_register": true,
+        "cross_register": false,
         "stem_group_a": false,
         "stem_group_b": false,
         "link": "https://www.hks.harvard.edu/courses/dpi-398"
@@ -1199,7 +1199,7 @@
         "school": "HKS",
         "stem": false,
         "topic": "",
-        "cross_register": true,
+        "cross_register": false,
         "stem_group_a": false,
         "stem_group_b": false,
         "link": "https://www.hks.harvard.edu/courses/dpi-411"
@@ -1214,7 +1214,7 @@
         "school": "HKS",
         "stem": false,
         "topic": "",
-        "cross_register": true,
+        "cross_register": false,
         "stem_group_a": false,
         "stem_group_b": false,
         "link": "https://www.hks.harvard.edu/courses/dpi-413"
@@ -1229,7 +1229,7 @@
         "school": "HKS",
         "stem": false,
         "topic": "",
-        "cross_register": true,
+        "cross_register": false,
         "stem_group_a": false,
         "stem_group_b": false,
         "link": "https://www.hks.harvard.edu/courses/dpi-415"
@@ -1244,7 +1244,7 @@
         "school": "HKS",
         "stem": false,
         "topic": "",
-        "cross_register": true,
+        "cross_register": false,
         "stem_group_a": false,
         "stem_group_b": false,
         "link": "https://www.hks.harvard.edu/courses/dpi-422m"
@@ -1259,7 +1259,7 @@
         "school": "HKS",
         "stem": false,
         "topic": "",
-        "cross_register": true,
+        "cross_register": false,
         "stem_group_a": false,
         "stem_group_b": false,
         "link": "https://www.hks.harvard.edu/courses/dpi-450"
@@ -1274,7 +1274,7 @@
         "school": "HKS",
         "stem": false,
         "topic": "",
-        "cross_register": true,
+        "cross_register": false,
         "stem_group_a": false,
         "stem_group_b": false,
         "link": "https://www.hks.harvard.edu/courses/dpi-505"
@@ -1289,7 +1289,7 @@
         "school": "HKS",
         "stem": false,
         "topic": "",
-        "cross_register": true,
+        "cross_register": false,
         "stem_group_a": false,
         "stem_group_b": false,
         "link": "https://www.hks.harvard.edu/courses/dpi-515"
@@ -1304,7 +1304,7 @@
         "school": "HKS",
         "stem": false,
         "topic": "Gender",
-        "cross_register": true,
+        "cross_register": false,
         "stem_group_a": false,
         "stem_group_b": false,
         "link": "https://www.hks.harvard.edu/courses/dpi-527m"
@@ -1319,7 +1319,7 @@
         "school": "HKS",
         "stem": false,
         "topic": "",
-        "cross_register": true,
+        "cross_register": false,
         "stem_group_a": false,
         "stem_group_b": false,
         "link": "https://www.hks.harvard.edu/courses/dpi-543"
@@ -1336,7 +1336,7 @@
         "school": "HKS",
         "stem": false,
         "topic": "",
-        "cross_register": true,
+        "cross_register": false,
         "stem_group_a": false,
         "stem_group_b": false,
         "link": "https://www.hks.harvard.edu/courses/dpi-562"
@@ -1352,7 +1352,7 @@
         "school": "HKS",
         "stem": false,
         "topic": "",
-        "cross_register": true,
+        "cross_register": false,
         "stem_group_a": false,
         "stem_group_b": false,
         "link": "https://www.hks.harvard.edu/courses/dpi-563y"
@@ -1367,7 +1367,7 @@
         "school": "HKS",
         "stem": false,
         "topic": "",
-        "cross_register": true,
+        "cross_register": false,
         "stem_group_a": false,
         "stem_group_b": false,
         "link": "https://www.hks.harvard.edu/courses/dpi-600"
@@ -1382,7 +1382,7 @@
         "school": "HKS",
         "stem": false,
         "topic": "",
-        "cross_register": true,
+        "cross_register": false,
         "stem_group_a": false,
         "stem_group_b": false,
         "link": "https://www.hks.harvard.edu/courses/dpi-608"
@@ -1397,7 +1397,7 @@
         "school": "HKS",
         "stem": false,
         "topic": "",
-        "cross_register": true,
+        "cross_register": false,
         "stem_group_a": false,
         "stem_group_b": false,
         "link": "https://www.hks.harvard.edu/courses/dpi-610"
@@ -1412,7 +1412,7 @@
         "school": "HKS",
         "stem": false,
         "topic": "",
-        "cross_register": true,
+        "cross_register": false,
         "stem_group_a": false,
         "stem_group_b": false,
         "link": "https://www.hks.harvard.edu/courses/dpi-640"
@@ -1428,7 +1428,7 @@
         "school": "HKS",
         "stem": false,
         "topic": "",
-        "cross_register": true,
+        "cross_register": false,
         "stem_group_a": false,
         "stem_group_b": false,
         "link": "https://www.hks.harvard.edu/courses/dpi-642"
@@ -1443,7 +1443,7 @@
         "school": "HKS",
         "stem": false,
         "topic": "Artificial Intelligence",
-        "cross_register": true,
+        "cross_register": false,
         "stem_group_a": false,
         "stem_group_b": false,
         "link": "https://www.hks.harvard.edu/courses/dpi-643m"
@@ -1458,7 +1458,7 @@
         "school": "HKS",
         "stem": false,
         "topic": "",
-        "cross_register": true,
+        "cross_register": false,
         "stem_group_a": false,
         "stem_group_b": false,
         "link": "https://www.hks.harvard.edu/courses/dpi-660"
@@ -1473,7 +1473,7 @@
         "school": "HKS",
         "stem": false,
         "topic": "",
-        "cross_register": true,
+        "cross_register": false,
         "stem_group_a": false,
         "stem_group_b": false,
         "link": "https://www.hks.harvard.edu/courses/dpi-662m"
@@ -1488,7 +1488,7 @@
         "school": "HKS",
         "stem": false,
         "topic": "",
-        "cross_register": true,
+        "cross_register": false,
         "stem_group_a": false,
         "stem_group_b": false,
         "link": "https://www.hks.harvard.edu/courses/dpi-664m"
@@ -1503,7 +1503,7 @@
         "school": "HKS",
         "stem": false,
         "topic": "",
-        "cross_register": true,
+        "cross_register": false,
         "stem_group_a": false,
         "stem_group_b": false,
         "link": "https://www.hks.harvard.edu/courses/dpi-665m"
@@ -1518,7 +1518,7 @@
         "school": "HKS",
         "stem": false,
         "topic": "Artificial Intelligence",
-        "cross_register": true,
+        "cross_register": false,
         "stem_group_a": false,
         "stem_group_b": false,
         "link": "https://www.hks.harvard.edu/courses/dpi-678m"
@@ -1535,7 +1535,7 @@
         "school": "HKS",
         "stem": false,
         "topic": "Artificial Intelligence",
-        "cross_register": true,
+        "cross_register": false,
         "stem_group_a": false,
         "stem_group_b": false,
         "link": "https://www.hks.harvard.edu/courses/dpi-681m"
@@ -1551,7 +1551,7 @@
         "school": "HKS",
         "stem": false,
         "topic": "",
-        "cross_register": true,
+        "cross_register": false,
         "stem_group_a": false,
         "stem_group_b": false,
         "link": "https://www.hks.harvard.edu/courses/dpi-691m"
@@ -1566,7 +1566,7 @@
         "school": "HKS",
         "stem": false,
         "topic": "",
-        "cross_register": true,
+        "cross_register": false,
         "stem_group_a": false,
         "stem_group_b": false,
         "link": "https://www.hks.harvard.edu/courses/dpi-703"
@@ -1583,7 +1583,7 @@
         "school": "HKS",
         "stem": false,
         "topic": "",
-        "cross_register": true,
+        "cross_register": false,
         "stem_group_a": false,
         "stem_group_b": false,
         "link": "https://www.hks.harvard.edu/courses/dpi-802m"
@@ -1598,7 +1598,7 @@
         "school": "HKS",
         "stem": false,
         "topic": "",
-        "cross_register": true,
+        "cross_register": false,
         "stem_group_a": false,
         "stem_group_b": false,
         "link": "https://www.hks.harvard.edu/courses/dpi-805m"
@@ -1613,7 +1613,7 @@
         "school": "HKS",
         "stem": false,
         "topic": "",
-        "cross_register": true,
+        "cross_register": false,
         "stem_group_a": false,
         "stem_group_b": false,
         "link": "https://www.hks.harvard.edu/courses/dpi-810m"
@@ -1628,7 +1628,7 @@
         "school": "HKS",
         "stem": false,
         "topic": "",
-        "cross_register": true,
+        "cross_register": false,
         "stem_group_a": false,
         "stem_group_b": false,
         "link": "https://www.hks.harvard.edu/courses/dpi-820m"
@@ -1643,7 +1643,7 @@
         "school": "HKS",
         "stem": false,
         "topic": "",
-        "cross_register": true,
+        "cross_register": false,
         "stem_group_a": false,
         "stem_group_b": false,
         "link": "https://www.hks.harvard.edu/courses/dpi-821m"
@@ -1658,7 +1658,7 @@
         "school": "HKS",
         "stem": false,
         "topic": "",
-        "cross_register": true,
+        "cross_register": false,
         "stem_group_a": false,
         "stem_group_b": false,
         "link": "https://www.hks.harvard.edu/courses/dpi-828m"
@@ -1673,7 +1673,7 @@
         "school": "HKS",
         "stem": false,
         "topic": "",
-        "cross_register": true,
+        "cross_register": false,
         "stem_group_a": false,
         "stem_group_b": false,
         "link": "https://www.hks.harvard.edu/courses/dpi-830m"
@@ -1691,7 +1691,7 @@
         "school": "HKS",
         "stem": false,
         "topic": "",
-        "cross_register": true,
+        "cross_register": false,
         "stem_group_a": false,
         "stem_group_b": false,
         "link": "https://www.hks.harvard.edu/courses/dpi-831m"
@@ -1707,7 +1707,7 @@
         "school": "HKS",
         "stem": false,
         "topic": "",
-        "cross_register": true,
+        "cross_register": false,
         "stem_group_a": false,
         "stem_group_b": false,
         "link": "https://www.hks.harvard.edu/courses/dpi-835m"
@@ -1723,7 +1723,7 @@
         "school": "HKS",
         "stem": false,
         "topic": "",
-        "cross_register": true,
+        "cross_register": false,
         "stem_group_a": false,
         "stem_group_b": false,
         "link": "https://www.hks.harvard.edu/courses/dpi-840m"
@@ -1738,7 +1738,7 @@
         "school": "HKS",
         "stem": false,
         "topic": "",
-        "cross_register": true,
+        "cross_register": false,
         "stem_group_a": false,
         "stem_group_b": false,
         "link": "https://www.hks.harvard.edu/courses/dpi-851m"
@@ -1753,7 +1753,7 @@
         "school": "HKS",
         "stem": false,
         "topic": "",
-        "cross_register": true,
+        "cross_register": false,
         "stem_group_a": false,
         "stem_group_b": false,
         "link": "https://www.hks.harvard.edu/courses/dpi-852m"
@@ -1769,7 +1769,7 @@
         "school": "HKS",
         "stem": false,
         "topic": "",
-        "cross_register": true,
+        "cross_register": false,
         "stem_group_a": false,
         "stem_group_b": false,
         "link": "https://www.hks.harvard.edu/courses/dpi-891m"
@@ -1784,7 +1784,7 @@
         "school": "HKS",
         "stem": false,
         "topic": "",
-        "cross_register": true,
+        "cross_register": false,
         "stem_group_a": false,
         "stem_group_b": false,
         "link": "https://www.hks.harvard.edu/courses/dpi-896m"
@@ -1799,7 +1799,7 @@
         "school": "HKS",
         "stem": false,
         "topic": "",
-        "cross_register": true,
+        "cross_register": false,
         "stem_group_a": false,
         "stem_group_b": false,
         "link": "https://www.hks.harvard.edu/courses/iga-100"
@@ -1814,7 +1814,7 @@
         "school": "HKS",
         "stem": false,
         "topic": "",
-        "cross_register": true,
+        "cross_register": false,
         "stem_group_a": false,
         "stem_group_b": false,
         "link": "https://www.hks.harvard.edu/courses/iga-103"
@@ -1829,7 +1829,7 @@
         "school": "HKS",
         "stem": false,
         "topic": "",
-        "cross_register": true,
+        "cross_register": false,
         "stem_group_a": false,
         "stem_group_b": false,
         "link": "https://www.hks.harvard.edu/courses/iga-105"
@@ -1844,7 +1844,7 @@
         "school": "HKS",
         "stem": false,
         "topic": "",
-        "cross_register": true,
+        "cross_register": false,
         "stem_group_a": false,
         "stem_group_b": false,
         "link": "https://www.hks.harvard.edu/courses/iga-108"
@@ -1859,7 +1859,7 @@
         "school": "HKS",
         "stem": false,
         "topic": "",
-        "cross_register": true,
+        "cross_register": false,
         "stem_group_a": false,
         "stem_group_b": false,
         "link": "https://www.hks.harvard.edu/courses/iga-125"
@@ -1875,7 +1875,7 @@
         "school": "HKS",
         "stem": false,
         "topic": "",
-        "cross_register": true,
+        "cross_register": false,
         "stem_group_a": false,
         "stem_group_b": false,
         "link": "https://www.hks.harvard.edu/courses/iga-150y"
@@ -1892,7 +1892,7 @@
         "school": "HKS",
         "stem": false,
         "topic": "",
-        "cross_register": true,
+        "cross_register": false,
         "stem_group_a": false,
         "stem_group_b": false,
         "link": "https://www.hks.harvard.edu/courses/iga-211"
@@ -1907,7 +1907,7 @@
         "school": "HKS",
         "stem": false,
         "topic": "",
-        "cross_register": true,
+        "cross_register": false,
         "stem_group_a": false,
         "stem_group_b": false,
         "link": "https://www.hks.harvard.edu/courses/iga-232"
@@ -1922,7 +1922,7 @@
         "school": "HKS",
         "stem": false,
         "topic": "",
-        "cross_register": true,
+        "cross_register": false,
         "stem_group_a": false,
         "stem_group_b": false,
         "link": "https://www.hks.harvard.edu/courses/iga-236"
@@ -1937,7 +1937,7 @@
         "school": "HKS",
         "stem": false,
         "topic": "",
-        "cross_register": true,
+        "cross_register": false,
         "stem_group_a": false,
         "stem_group_b": false,
         "link": "https://www.hks.harvard.edu/courses/iga-237m"
@@ -1952,7 +1952,7 @@
         "school": "HKS",
         "stem": false,
         "topic": "Artificial Intelligence",
-        "cross_register": true,
+        "cross_register": false,
         "stem_group_a": false,
         "stem_group_b": false,
         "link": "https://www.hks.harvard.edu/courses/iga-250"
@@ -1967,7 +1967,7 @@
         "school": "HKS",
         "stem": false,
         "topic": "",
-        "cross_register": true,
+        "cross_register": false,
         "stem_group_a": false,
         "stem_group_b": false,
         "link": "https://www.hks.harvard.edu/courses/iga-291"
@@ -1982,7 +1982,7 @@
         "school": "HKS",
         "stem": false,
         "topic": "",
-        "cross_register": true,
+        "cross_register": false,
         "stem_group_a": false,
         "stem_group_b": false,
         "link": "https://www.hks.harvard.edu/courses/iga-315"
@@ -1997,7 +1997,7 @@
         "school": "HKS",
         "stem": false,
         "topic": "",
-        "cross_register": true,
+        "cross_register": false,
         "stem_group_a": false,
         "stem_group_b": false,
         "link": "https://www.hks.harvard.edu/courses/iga-342m"
@@ -2012,7 +2012,7 @@
         "school": "HKS",
         "stem": false,
         "topic": "",
-        "cross_register": true,
+        "cross_register": false,
         "stem_group_a": false,
         "stem_group_b": false,
         "link": "https://www.hks.harvard.edu/courses/iga-353m"
@@ -2027,7 +2027,7 @@
         "school": "HKS",
         "stem": false,
         "topic": "",
-        "cross_register": true,
+        "cross_register": false,
         "stem_group_a": false,
         "stem_group_b": false,
         "link": "https://www.hks.harvard.edu/courses/iga-355"
@@ -2042,7 +2042,7 @@
         "school": "HKS",
         "stem": false,
         "topic": "",
-        "cross_register": true,
+        "cross_register": false,
         "stem_group_a": false,
         "stem_group_b": false,
         "link": "https://www.hks.harvard.edu/courses/iga-402"
@@ -2057,7 +2057,7 @@
         "school": "HKS",
         "stem": false,
         "topic": "",
-        "cross_register": true,
+        "cross_register": false,
         "stem_group_a": false,
         "stem_group_b": false,
         "link": "https://www.hks.harvard.edu/courses/iga-412"
@@ -2072,7 +2072,7 @@
         "school": "HKS",
         "stem": false,
         "topic": "",
-        "cross_register": true,
+        "cross_register": false,
         "stem_group_a": false,
         "stem_group_b": false,
         "link": "https://www.hks.harvard.edu/courses/iga-413m"
@@ -2088,7 +2088,7 @@
         "school": "HKS",
         "stem": false,
         "topic": "Climate",
-        "cross_register": true,
+        "cross_register": false,
         "stem_group_a": false,
         "stem_group_b": false,
         "link": "https://www.hks.harvard.edu/courses/iga-415m"
@@ -2103,7 +2103,7 @@
         "school": "HKS",
         "stem": false,
         "topic": "Climate",
-        "cross_register": true,
+        "cross_register": false,
         "stem_group_a": false,
         "stem_group_b": false,
         "link": "https://www.hks.harvard.edu/courses/iga-453"
@@ -2118,7 +2118,7 @@
         "school": "HKS",
         "stem": false,
         "topic": "Climate",
-        "cross_register": true,
+        "cross_register": false,
         "stem_group_a": false,
         "stem_group_b": false,
         "link": "https://www.hks.harvard.edu/courses/iga-455"
@@ -2133,7 +2133,7 @@
         "school": "HKS",
         "stem": false,
         "topic": "",
-        "cross_register": true,
+        "cross_register": false,
         "stem_group_a": false,
         "stem_group_b": false,
         "link": "https://www.hks.harvard.edu/courses/iga-513"
@@ -2148,7 +2148,7 @@
         "school": "HKS",
         "stem": false,
         "topic": "",
-        "cross_register": true,
+        "cross_register": false,
         "stem_group_a": false,
         "stem_group_b": false,
         "link": "https://www.hks.harvard.edu/courses/iga-538"
@@ -2163,7 +2163,7 @@
         "school": "HKS",
         "stem": false,
         "topic": "",
-        "cross_register": true,
+        "cross_register": false,
         "stem_group_a": false,
         "stem_group_b": false,
         "link": "https://www.hks.harvard.edu/courses/iga-632"
@@ -2178,7 +2178,7 @@
         "school": "HKS",
         "stem": false,
         "topic": "",
-        "cross_register": true,
+        "cross_register": false,
         "stem_group_a": false,
         "stem_group_b": false,
         "link": "https://www.hks.harvard.edu/courses/iga-655"
@@ -2193,7 +2193,7 @@
         "school": "HKS",
         "stem": false,
         "topic": "",
-        "cross_register": true,
+        "cross_register": false,
         "stem_group_a": false,
         "stem_group_b": false,
         "link": "https://www.hks.harvard.edu/courses/iga-662"
@@ -2208,7 +2208,7 @@
         "school": "HKS",
         "stem": false,
         "topic": "Climate",
-        "cross_register": true,
+        "cross_register": false,
         "stem_group_a": false,
         "stem_group_b": false,
         "link": "https://www.hks.harvard.edu/courses/iga-671m"
@@ -2223,7 +2223,7 @@
         "school": "HKS",
         "stem": false,
         "topic": "",
-        "cross_register": true,
+        "cross_register": false,
         "stem_group_a": false,
         "stem_group_b": false,
         "link": "https://www.hks.harvard.edu/courses/iga-956y"
@@ -2238,7 +2238,7 @@
         "school": "HKS",
         "stem": false,
         "topic": "",
-        "cross_register": true,
+        "cross_register": false,
         "stem_group_a": false,
         "stem_group_b": false,
         "link": "https://www.hks.harvard.edu/courses/mld-102"
@@ -2253,7 +2253,7 @@
         "school": "HKS",
         "stem": false,
         "topic": "",
-        "cross_register": true,
+        "cross_register": false,
         "stem_group_a": false,
         "stem_group_b": false,
         "link": "https://www.hks.harvard.edu/courses/mld-111"
@@ -2268,7 +2268,7 @@
         "school": "HKS",
         "stem": false,
         "topic": "",
-        "cross_register": true,
+        "cross_register": false,
         "stem_group_a": false,
         "stem_group_b": false,
         "link": "https://www.hks.harvard.edu/courses/mld-125"
@@ -2285,7 +2285,7 @@
         "school": "HKS",
         "stem": false,
         "topic": "",
-        "cross_register": true,
+        "cross_register": false,
         "stem_group_a": false,
         "stem_group_b": false,
         "link": "https://www.hks.harvard.edu/courses/mld-201"
@@ -2301,7 +2301,7 @@
         "school": "HKS",
         "stem": false,
         "topic": "",
-        "cross_register": true,
+        "cross_register": false,
         "stem_group_a": false,
         "stem_group_b": false,
         "link": "https://www.hks.harvard.edu/courses/mld-202m"
@@ -2316,7 +2316,7 @@
         "school": "HKS",
         "stem": false,
         "topic": "",
-        "cross_register": true,
+        "cross_register": false,
         "stem_group_a": false,
         "stem_group_b": false,
         "link": "https://www.hks.harvard.edu/courses/mld-215"
@@ -2332,7 +2332,7 @@
         "school": "HKS",
         "stem": false,
         "topic": "",
-        "cross_register": true,
+        "cross_register": false,
         "stem_group_a": false,
         "stem_group_b": false,
         "link": "https://www.hks.harvard.edu/courses/mld-220m"
@@ -2347,7 +2347,7 @@
         "school": "HKS",
         "stem": false,
         "topic": "",
-        "cross_register": true,
+        "cross_register": false,
         "stem_group_a": false,
         "stem_group_b": false,
         "link": "https://www.hks.harvard.edu/courses/mld-223"
@@ -2362,7 +2362,7 @@
         "school": "HKS",
         "stem": false,
         "topic": "",
-        "cross_register": true,
+        "cross_register": false,
         "stem_group_a": false,
         "stem_group_b": false,
         "link": "https://www.hks.harvard.edu/courses/mld-234m"
@@ -2377,7 +2377,7 @@
         "school": "HKS",
         "stem": false,
         "topic": "",
-        "cross_register": true,
+        "cross_register": false,
         "stem_group_a": false,
         "stem_group_b": false,
         "link": "https://www.hks.harvard.edu/courses/mld-250"
@@ -2392,7 +2392,7 @@
         "school": "HKS",
         "stem": false,
         "topic": "",
-        "cross_register": true,
+        "cross_register": false,
         "stem_group_a": false,
         "stem_group_b": false,
         "link": "https://www.hks.harvard.edu/courses/mld-257m"
@@ -2407,7 +2407,7 @@
         "school": "HKS",
         "stem": false,
         "topic": "",
-        "cross_register": true,
+        "cross_register": false,
         "stem_group_a": false,
         "stem_group_b": false,
         "link": "https://www.hks.harvard.edu/courses/mld-280"
@@ -2422,7 +2422,7 @@
         "school": "HKS",
         "stem": false,
         "topic": "",
-        "cross_register": true,
+        "cross_register": false,
         "stem_group_a": false,
         "stem_group_b": false,
         "link": "https://www.hks.harvard.edu/courses/mld-304"
@@ -2437,7 +2437,7 @@
         "school": "HKS",
         "stem": false,
         "topic": "",
-        "cross_register": true,
+        "cross_register": false,
         "stem_group_a": false,
         "stem_group_b": false,
         "link": "https://www.hks.harvard.edu/courses/mld-308"
@@ -2452,7 +2452,7 @@
         "school": "HKS",
         "stem": false,
         "topic": "",
-        "cross_register": true,
+        "cross_register": false,
         "stem_group_a": false,
         "stem_group_b": false,
         "link": "https://www.hks.harvard.edu/courses/mld-326"
@@ -2467,7 +2467,7 @@
         "school": "HKS",
         "stem": false,
         "topic": "",
-        "cross_register": true,
+        "cross_register": false,
         "stem_group_a": false,
         "stem_group_b": false,
         "link": "https://www.hks.harvard.edu/courses/mld-340m"
@@ -2482,7 +2482,7 @@
         "school": "HKS",
         "stem": false,
         "topic": "",
-        "cross_register": true,
+        "cross_register": false,
         "stem_group_a": false,
         "stem_group_b": false,
         "link": "https://www.hks.harvard.edu/courses/mld-355"
@@ -2498,7 +2498,7 @@
         "school": "HKS",
         "stem": false,
         "topic": "",
-        "cross_register": true,
+        "cross_register": false,
         "stem_group_a": false,
         "stem_group_b": false,
         "link": "https://www.hks.harvard.edu/courses/mld-360m"
@@ -2513,7 +2513,7 @@
         "school": "HKS",
         "stem": false,
         "topic": "",
-        "cross_register": true,
+        "cross_register": false,
         "stem_group_a": false,
         "stem_group_b": false,
         "link": "https://www.hks.harvard.edu/courses/mld-375"
@@ -2528,7 +2528,7 @@
         "school": "HKS",
         "stem": false,
         "topic": "",
-        "cross_register": true,
+        "cross_register": false,
         "stem_group_a": false,
         "stem_group_b": false,
         "link": "https://www.hks.harvard.edu/courses/mld-377"
@@ -2543,7 +2543,7 @@
         "school": "HKS",
         "stem": false,
         "topic": "",
-        "cross_register": true,
+        "cross_register": false,
         "stem_group_a": false,
         "stem_group_b": false,
         "link": "https://www.hks.harvard.edu/courses/mld-381"
@@ -2558,7 +2558,7 @@
         "school": "HKS",
         "stem": false,
         "topic": "",
-        "cross_register": true,
+        "cross_register": false,
         "stem_group_a": false,
         "stem_group_b": false,
         "link": "https://www.hks.harvard.edu/courses/mld-385m"
@@ -2573,7 +2573,7 @@
         "school": "HKS",
         "stem": false,
         "topic": "",
-        "cross_register": true,
+        "cross_register": false,
         "stem_group_a": false,
         "stem_group_b": false,
         "link": "https://www.hks.harvard.edu/courses/mld-401m"
@@ -2589,7 +2589,7 @@
         "school": "HKS",
         "stem": false,
         "topic": "",
-        "cross_register": true,
+        "cross_register": false,
         "stem_group_a": false,
         "stem_group_b": false,
         "link": "https://www.hks.harvard.edu/courses/mld-411m"
@@ -2604,7 +2604,7 @@
         "school": "HKS",
         "stem": false,
         "topic": "",
-        "cross_register": true,
+        "cross_register": false,
         "stem_group_a": false,
         "stem_group_b": false,
         "link": "https://www.hks.harvard.edu/courses/mld-420m"
@@ -2619,7 +2619,7 @@
         "school": "HKS",
         "stem": false,
         "topic": "",
-        "cross_register": true,
+        "cross_register": false,
         "stem_group_a": false,
         "stem_group_b": false,
         "link": "https://www.hks.harvard.edu/courses/mld-427"
@@ -2634,7 +2634,7 @@
         "school": "HKS",
         "stem": false,
         "topic": "",
-        "cross_register": true,
+        "cross_register": false,
         "stem_group_a": false,
         "stem_group_b": false,
         "link": "https://www.hks.harvard.edu/courses/mld-502"
@@ -2649,7 +2649,7 @@
         "school": "HKS",
         "stem": false,
         "topic": "",
-        "cross_register": true,
+        "cross_register": false,
         "stem_group_a": false,
         "stem_group_b": false,
         "link": "https://www.hks.harvard.edu/courses/mld-515m"
@@ -2664,7 +2664,7 @@
         "school": "HKS",
         "stem": false,
         "topic": "",
-        "cross_register": true,
+        "cross_register": false,
         "stem_group_a": false,
         "stem_group_b": false,
         "link": "https://www.hks.harvard.edu/courses/mld-601"
@@ -2679,7 +2679,7 @@
         "school": "HKS",
         "stem": false,
         "topic": "",
-        "cross_register": true,
+        "cross_register": false,
         "stem_group_a": false,
         "stem_group_b": false,
         "link": "https://www.hks.harvard.edu/courses/mld-605"
@@ -2695,7 +2695,7 @@
         "school": "HKS",
         "stem": false,
         "topic": "",
-        "cross_register": true,
+        "cross_register": false,
         "stem_group_a": false,
         "stem_group_b": false,
         "link": "https://www.hks.harvard.edu/courses/mld-617m"
@@ -2710,7 +2710,7 @@
         "school": "HKS",
         "stem": false,
         "topic": "",
-        "cross_register": true,
+        "cross_register": false,
         "stem_group_a": false,
         "stem_group_b": false,
         "link": "https://www.hks.harvard.edu/courses/mld-620m"
@@ -2725,7 +2725,7 @@
         "school": "HKS",
         "stem": false,
         "topic": "",
-        "cross_register": true,
+        "cross_register": false,
         "stem_group_a": false,
         "stem_group_b": false,
         "link": "https://www.hks.harvard.edu/courses/mld-634m"
@@ -2740,7 +2740,7 @@
         "school": "HKS",
         "stem": false,
         "topic": "",
-        "cross_register": true,
+        "cross_register": false,
         "stem_group_a": false,
         "stem_group_b": false,
         "link": "https://www.hks.harvard.edu/courses/mld-802m"
@@ -2755,7 +2755,7 @@
         "school": "HKS",
         "stem": false,
         "topic": "",
-        "cross_register": true,
+        "cross_register": false,
         "stem_group_a": false,
         "stem_group_b": false,
         "link": "https://www.hks.harvard.edu/courses/mld-820"
@@ -2770,7 +2770,7 @@
         "school": "HKS",
         "stem": false,
         "topic": "",
-        "cross_register": true,
+        "cross_register": false,
         "stem_group_a": false,
         "stem_group_b": false,
         "link": "https://www.hks.harvard.edu/courses/mld-830"
@@ -2785,7 +2785,7 @@
         "school": "HKS",
         "stem": false,
         "topic": "",
-        "cross_register": true,
+        "cross_register": false,
         "stem_group_a": false,
         "stem_group_b": false,
         "link": "https://www.hks.harvard.edu/courses/mld-831"
@@ -2800,7 +2800,7 @@
         "school": "HKS",
         "stem": false,
         "topic": "",
-        "cross_register": true,
+        "cross_register": false,
         "stem_group_a": false,
         "stem_group_b": false,
         "link": "https://www.hks.harvard.edu/courses/mld-836m"
@@ -2813,7 +2813,7 @@
         "school": "HKS",
         "stem": false,
         "topic": "",
-        "cross_register": true,
+        "cross_register": false,
         "stem_group_a": false,
         "stem_group_b": false,
         "link": "https://www.hks.harvard.edu/courses/smr-3"
@@ -2828,7 +2828,7 @@
         "school": "HKS",
         "stem": false,
         "topic": "",
-        "cross_register": true,
+        "cross_register": false,
         "stem_group_a": false,
         "stem_group_b": false,
         "link": "https://www.hks.harvard.edu/courses/sup-110"
@@ -2843,7 +2843,7 @@
         "school": "HKS",
         "stem": false,
         "topic": "",
-        "cross_register": true,
+        "cross_register": false,
         "stem_group_a": false,
         "stem_group_b": false,
         "link": "https://www.hks.harvard.edu/courses/sup-125"
@@ -2858,7 +2858,7 @@
         "school": "HKS",
         "stem": false,
         "topic": "",
-        "cross_register": true,
+        "cross_register": false,
         "stem_group_a": false,
         "stem_group_b": false,
         "link": "https://www.hks.harvard.edu/courses/sup-135"
@@ -2874,7 +2874,7 @@
         "school": "HKS",
         "stem": false,
         "topic": "",
-        "cross_register": true,
+        "cross_register": false,
         "stem_group_a": false,
         "stem_group_b": false,
         "link": "https://www.hks.harvard.edu/courses/sup-150y"
@@ -2889,7 +2889,7 @@
         "school": "HKS",
         "stem": false,
         "topic": "",
-        "cross_register": true,
+        "cross_register": false,
         "stem_group_a": false,
         "stem_group_b": false,
         "link": "https://www.hks.harvard.edu/courses/sup-151m"
@@ -2902,7 +2902,7 @@
         "school": "HKS",
         "stem": false,
         "topic": "",
-        "cross_register": true,
+        "cross_register": false,
         "stem_group_a": false,
         "stem_group_b": false,
         "link": "https://www.hks.harvard.edu/courses/sup-180"
@@ -2917,7 +2917,7 @@
         "school": "HKS",
         "stem": false,
         "topic": "",
-        "cross_register": true,
+        "cross_register": false,
         "stem_group_a": false,
         "stem_group_b": false,
         "link": "https://www.hks.harvard.edu/courses/sup-208"
@@ -2932,7 +2932,7 @@
         "school": "HKS",
         "stem": false,
         "topic": "",
-        "cross_register": true,
+        "cross_register": false,
         "stem_group_a": false,
         "stem_group_b": false,
         "link": "https://www.hks.harvard.edu/courses/sup-426"
@@ -2947,7 +2947,7 @@
         "school": "HKS",
         "stem": false,
         "topic": "",
-        "cross_register": true,
+        "cross_register": false,
         "stem_group_a": false,
         "stem_group_b": false,
         "link": "https://www.hks.harvard.edu/courses/sup-452m"
@@ -2962,7 +2962,7 @@
         "school": "HKS",
         "stem": false,
         "topic": "",
-        "cross_register": true,
+        "cross_register": false,
         "stem_group_a": false,
         "stem_group_b": false,
         "link": "https://www.hks.harvard.edu/courses/sup-518"
@@ -2977,7 +2977,7 @@
         "school": "HKS",
         "stem": false,
         "topic": "",
-        "cross_register": true,
+        "cross_register": false,
         "stem_group_a": false,
         "stem_group_b": false,
         "link": "https://www.hks.harvard.edu/courses/sup-578"
@@ -2992,7 +2992,7 @@
         "school": "HKS",
         "stem": false,
         "topic": "",
-        "cross_register": true,
+        "cross_register": false,
         "stem_group_a": false,
         "stem_group_b": false,
         "link": "https://www.hks.harvard.edu/courses/sup-600"
@@ -3007,7 +3007,7 @@
         "school": "HKS",
         "stem": false,
         "topic": "",
-        "cross_register": true,
+        "cross_register": false,
         "stem_group_a": false,
         "stem_group_b": false,
         "link": "https://www.hks.harvard.edu/courses/sup-612"
@@ -3023,7 +3023,7 @@
         "school": "HKS",
         "stem": false,
         "topic": "",
-        "cross_register": true,
+        "cross_register": false,
         "stem_group_a": false,
         "stem_group_b": false,
         "link": "https://www.hks.harvard.edu/courses/sup-661"
@@ -3038,7 +3038,7 @@
         "school": "HKS",
         "stem": false,
         "topic": "",
-        "cross_register": true,
+        "cross_register": false,
         "stem_group_a": false,
         "stem_group_b": false,
         "link": "https://www.hks.harvard.edu/courses/sup-663"
@@ -3053,7 +3053,7 @@
         "school": "HKS",
         "stem": false,
         "topic": "",
-        "cross_register": true,
+        "cross_register": false,
         "stem_group_a": false,
         "stem_group_b": false,
         "link": "https://www.hks.harvard.edu/courses/sup-668"
@@ -3068,7 +3068,7 @@
         "school": "HKS",
         "stem": false,
         "topic": "",
-        "cross_register": true,
+        "cross_register": false,
         "stem_group_a": false,
         "stem_group_b": false,
         "link": "https://www.hks.harvard.edu/courses/sup-674"
@@ -3083,7 +3083,7 @@
         "school": "HKS",
         "stem": false,
         "topic": "",
-        "cross_register": true,
+        "cross_register": false,
         "stem_group_a": false,
         "stem_group_b": false,
         "link": "https://www.hks.harvard.edu/courses/sup-680"
@@ -3098,7 +3098,7 @@
         "school": "HKS",
         "stem": false,
         "topic": "",
-        "cross_register": true,
+        "cross_register": false,
         "stem_group_a": false,
         "stem_group_b": false,
         "link": "https://www.hks.harvard.edu/courses/sup-683m"
@@ -3114,7 +3114,7 @@
         "school": "HKS",
         "stem": false,
         "topic": "",
-        "cross_register": true,
+        "cross_register": false,
         "stem_group_a": false,
         "stem_group_b": false,
         "link": "https://www.hks.harvard.edu/courses/sup-921"
@@ -3130,7 +3130,7 @@
         "school": "HKS",
         "stem": false,
         "topic": "",
-        "cross_register": true,
+        "cross_register": false,
         "stem_group_a": false,
         "stem_group_b": false,
         "link": "https://www.hks.harvard.edu/courses/sup-922"
@@ -3145,7 +3145,7 @@
         "school": "HKS",
         "stem": false,
         "topic": "",
-        "cross_register": true,
+        "cross_register": false,
         "stem_group_a": false,
         "stem_group_b": false,
         "link": "https://www.hks.harvard.edu/courses/sup-923"
@@ -3161,7 +3161,7 @@
         "school": "HKS",
         "stem": false,
         "topic": "",
-        "cross_register": true,
+        "cross_register": false,
         "stem_group_a": false,
         "stem_group_b": false,
         "link": "https://www.hks.harvard.edu/courses/sup-940y"
@@ -3176,7 +3176,7 @@
         "school": "HKS",
         "stem": false,
         "topic": "",
-        "cross_register": true,
+        "cross_register": false,
         "stem_group_a": false,
         "stem_group_b": false,
         "link": "https://www.hks.harvard.edu/courses/sup-951"
@@ -3202,7 +3202,7 @@
         "school": "HKS",
         "stem": false,
         "topic": "",
-        "cross_register": true,
+        "cross_register": false,
         "stem_group_a": true,
         "stem_group_b": false,
         "link": ""
@@ -3215,7 +3215,7 @@
         "school": "HKS",
         "stem": false,
         "topic": "",
-        "cross_register": true,
+        "cross_register": false,
         "stem_group_a": true,
         "stem_group_b": false,
         "link": ""
@@ -3228,7 +3228,7 @@
         "school": "HKS",
         "stem": false,
         "topic": "",
-        "cross_register": true,
+        "cross_register": false,
         "stem_group_a": true,
         "stem_group_b": false,
         "link": ""
@@ -3241,7 +3241,7 @@
         "school": "HKS",
         "stem": false,
         "topic": "",
-        "cross_register": true,
+        "cross_register": false,
         "stem_group_a": true,
         "stem_group_b": false,
         "link": ""
@@ -3254,7 +3254,7 @@
         "school": "HKS",
         "stem": false,
         "topic": "",
-        "cross_register": true,
+        "cross_register": false,
         "stem_group_a": true,
         "stem_group_b": false,
         "link": ""
@@ -3267,7 +3267,7 @@
         "school": "HKS",
         "stem": false,
         "topic": "",
-        "cross_register": true,
+        "cross_register": false,
         "stem_group_a": true,
         "stem_group_b": false,
         "link": ""
@@ -3280,7 +3280,7 @@
         "school": "HKS",
         "stem": false,
         "topic": "",
-        "cross_register": true,
+        "cross_register": false,
         "stem_group_a": true,
         "stem_group_b": false,
         "link": ""
@@ -3293,7 +3293,7 @@
         "school": "HKS",
         "stem": false,
         "topic": "",
-        "cross_register": true,
+        "cross_register": false,
         "stem_group_a": true,
         "stem_group_b": false,
         "link": ""
@@ -3306,7 +3306,7 @@
         "school": "HKS",
         "stem": false,
         "topic": "",
-        "cross_register": true,
+        "cross_register": false,
         "stem_group_a": true,
         "stem_group_b": false,
         "link": ""
@@ -3319,7 +3319,7 @@
         "school": "HKS",
         "stem": false,
         "topic": "",
-        "cross_register": true,
+        "cross_register": false,
         "stem_group_a": true,
         "stem_group_b": false,
         "link": ""
@@ -3332,7 +3332,7 @@
         "school": "HKS",
         "stem": false,
         "topic": "",
-        "cross_register": true,
+        "cross_register": false,
         "stem_group_a": true,
         "stem_group_b": false,
         "link": ""
@@ -3345,7 +3345,7 @@
         "school": "HKS",
         "stem": false,
         "topic": "",
-        "cross_register": true,
+        "cross_register": false,
         "stem_group_a": true,
         "stem_group_b": false,
         "link": ""
@@ -3358,7 +3358,7 @@
         "school": "HKS",
         "stem": false,
         "topic": "",
-        "cross_register": true,
+        "cross_register": false,
         "stem_group_a": true,
         "stem_group_b": false,
         "link": ""
@@ -3371,7 +3371,7 @@
         "school": "HKS",
         "stem": false,
         "topic": "",
-        "cross_register": true,
+        "cross_register": false,
         "stem_group_a": true,
         "stem_group_b": false,
         "link": ""
@@ -3384,7 +3384,7 @@
         "school": "HKS",
         "stem": false,
         "topic": "",
-        "cross_register": true,
+        "cross_register": false,
         "stem_group_a": true,
         "stem_group_b": false,
         "link": ""
@@ -3397,7 +3397,7 @@
         "school": "HKS",
         "stem": false,
         "topic": "",
-        "cross_register": true,
+        "cross_register": false,
         "stem_group_a": true,
         "stem_group_b": false,
         "link": ""
@@ -3410,7 +3410,7 @@
         "school": "HKS",
         "stem": false,
         "topic": "",
-        "cross_register": true,
+        "cross_register": false,
         "stem_group_a": true,
         "stem_group_b": false,
         "link": ""
@@ -3423,7 +3423,7 @@
         "school": "HKS",
         "stem": false,
         "topic": "",
-        "cross_register": true,
+        "cross_register": false,
         "stem_group_a": true,
         "stem_group_b": false,
         "link": ""
@@ -3436,7 +3436,7 @@
         "school": "HKS",
         "stem": false,
         "topic": "",
-        "cross_register": true,
+        "cross_register": false,
         "stem_group_a": true,
         "stem_group_b": false,
         "link": ""
@@ -3449,7 +3449,7 @@
         "school": "HKS",
         "stem": false,
         "topic": "",
-        "cross_register": true,
+        "cross_register": false,
         "stem_group_a": true,
         "stem_group_b": false,
         "link": ""
@@ -3592,7 +3592,7 @@
         "school": "HKS",
         "stem": false,
         "topic": "",
-        "cross_register": true,
+        "cross_register": false,
         "stem_group_a": true,
         "stem_group_b": false,
         "link": ""
@@ -3605,7 +3605,7 @@
         "school": "HKS",
         "stem": false,
         "topic": "",
-        "cross_register": true,
+        "cross_register": false,
         "stem_group_a": true,
         "stem_group_b": false,
         "link": ""
@@ -3618,7 +3618,7 @@
         "school": "HKS",
         "stem": false,
         "topic": "",
-        "cross_register": true,
+        "cross_register": false,
         "stem_group_a": true,
         "stem_group_b": false,
         "link": ""
@@ -3631,7 +3631,7 @@
         "school": "HKS",
         "stem": false,
         "topic": "",
-        "cross_register": true,
+        "cross_register": false,
         "stem_group_a": true,
         "stem_group_b": false,
         "link": ""
@@ -3644,7 +3644,7 @@
         "school": "HKS",
         "stem": false,
         "topic": "",
-        "cross_register": true,
+        "cross_register": false,
         "stem_group_a": true,
         "stem_group_b": false,
         "link": ""
@@ -3683,7 +3683,7 @@
         "school": "HKS",
         "stem": false,
         "topic": "",
-        "cross_register": true,
+        "cross_register": false,
         "stem_group_a": true,
         "stem_group_b": false,
         "link": ""
@@ -3696,7 +3696,7 @@
         "school": "HKS",
         "stem": false,
         "topic": "",
-        "cross_register": true,
+        "cross_register": false,
         "stem_group_a": false,
         "stem_group_b": true,
         "link": ""
@@ -3709,7 +3709,7 @@
         "school": "HKS",
         "stem": false,
         "topic": "",
-        "cross_register": true,
+        "cross_register": false,
         "stem_group_a": false,
         "stem_group_b": true,
         "link": ""
@@ -3722,7 +3722,7 @@
         "school": "HKS",
         "stem": false,
         "topic": "",
-        "cross_register": true,
+        "cross_register": false,
         "stem_group_a": false,
         "stem_group_b": true,
         "link": ""
@@ -3735,7 +3735,7 @@
         "school": "HKS",
         "stem": false,
         "topic": "",
-        "cross_register": true,
+        "cross_register": false,
         "stem_group_a": false,
         "stem_group_b": true,
         "link": ""
@@ -3748,7 +3748,7 @@
         "school": "HKS",
         "stem": false,
         "topic": "",
-        "cross_register": true,
+        "cross_register": false,
         "stem_group_a": false,
         "stem_group_b": true,
         "link": ""
@@ -3761,7 +3761,7 @@
         "school": "HKS",
         "stem": false,
         "topic": "",
-        "cross_register": true,
+        "cross_register": false,
         "stem_group_a": false,
         "stem_group_b": true,
         "link": ""
@@ -3774,7 +3774,7 @@
         "school": "HKS",
         "stem": false,
         "topic": "",
-        "cross_register": true,
+        "cross_register": false,
         "stem_group_a": false,
         "stem_group_b": true,
         "link": ""
@@ -3787,7 +3787,7 @@
         "school": "HKS",
         "stem": false,
         "topic": "",
-        "cross_register": true,
+        "cross_register": false,
         "stem_group_a": false,
         "stem_group_b": true,
         "link": ""
@@ -3800,7 +3800,7 @@
         "school": "HKS",
         "stem": false,
         "topic": "",
-        "cross_register": true,
+        "cross_register": false,
         "stem_group_a": false,
         "stem_group_b": true,
         "link": ""
@@ -3813,7 +3813,7 @@
         "school": "HKS",
         "stem": false,
         "topic": "",
-        "cross_register": true,
+        "cross_register": false,
         "stem_group_a": false,
         "stem_group_b": true,
         "link": ""
@@ -3852,7 +3852,7 @@
         "school": "HKS",
         "stem": false,
         "topic": "",
-        "cross_register": true,
+        "cross_register": false,
         "stem_group_a": false,
         "stem_group_b": true,
         "link": ""
@@ -3865,7 +3865,7 @@
         "school": "HKS",
         "stem": false,
         "topic": "",
-        "cross_register": true,
+        "cross_register": false,
         "stem_group_a": false,
         "stem_group_b": true,
         "link": ""
@@ -3878,7 +3878,7 @@
         "school": "HKS",
         "stem": false,
         "topic": "",
-        "cross_register": true,
+        "cross_register": false,
         "stem_group_a": false,
         "stem_group_b": true,
         "link": ""
@@ -3891,7 +3891,7 @@
         "school": "HKS",
         "stem": false,
         "topic": "",
-        "cross_register": true,
+        "cross_register": false,
         "stem_group_a": false,
         "stem_group_b": true,
         "link": ""
@@ -3904,7 +3904,7 @@
         "school": "HKS",
         "stem": false,
         "topic": "",
-        "cross_register": true,
+        "cross_register": false,
         "stem_group_a": false,
         "stem_group_b": true,
         "link": ""
@@ -3917,7 +3917,7 @@
         "school": "HKS",
         "stem": false,
         "topic": "",
-        "cross_register": true,
+        "cross_register": false,
         "stem_group_a": false,
         "stem_group_b": true,
         "link": ""
@@ -3930,7 +3930,7 @@
         "school": "HKS",
         "stem": false,
         "topic": "",
-        "cross_register": true,
+        "cross_register": false,
         "stem_group_a": false,
         "stem_group_b": true,
         "link": ""
@@ -3945,7 +3945,7 @@
         "school": "HKS",
         "stem": false,
         "topic": "Artificial Intelligence",
-        "cross_register": true,
+        "cross_register": false,
         "stem_group_a": false,
         "stem_group_b": false,
         "link": ""
@@ -3962,7 +3962,7 @@
         "school": "HKS",
         "stem": false,
         "topic": "Gender",
-        "cross_register": true,
+        "cross_register": false,
         "stem_group_a": false,
         "stem_group_b": false,
         "link": ""
@@ -3975,7 +3975,7 @@
         "school": "HKS",
         "stem": false,
         "topic": "Gender",
-        "cross_register": true,
+        "cross_register": false,
         "stem_group_a": false,
         "stem_group_b": false,
         "link": ""
