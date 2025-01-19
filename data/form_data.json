@@ -3,10 +3,10 @@
         "course_number": "API-101",
         "course_title": "Resources, Incentives, and Choices I:   Markets and Market Failures",
         "instructors": [
-            "Christopher Norio AveryFaculty",
-            "P\u0131nar Do\u011fanFaculty",
-            "Anne Le BrunFaculty",
-            "Juan SaavedraFaculty"
+            "Christopher Norio Avery",
+            "P\u0131nar Do\u011fan",
+            "Anne Le Brun",
+            "Juan Saavedra"
         ],
         "semester": "",
         "school": "HKS",
@@ -21,11 +21,11 @@
         "course_number": "API-102",
         "course_title": "Resources, Incentives, and Choices II:  Analysis of Public Policy",
         "instructors": [
-            "Joshua AbelFaculty",
-            "Robert LawrenceFaculty",
-            "Andr\u00e9s MaggiInstructor",
-            "Juan SaavedraFaculty",
-            "Mark ShepardFaculty"
+            "Joshua Abel",
+            "Robert Lawrence",
+            "Andr\u00e9s Maggi",
+            "Juan Saavedra",
+            "Mark Shepard"
         ],
         "semester": "",
         "school": "HKS",
@@ -40,7 +40,7 @@
         "course_number": "API-109",
         "course_title": "Advanced Microeconomic Analysis I: Theory of Supply, Demand, and Equilibrium",
         "instructors": [
-            "Luis ArmonaFaculty"
+            "Luis Armona"
         ],
         "semester": "",
         "school": "HKS",
@@ -55,7 +55,7 @@
         "course_number": "API-110",
         "course_title": "Advanced Microeconomic Analysis II: Game Theory and Information Economics",
         "instructors": [
-            "Jie BaiFaculty"
+            "Jie Bai"
         ],
         "semester": "",
         "school": "HKS",
@@ -70,7 +70,7 @@
         "course_number": "API-111",
         "course_title": "Microeconomic Theory I",
         "instructors": [
-            "Luis ArmonaFaculty"
+            "Luis Armona"
         ],
         "semester": "",
         "school": "HKS",
@@ -85,8 +85,8 @@
         "course_number": "API-112",
         "course_title": "Microeconomic Theory II",
         "instructors": [
-            "Christopher Norio AveryFaculty",
-            "Samuel RichardsonFaculty"
+            "Christopher Norio Avery",
+            "Samuel Richardson"
         ],
         "semester": "",
         "school": "HKS",
@@ -101,7 +101,7 @@
         "course_number": "API-114",
         "course_title": "Econometric Methods for Applied Research I",
         "instructors": [
-            "Gregory BruichFaculty"
+            "Gregory Bruich"
         ],
         "semester": "",
         "school": "HKS",
@@ -116,7 +116,7 @@
         "course_number": "API-115",
         "course_title": "Econometric Methods for Applied Research II",
         "instructors": [
-            "Michael GechterFaculty"
+            "Michael Gechter"
         ],
         "semester": "",
         "school": "HKS",
@@ -131,7 +131,7 @@
         "course_number": "API-119",
         "course_title": "Advanced Macroeconomics for the Open Economy I",
         "instructors": [
-            "Jeffrey FrankelFaculty"
+            "Jeffrey Frankel"
         ],
         "semester": "",
         "school": "HKS",
@@ -146,8 +146,8 @@
         "course_number": "API-120",
         "course_title": "Advanced Macroeconomics for the Open Economy II",
         "instructors": [
-            "Jeffrey FrankelFaculty",
-            "Can SoyluFaculty"
+            "Jeffrey Frankel",
+            "Can Soylu"
         ],
         "semester": "",
         "school": "HKS",
@@ -175,12 +175,12 @@
         "course_number": "API-135",
         "course_title": "Economics of Climate Change and Environmental Policy",
         "instructors": [
-            "Robert StavinsFaculty"
+            "Robert Stavins"
         ],
-        "semester": "",
+        "semester": "Spring",
         "school": "HKS",
         "stem": false,
-        "topic": "",
+        "topic": "Climate",
         "cross_register": true,
         "stem_group_a": true,
         "stem_group_b": false,
@@ -190,7 +190,7 @@
         "course_number": "API-141",
         "course_title": "Finance",
         "instructors": [
-            "Akash DeepFaculty"
+            "Akash Deep"
         ],
         "semester": "",
         "school": "HKS",
@@ -205,7 +205,7 @@
         "course_number": "API-148",
         "course_title": "Advanced Risk Management and Infrastructure Finance",
         "instructors": [
-            "Akash DeepFaculty"
+            "Akash Deep"
         ],
         "semester": "",
         "school": "HKS",
@@ -220,12 +220,12 @@
         "course_number": "API-165",
         "course_title": "Energy and Environmental Economics and Policy",
         "instructors": [
-            "Joseph AldyFaculty"
+            "Joseph Aldy"
         ],
-        "semester": "",
+        "semester": "Spring",
         "school": "HKS",
         "stem": false,
-        "topic": "",
+        "topic": "Climate",
         "cross_register": true,
         "stem_group_a": true,
         "stem_group_b": false,
@@ -235,12 +235,12 @@
         "course_number": "API-170",
         "course_title": "Managing Climate Change Risks: Information, Incentives, and Institutions",
         "instructors": [
-            "Joseph AldyFaculty"
+            "Joseph Aldy"
         ],
-        "semester": "",
+        "semester": "Fall",
         "school": "HKS",
         "stem": false,
-        "topic": "",
+        "topic": "Climate",
         "cross_register": true,
         "stem_group_a": false,
         "stem_group_b": false,
@@ -250,10 +250,10 @@
         "course_number": "API-201",
         "course_title": "Quantitative Analysis and Empirical Methods",
         "instructors": [
-            "Salvador Ascencio PastoraFaculty",
-            "Jonathan BorckFaculty",
-            "Teddy SvoronosFaculty",
-            "Charles TaylorFaculty"
+            "Salvador Ascencio Pastora",
+            "Jonathan Borck",
+            "Teddy Svoronos",
+            "Charles Taylor"
         ],
         "semester": "",
         "school": "HKS",
@@ -268,10 +268,10 @@
         "course_number": "API-202M",
         "course_title": "Empirical Methods II",
         "instructors": [
-            "Libby JenkeFaculty",
-            "Soroush SaghafianFaculty",
-            "Benjamin SchneerFaculty",
-            "Teddy SvoronosFaculty"
+            "Libby Jenke",
+            "Soroush Saghafian",
+            "Benjamin Schneer",
+            "Teddy Svoronos"
         ],
         "semester": "",
         "school": "HKS",
@@ -286,10 +286,10 @@
         "course_number": "API-203M",
         "course_title": "Empirical Methods II",
         "instructors": [
-            "Libby JenkeFaculty",
-            "Liz McKennaFaculty",
-            "Benjamin SchneerFaculty",
-            "Daniel SchneiderFaculty"
+            "Libby Jenke",
+            "Liz McKenna",
+            "Benjamin Schneer",
+            "Daniel Schneider"
         ],
         "semester": "",
         "school": "HKS",
@@ -304,7 +304,7 @@
         "course_number": "API-205",
         "course_title": "Politics and Policies:  The Impact of Data and AI",
         "instructors": [
-            "Deborah Hughes HallettFaculty"
+            "Deborah Hughes Hallett"
         ],
         "semester": "",
         "school": "HKS",
@@ -319,7 +319,7 @@
         "course_number": "API-209",
         "course_title": "Advanced Quantitative Methods: Description and Prediction",
         "instructors": [
-            "Dan LevyFaculty"
+            "Dan Levy"
         ],
         "semester": "",
         "school": "HKS",
@@ -334,7 +334,7 @@
         "course_number": "API-210",
         "course_title": "Advanced Quantitative Methods: Causal Inference",
         "instructors": [
-            "Michael GechterFaculty"
+            "Michael Gechter"
         ],
         "semester": "",
         "school": "HKS",
@@ -349,7 +349,7 @@
         "course_number": "API-211",
         "course_title": "Program Evaluation and Education Policy",
         "instructors": [
-            "Melanie RucinskiInstructor"
+            "Melanie Rucinski"
         ],
         "semester": "",
         "school": "HKS",
@@ -364,7 +364,7 @@
         "course_number": "API-222",
         "course_title": "Machine Learning and Big Data Analytics",
         "instructors": [
-            "Soroush SaghafianFaculty"
+            "Soroush Saghafian"
         ],
         "semester": "",
         "school": "HKS",
@@ -379,7 +379,7 @@
         "course_number": "API-302",
         "course_title": "Analytic Frameworks for Policy",
         "instructors": [
-            "Richard ZeckhauserFaculty"
+            "Richard Zeckhauser"
         ],
         "semester": "",
         "school": "HKS",
@@ -394,7 +394,7 @@
         "course_number": "API-303",
         "course_title": "Game Theory and Strategic Decisions",
         "instructors": [
-            "P\u0131nar Do\u011fanFaculty"
+            "P\u0131nar Do\u011fan"
         ],
         "semester": "",
         "school": "HKS",
@@ -409,7 +409,7 @@
         "course_number": "API-305",
         "course_title": "Behavioral Economics, Law and Public Policy",
         "instructors": [
-            "Cass SunsteinFaculty"
+            "Cass Sunstein"
         ],
         "semester": "",
         "school": "HKS",
@@ -424,7 +424,7 @@
         "course_number": "API-318",
         "course_title": "Thinking Analytically in an Uncertain World",
         "instructors": [
-            "Dan LevyFaculty"
+            "Dan Levy"
         ],
         "semester": "",
         "school": "HKS",
@@ -439,7 +439,7 @@
         "course_number": "API-500M",
         "course_title": "Spring Exercise",
         "instructors": [
-            "John DonahueFaculty"
+            "John Donahue"
         ],
         "semester": "",
         "school": "HKS",
@@ -454,10 +454,10 @@
         "course_number": "API-501",
         "course_title": "Policy Design and Delivery",
         "instructors": [
-            "Mark FaganFaculty",
-            "Eric RosenbachFaculty",
-            "Fatema SumarFaculty",
-            "Setti WarrenFaculty"
+            "Mark Fagan",
+            "Eric Rosenbach",
+            "Fatema Sumar",
+            "Setti Warren"
         ],
         "semester": "",
         "school": "HKS",
@@ -472,7 +472,7 @@
         "course_number": "API-505",
         "course_title": "Policy Analysis: A Tool for Evidence-Based Decision Making",
         "instructors": [
-            "Rachel MeltzerInstructor"
+            "Rachel Meltzer"
         ],
         "semester": "",
         "school": "HKS",
@@ -487,7 +487,7 @@
         "course_number": "API-901",
         "course_title": "Doctoral Research Seminar",
         "instructors": [
-            "Matthew BaumFaculty"
+            "Matthew Baum"
         ],
         "semester": "",
         "school": "HKS",
@@ -502,8 +502,8 @@
         "course_number": "API-902",
         "course_title": "Doctoral Research Seminar",
         "instructors": [
-            "Matthew BaumFaculty",
-            "Richard ZeckhauserFaculty"
+            "Matthew Baum",
+            "Richard Zeckhauser"
         ],
         "semester": "",
         "school": "HKS",
@@ -518,8 +518,8 @@
         "course_number": "API-905Y",
         "course_title": "Seminar in Environmental Economics and Policy",
         "instructors": [
-            "Robert StavinsFaculty",
-            "James H. StockFaculty"
+            "Robert Stavins",
+            "James H. Stock"
         ],
         "semester": "",
         "school": "HKS",
@@ -534,7 +534,7 @@
         "course_number": "BGP-100",
         "course_title": "The Business-Government Relationship in the United States",
         "instructors": [
-            "Roger PorterFaculty"
+            "Roger Porter"
         ],
         "semester": "",
         "school": "HKS",
@@ -549,7 +549,7 @@
         "course_number": "BGP-150Y",
         "course_title": "Seminar: Business and Government",
         "instructors": [
-            "John HaighFaculty"
+            "John Haigh"
         ],
         "semester": "",
         "school": "HKS",
@@ -564,12 +564,12 @@
         "course_number": "BGP-204",
         "course_title": "Food Policy",
         "instructors": [
-            "Wolfram SchlenkerFaculty"
+            "Wolfram Schlenker"
         ],
-        "semester": "",
+        "semester": "Spring",
         "school": "HKS",
         "stem": false,
-        "topic": "",
+        "topic": "Climate",
         "cross_register": true,
         "stem_group_a": false,
         "stem_group_b": false,
@@ -579,8 +579,8 @@
         "course_number": "BGP-215M",
         "course_title": "Big Tech and the Importance of Competition: Public Policy in the 2020s",
         "instructors": [
-            "John HaighFaculty",
-            "Jonathan SalletInstructor/Staff"
+            "John Haigh",
+            "Jonathan Sallet"
         ],
         "semester": "",
         "school": "HKS",
@@ -595,7 +595,7 @@
         "course_number": "BGP-235M",
         "course_title": "Private Capital for Public Purpose: Impact Investing and Its Siblings",
         "instructors": [
-            "David WoodFaculty"
+            "David Wood"
         ],
         "semester": "",
         "school": "HKS",
@@ -610,7 +610,7 @@
         "course_number": "BGP-264",
         "course_title": "Capital Markets Regulation",
         "instructors": [
-            "Hal ScottFaculty"
+            "Hal Scott"
         ],
         "semester": "",
         "school": "HKS",
@@ -625,7 +625,7 @@
         "course_number": "BGP-510Y",
         "course_title": "HKS-HBS Joint Degree First-Year Seminar",
         "instructors": [
-            "Andy ZellekeInstructor"
+            "Andy Zelleke"
         ],
         "semester": "",
         "school": "HKS",
@@ -640,7 +640,7 @@
         "course_number": "BGP-610",
         "course_title": "The Political Economy of Trade",
         "instructors": [
-            "Robert LawrenceFaculty"
+            "Robert Lawrence"
         ],
         "semester": "",
         "school": "HKS",
@@ -655,7 +655,7 @@
         "course_number": "BGP-631",
         "course_title": "Regulation of International Finance",
         "instructors": [
-            "Daniel TarulloInstructor"
+            "Daniel Tarullo"
         ],
         "semester": "",
         "school": "HKS",
@@ -670,7 +670,7 @@
         "course_number": "BGP-670",
         "course_title": "Financial Crises: Concepts and Evidence",
         "instructors": [
-            "Carmen ReinhartFaculty"
+            "Carmen Reinhart"
         ],
         "semester": "",
         "school": "HKS",
@@ -685,8 +685,8 @@
         "course_number": "DEV-101",
         "course_title": "Economic Development: Theory and Evidence",
         "instructors": [
-            "Eliana La FerraraFaculty",
-            "Dani RodrikFaculty"
+            "Eliana La Ferrara",
+            "Dani Rodrik"
         ],
         "semester": "",
         "school": "HKS",
@@ -701,8 +701,8 @@
         "course_number": "DEV-102M",
         "course_title": "Economic Development: Using Analytical Frameworks for Smart Policy Design",
         "instructors": [
-            "Asim KhwajaFaculty",
-            "Eliana La FerraraFaculty"
+            "Asim Khwaja",
+            "Eliana La Ferrara"
         ],
         "semester": "",
         "school": "HKS",
@@ -717,12 +717,12 @@
         "course_number": "DEV-130",
         "course_title": "Why Are So Many Countries Poor, Volatile, and Unequal?",
         "instructors": [
-            "Ricardo HausmannFaculty"
+            "Ricardo Hausmann"
         ],
-        "semester": "",
+        "semester": "Fall",
         "school": "HKS",
         "stem": false,
-        "topic": "",
+        "topic": "Racism & Bias",
         "cross_register": true,
         "stem_group_a": false,
         "stem_group_b": false,
@@ -732,7 +732,7 @@
         "course_number": "DEV-150Y",
         "course_title": "Seminar: Political and Economic Development",
         "instructors": [
-            "Juan JimenezFaculty"
+            "Juan Jimenez"
         ],
         "semester": "",
         "school": "HKS",
@@ -747,7 +747,7 @@
         "course_number": "DEV-206",
         "course_title": "Firms, Markets, and Economic Development",
         "instructors": [
-            "Jie BaiFaculty"
+            "Jie Bai"
         ],
         "semester": "",
         "school": "HKS",
@@ -762,7 +762,7 @@
         "course_number": "DEV-209",
         "course_title": "Management, Finance, and Regulation of Public Infrastructure in Developing Countries",
         "instructors": [
-            "Henry LeeFaculty"
+            "Henry Lee"
         ],
         "semester": "",
         "school": "HKS",
@@ -777,7 +777,7 @@
         "course_number": "DEV-210",
         "course_title": "Public Finance in Theory and Practice",
         "instructors": [
-            "Jay RosengardFaculty"
+            "Jay Rosengard"
         ],
         "semester": "",
         "school": "HKS",
@@ -792,7 +792,7 @@
         "course_number": "DEV-215",
         "course_title": "Public Finance in International Perspective",
         "instructors": [
-            "Anders JensenFaculty"
+            "Anders Jensen"
         ],
         "semester": "",
         "school": "HKS",
@@ -807,8 +807,8 @@
         "course_number": "DEV-233",
         "course_title": "Political Economy and Its Future",
         "instructors": [
-            "Roberto Mangabeira UngerInstructor",
-            "Dani RodrikFaculty"
+            "Roberto Mangabeira Unger",
+            "Dani Rodrik"
         ],
         "semester": "",
         "school": "HKS",
@@ -823,9 +823,9 @@
         "course_number": "DEV-250Y",
         "course_title": "Second-Year Policy Analysis Seminar",
         "instructors": [
-            "Rema HannaFaculty",
-            "Anders JensenFaculty",
-            "Carmen ReinhartFaculty"
+            "Rema Hanna",
+            "Anders Jensen",
+            "Carmen Reinhart"
         ],
         "semester": "",
         "school": "HKS",
@@ -840,7 +840,7 @@
         "course_number": "DEV-308",
         "course_title": "Social Institutions and Economic Development",
         "instructors": [
-            "Michael WoolcockFaculty"
+            "Michael Woolcock"
         ],
         "semester": "",
         "school": "HKS",
@@ -855,12 +855,12 @@
         "course_number": "DEV-309",
         "course_title": "Development Policy Strategy",
         "instructors": [
-            "Ricardo HausmannFaculty"
+            "Ricardo Hausmann"
         ],
-        "semester": "",
+        "semester": "Fall",
         "school": "HKS",
         "stem": false,
-        "topic": "",
+        "topic": "Racism & Bias",
         "cross_register": true,
         "stem_group_a": true,
         "stem_group_b": false,
@@ -870,8 +870,8 @@
         "course_number": "DEV-320M",
         "course_title": "Scaling Up and Systems Change for Development Impact",
         "instructors": [
-            "Isabel Guerrero PulgarFaculty",
-            "Michael WaltonFaculty"
+            "Isabel Guerrero Pulgar",
+            "Michael Walton"
         ],
         "semester": "",
         "school": "HKS",
@@ -886,7 +886,7 @@
         "course_number": "DEV-356",
         "course_title": "Economic Policy in Africa: Challenges and Opportunities",
         "instructors": [
-            "Celestin MongaFaculty"
+            "Celestin Monga"
         ],
         "semester": "",
         "school": "HKS",
@@ -901,7 +901,7 @@
         "course_number": "DEV-401Y",
         "course_title": "Applications and Cases in International Development (fall)",
         "instructors": [
-            "Juan JimenezFaculty"
+            "Juan Jimenez"
         ],
         "semester": "",
         "school": "HKS",
@@ -916,8 +916,8 @@
         "course_number": "DEV-501M",
         "course_title": "Native Americans in the 21st Century: Nation Building I",
         "instructors": [
-            "Joseph KaltFaculty",
-            "Angela RileyFaculty"
+            "Joseph Kalt",
+            "Angela Riley"
         ],
         "semester": "",
         "school": "HKS",
@@ -932,7 +932,7 @@
         "course_number": "DEV-502",
         "course_title": "Native Americans in the 21st Century: Nation Building II",
         "instructors": [
-            "Eric HensonFaculty"
+            "Eric Henson"
         ],
         "semester": "",
         "school": "HKS",
@@ -947,7 +947,7 @@
         "course_number": "DPI-115",
         "course_title": "The American Presidency",
         "instructors": [
-            "Roger PorterFaculty"
+            "Roger Porter"
         ],
         "semester": "",
         "school": "HKS",
@@ -962,7 +962,7 @@
         "course_number": "DPI-120",
         "course_title": "The U.S. Congress and Law Making",
         "instructors": [
-            "David KingFaculty"
+            "David King"
         ],
         "semester": "",
         "school": "HKS",
@@ -977,7 +977,7 @@
         "course_number": "DPI-122",
         "course_title": "Becoming a Policy Entrepreneur in the United States",
         "instructors": [
-            "David KingFaculty"
+            "David King"
         ],
         "semester": "",
         "school": "HKS",
@@ -992,12 +992,12 @@
         "course_number": "DPI-127",
         "course_title": "Who Governs? Power in America",
         "instructors": [
-            "Thomas PattersonFaculty"
+            "Thomas Patterson"
         ],
-        "semester": "",
+        "semester": "Spring",
         "school": "HKS",
         "stem": false,
-        "topic": "",
+        "topic": "Racism & Bias",
         "cross_register": true,
         "stem_group_a": false,
         "stem_group_b": false,
@@ -1007,7 +1007,7 @@
         "course_number": "DPI-150Y",
         "course_title": "Seminar: Democracy, Politics, and Institutions",
         "instructors": [
-            "Thomas PattersonFaculty"
+            "Thomas Patterson"
         ],
         "semester": "",
         "school": "HKS",
@@ -1022,11 +1022,11 @@
         "course_number": "DPI-200",
         "course_title": "Politics and Ethics in Unstable Times",
         "instructors": [
-            "Jeeyang Rhee BaumFaculty",
-            "Justin de Benedictis-KessnerFaculty",
-            "Archon FungFaculty",
-            "Brian PalmiterFaculty",
-            "Christopher RobichaudFaculty"
+            "Jeeyang Rhee Baum",
+            "Justin de Benedictis-Kessner",
+            "Archon Fung",
+            "Brian Palmiter",
+            "Christopher Robichaud"
         ],
         "semester": "",
         "school": "HKS",
@@ -1041,7 +1041,7 @@
         "course_number": "DPI-202",
         "course_title": "Moral Leadership: Ethics in Public Life",
         "instructors": [
-            "Mathias RisseFaculty"
+            "Mathias Risse"
         ],
         "semester": "",
         "school": "HKS",
@@ -1056,7 +1056,7 @@
         "course_number": "DPI-207",
         "course_title": "Philosophy of Technology: From Marx and Heidegger to AI, \nGenome Editing, and Geoengineering",
         "instructors": [
-            "Mathias RisseFaculty"
+            "Mathias Risse"
         ],
         "semester": "",
         "school": "HKS",
@@ -1071,7 +1071,7 @@
         "course_number": "DPI-208",
         "course_title": "Moral Practice for Public Leadership",
         "instructors": [
-            "Christopher RobichaudFaculty"
+            "Christopher Robichaud"
         ],
         "semester": "",
         "school": "HKS",
@@ -1086,7 +1086,7 @@
         "course_number": "DPI-210",
         "course_title": "Indigenous Philosophies for the Technological Age",
         "instructors": [
-            "Mathias RisseFaculty"
+            "Mathias Risse"
         ],
         "semester": "",
         "school": "HKS",
@@ -1101,7 +1101,7 @@
         "course_number": "DPI-247",
         "course_title": "Justice by Means of Democracy",
         "instructors": [
-            "Danielle AllenFaculty"
+            "Danielle Allen"
         ],
         "semester": "",
         "school": "HKS",
@@ -1116,7 +1116,7 @@
         "course_number": "DPI-342",
         "course_title": "Religion, Politics, and Policy in the United States",
         "instructors": [
-            "Carleigh BeriontFaculty"
+            "Carleigh Beriont"
         ],
         "semester": "",
         "school": "HKS",
@@ -1131,7 +1131,7 @@
         "course_number": "DPI-348",
         "course_title": "Progressive Alternatives: Institutional Reconstruction Now",
         "instructors": [
-            "Roberto Mangabeira UngerInstructor"
+            "Roberto Mangabeira Unger"
         ],
         "semester": "",
         "school": "HKS",
@@ -1146,7 +1146,7 @@
         "course_number": "DPI-376",
         "course_title": "Queer Nation: LGBTQ+ Protest, Politics, and Policy in the United States",
         "instructors": [
-            "Timothy Patrick McCarthyFaculty"
+            "Timothy Patrick McCarthy"
         ],
         "semester": "",
         "school": "HKS",
@@ -1161,9 +1161,9 @@
         "course_number": "DPI-386M",
         "course_title": "Race and Racism in Public Policies, Practices, and Perspectives",
         "instructors": [
-            "Desmond AngFaculty",
-            "Cornell William BrooksFaculty",
-            "Louise SeamsterFaculty"
+            "Desmond Ang",
+            "Cornell William Brooks",
+            "Louise Seamster"
         ],
         "semester": "",
         "school": "HKS",
@@ -1178,7 +1178,7 @@
         "course_number": "DPI-398",
         "course_title": "Islam & the Age of Democracy: Origins, Continuity and Change",
         "instructors": [
-            "Khalil Abdur-RashidFaculty"
+            "Khalil Abdur-Rashid"
         ],
         "semester": "",
         "school": "HKS",
@@ -1193,7 +1193,7 @@
         "course_number": "DPI-411",
         "course_title": "Political Philosophy for Development",
         "instructors": [
-            "Arthur ApplbaumFaculty"
+            "Arthur Applbaum"
         ],
         "semester": "",
         "school": "HKS",
@@ -1208,7 +1208,7 @@
         "course_number": "DPI-413",
         "course_title": "Democratic Backsliding",
         "instructors": [
-            "Pippa NorrisFaculty"
+            "Pippa Norris"
         ],
         "semester": "",
         "school": "HKS",
@@ -1223,7 +1223,7 @@
         "course_number": "DPI-415",
         "course_title": "Comparative Politics",
         "instructors": [
-            "Pippa NorrisFaculty"
+            "Pippa Norris"
         ],
         "semester": "",
         "school": "HKS",
@@ -1238,7 +1238,7 @@
         "course_number": "DPI-422M",
         "course_title": "Reckoning with History: Collective Memory, Leadership, and the Politics of Remembrance",
         "instructors": [
-            "Sanderijn CelsFaculty"
+            "Sanderijn Cels"
         ],
         "semester": "",
         "school": "HKS",
@@ -1253,7 +1253,7 @@
         "course_number": "DPI-450",
         "course_title": "The Political Economy of Transition in China",
         "instructors": [
-            "Anthony SaichFaculty"
+            "Anthony Saich"
         ],
         "semester": "",
         "school": "HKS",
@@ -1268,7 +1268,7 @@
         "course_number": "DPI-505",
         "course_title": "The Supreme Court, Law, and Public Policy",
         "instructors": [
-            "Maya SenFaculty"
+            "Maya Sen"
         ],
         "semester": "",
         "school": "HKS",
@@ -1283,7 +1283,7 @@
         "course_number": "DPI-515",
         "course_title": "Disability Law and Policy",
         "instructors": [
-            "Michael SteinFaculty"
+            "Michael Stein"
         ],
         "semester": "",
         "school": "HKS",
@@ -1298,12 +1298,12 @@
         "course_number": "DPI-527M",
         "course_title": "Reproductive Rights, Politics, and Policy",
         "instructors": [
-            "MaryRose MazzolaFaculty"
+            "MaryRose Mazzola"
         ],
         "semester": "",
         "school": "HKS",
         "stem": false,
-        "topic": "",
+        "topic": "Gender",
         "cross_register": true,
         "stem_group_a": false,
         "stem_group_b": false,
@@ -1313,7 +1313,7 @@
         "course_number": "DPI-543",
         "course_title": "Corruption: Finding It and Fixing It",
         "instructors": [
-            "Jeeyang Rhee BaumFaculty"
+            "Jeeyang Rhee Baum"
         ],
         "semester": "",
         "school": "HKS",
@@ -1328,9 +1328,9 @@
         "course_number": "DPI-562",
         "course_title": "Public Problems and Social Change: Advice, Strategy and Analysis",
         "instructors": [
-            "David BarronInstructor",
-            "Archon FungFaculty",
-            "Sarah WaldFaculty"
+            "David Barron",
+            "Archon Fung",
+            "Sarah Wald"
         ],
         "semester": "",
         "school": "HKS",
@@ -1345,8 +1345,8 @@
         "course_number": "DPI-563Y",
         "course_title": "Integrated Law/Policy Research and Writing",
         "instructors": [
-            "Archon FungFaculty",
-            "Sarah WaldFaculty"
+            "Archon Fung",
+            "Sarah Wald"
         ],
         "semester": "",
         "school": "HKS",
@@ -1361,7 +1361,7 @@
         "course_number": "DPI-600",
         "course_title": "The Politics of the Press",
         "instructors": [
-            "Nancy GibbsFaculty"
+            "Nancy Gibbs"
         ],
         "semester": "",
         "school": "HKS",
@@ -1376,7 +1376,7 @@
         "course_number": "DPI-608",
         "course_title": "Political Communication Breakdown: Causes, Consequences, and Solutions",
         "instructors": [
-            "Matthew BaumFaculty"
+            "Matthew Baum"
         ],
         "semester": "",
         "school": "HKS",
@@ -1391,7 +1391,7 @@
         "course_number": "DPI-610",
         "course_title": "Data Science for Politics",
         "instructors": [
-            "Benjamin SchneerFaculty"
+            "Benjamin Schneer"
         ],
         "semester": "",
         "school": "HKS",
@@ -1406,7 +1406,7 @@
         "course_number": "DPI-640",
         "course_title": "Technology and the Public Interest: From Democracy to Technocracy and Back",
         "instructors": [
-            "Latanya SweeneyFaculty"
+            "Latanya Sweeney"
         ],
         "semester": "",
         "school": "HKS",
@@ -1421,8 +1421,8 @@
         "course_number": "DPI-642",
         "course_title": "Grand Challenges in Technology-Society Clashes",
         "instructors": [
-            "Leonie BeyrleFaculty",
-            "Latanya SweeneyFaculty"
+            "Leonie Beyrle",
+            "Latanya Sweeney"
         ],
         "semester": "",
         "school": "HKS",
@@ -1437,12 +1437,12 @@
         "course_number": "DPI-643M",
         "course_title": "Beyond Law and Code \u2013 The Governance of Emerging Technologies",
         "instructors": [
-            "Leonie BeyrleFaculty"
+            "Leonie Beyrle"
         ],
-        "semester": "",
+        "semester": "Spring 2",
         "school": "HKS",
         "stem": false,
-        "topic": "",
+        "topic": "Artificial Intelligence",
         "cross_register": true,
         "stem_group_a": false,
         "stem_group_b": false,
@@ -1452,7 +1452,7 @@
         "course_number": "DPI-660",
         "course_title": "Digital Governance and Leadership in the Public Sector",
         "instructors": [
-            "Anil AroraFaculty"
+            "Anil Arora"
         ],
         "semester": "",
         "school": "HKS",
@@ -1467,7 +1467,7 @@
         "course_number": "DPI-662M",
         "course_title": "Digital Government",
         "instructors": [
-            "Ayushi RoyFaculty"
+            "Ayushi Roy"
         ],
         "semester": "",
         "school": "HKS",
@@ -1482,7 +1482,7 @@
         "course_number": "DPI-664M",
         "course_title": "The Internet: What It Is, How Did It Happen, and What Could It Become?",
         "instructors": [
-            "Jim WaldoFaculty"
+            "Jim Waldo"
         ],
         "semester": "",
         "school": "HKS",
@@ -1497,7 +1497,7 @@
         "course_number": "DPI-665M",
         "course_title": "Enabling Digital Delivery: Benefits and Bene-failure",
         "instructors": [
-            "Ayushi RoyFaculty"
+            "Ayushi Roy"
         ],
         "semester": "",
         "school": "HKS",
@@ -1512,12 +1512,12 @@
         "course_number": "DPI-678M",
         "course_title": "Product Management and Society: Building Technology in the Public Interest",
         "instructors": [
-            "Kathy PhamFaculty"
+            "Kathy Pham"
         ],
-        "semester": "",
+        "semester": "Spring 2",
         "school": "HKS",
         "stem": false,
-        "topic": "",
+        "topic": "Artificial Intelligence",
         "cross_register": true,
         "stem_group_a": false,
         "stem_group_b": false,
@@ -1527,14 +1527,14 @@
         "course_number": "DPI-681M",
         "course_title": "The Science and Implications of Generative AI",
         "instructors": [
-            "Sharad GoelFaculty",
-            "Dan LevyFaculty",
-            "Teddy SvoronosFaculty"
+            "Sharad Goel",
+            "Dan Levy",
+            "Teddy Svoronos"
         ],
-        "semester": "",
+        "semester": "Spring 2",
         "school": "HKS",
         "stem": false,
-        "topic": "",
+        "topic": "Artificial Intelligence",
         "cross_register": true,
         "stem_group_a": false,
         "stem_group_b": false,
@@ -1544,8 +1544,8 @@
         "course_number": "DPI-691M",
         "course_title": "Programming and Data for Policymakers",
         "instructors": [
-            "Dhrumil MehtaFaculty",
-            "Aarushi SahejpalInstructor/Staff"
+            "Dhrumil Mehta",
+            "Aarushi Sahejpal"
         ],
         "semester": "",
         "school": "HKS",
@@ -1560,7 +1560,7 @@
         "course_number": "DPI-703",
         "course_title": "Democracy: The Long View and the Bumpy History",
         "instructors": [
-            "Alex KeyssarFaculty"
+            "Alex Keyssar"
         ],
         "semester": "",
         "school": "HKS",
@@ -1575,9 +1575,9 @@
         "course_number": "DPI-802M",
         "course_title": "The Arts of Communication",
         "instructors": [
-            "Candace BertottiFaculty",
-            "Lawrence QuartanaFaculty",
-            "Allison ShapiraFaculty"
+            "Candace Bertotti",
+            "Lawrence Quartana",
+            "Allison Shapira"
         ],
         "semester": "",
         "school": "HKS",
@@ -1592,7 +1592,7 @@
         "course_number": "DPI-805M",
         "course_title": "Writing for Policy and Politics: Mastering Daily Communications",
         "instructors": [
-            "Alex GreenFaculty"
+            "Alex Green"
         ],
         "semester": "",
         "school": "HKS",
@@ -1607,7 +1607,7 @@
         "course_number": "DPI-810M",
         "course_title": "Writing for Policy and Politics: Developing Voice and Narrative",
         "instructors": [
-            "Gregory HarrisFaculty"
+            "Gregory Harris"
         ],
         "semester": "",
         "school": "HKS",
@@ -1622,7 +1622,7 @@
         "course_number": "DPI-820M",
         "course_title": "Policy Memo Writing for Decision Makers",
         "instructors": [
-            "Lauren BrodskyFaculty"
+            "Lauren Brodsky"
         ],
         "semester": "",
         "school": "HKS",
@@ -1637,7 +1637,7 @@
         "course_number": "DPI-821M",
         "course_title": "Writing Policy Reports",
         "instructors": [
-            "Lauren BrodskyFaculty"
+            "Lauren Brodsky"
         ],
         "semester": "",
         "school": "HKS",
@@ -1652,7 +1652,7 @@
         "course_number": "DPI-828M",
         "course_title": "Persuasive Policy Communication",
         "instructors": [
-            "Lauren BrodskyFaculty"
+            "Lauren Brodsky"
         ],
         "semester": "",
         "school": "HKS",
@@ -1667,7 +1667,7 @@
         "course_number": "DPI-830M",
         "course_title": "Column and Opinion Writing Workshop",
         "instructors": [
-            "Jeffrey SeglinFaculty"
+            "Jeffrey Seglin"
         ],
         "semester": "",
         "school": "HKS",
@@ -1682,10 +1682,10 @@
         "course_number": "DPI-831M",
         "course_title": "Op-Ed Writing",
         "instructors": [
-            "Austin BoguesFaculty",
-            "James GearyFaculty",
-            "Nancy GibbsFaculty",
-            "Alex GreenFaculty"
+            "Austin Bogues",
+            "James Geary",
+            "Nancy Gibbs",
+            "Alex Green"
         ],
         "semester": "",
         "school": "HKS",
@@ -1700,8 +1700,8 @@
         "course_number": "DPI-835M",
         "course_title": "Speechwriting",
         "instructors": [
-            "Stephen KrupinFaculty",
-            "MaryRose MazzolaFaculty"
+            "Stephen Krupin",
+            "MaryRose Mazzola"
         ],
         "semester": "",
         "school": "HKS",
@@ -1716,8 +1716,8 @@
         "course_number": "DPI-840M",
         "course_title": "Feature Writing",
         "instructors": [
-            "James GearyFaculty",
-            "Adam StumacherFaculty"
+            "James Geary",
+            "Adam Stumacher"
         ],
         "semester": "",
         "school": "HKS",
@@ -1732,7 +1732,7 @@
         "course_number": "DPI-851M",
         "course_title": "Data and Information Visualization",
         "instructors": [
-            "Hong QuFaculty"
+            "Hong Qu"
         ],
         "semester": "",
         "school": "HKS",
@@ -1747,7 +1747,7 @@
         "course_number": "DPI-852M",
         "course_title": "Advanced Data and Information Visualization",
         "instructors": [
-            "Hong QuFaculty"
+            "Hong Qu"
         ],
         "semester": "",
         "school": "HKS",
@@ -1762,8 +1762,8 @@
         "course_number": "DPI-891M",
         "course_title": "Engaging the Media",
         "instructors": [
-            "Alison KingFaculty",
-            "Margaret TalevFaculty"
+            "Alison King",
+            "Margaret Talev"
         ],
         "semester": "",
         "school": "HKS",
@@ -1778,7 +1778,7 @@
         "course_number": "DPI-896M",
         "course_title": "Crisis Communications",
         "instructors": [
-            "Jon HaberFaculty"
+            "Jon Haber"
         ],
         "semester": "",
         "school": "HKS",
@@ -1793,7 +1793,7 @@
         "course_number": "IGA-100",
         "course_title": "International and Global Affairs:  Concepts and Applications",
         "instructors": [
-            "Leslie SchumacherFaculty"
+            "Leslie Schumacher"
         ],
         "semester": "",
         "school": "HKS",
@@ -1808,7 +1808,7 @@
         "course_number": "IGA-103",
         "course_title": "Global Governance",
         "instructors": [
-            "Lotem Bassan-NygateFaculty"
+            "Lotem Bassan-Nygate"
         ],
         "semester": "",
         "school": "HKS",
@@ -1823,7 +1823,7 @@
         "course_number": "IGA-105",
         "course_title": "International Law and Global Justice",
         "instructors": [
-            "Kathryn SikkinkFaculty"
+            "Kathryn Sikkink"
         ],
         "semester": "",
         "school": "HKS",
@@ -1838,7 +1838,7 @@
         "course_number": "IGA-108",
         "course_title": "China and the World: Challenges, Competition and Cooperation",
         "instructors": [
-            "Rana MitterFaculty"
+            "Rana Mitter"
         ],
         "semester": "",
         "school": "HKS",
@@ -1853,7 +1853,7 @@
         "course_number": "IGA-125",
         "course_title": "Reasoning from the Past: Applied History and Decision Making",
         "instructors": [
-            "Fredrik LogevallFaculty"
+            "Fredrik Logevall"
         ],
         "semester": "",
         "school": "HKS",
@@ -1868,8 +1868,8 @@
         "course_number": "IGA-150Y",
         "course_title": "Seminar: International and Global Affairs",
         "instructors": [
-            "Matthew BunnFaculty",
-            "Zoe MarksFaculty"
+            "Matthew Bunn",
+            "Zoe Marks"
         ],
         "semester": "",
         "school": "HKS",
@@ -1884,9 +1884,9 @@
         "course_number": "IGA-211",
         "course_title": "Central Challenges of American National Security, Strategy, and the Press",
         "instructors": [
-            "Graham AllisonFaculty",
-            "Derek ReveronInstructor",
-            "David SangerFaculty"
+            "Graham Allison",
+            "Derek Reveron",
+            "David Sanger"
         ],
         "semester": "",
         "school": "HKS",
@@ -1901,7 +1901,7 @@
         "course_number": "IGA-232",
         "course_title": "Controlling the World's Most Dangerous Weapons",
         "instructors": [
-            "Matthew BunnFaculty"
+            "Matthew Bunn"
         ],
         "semester": "",
         "school": "HKS",
@@ -1916,7 +1916,7 @@
         "course_number": "IGA-236",
         "course_title": "Cybersecurity: Technology, Policy, and Law",
         "instructors": [
-            "Bruce SchneierFaculty"
+            "Bruce Schneier"
         ],
         "semester": "",
         "school": "HKS",
@@ -1931,7 +1931,7 @@
         "course_number": "IGA-237M",
         "course_title": "Future Issues in Cyber-Security Policy",
         "instructors": [
-            "Bruce SchneierFaculty"
+            "Bruce Schneier"
         ],
         "semester": "",
         "school": "HKS",
@@ -1946,12 +1946,12 @@
         "course_number": "IGA-250",
         "course_title": "Emerging Tech:  Security, Strategy, and Risk",
         "instructors": [
-            "Eric RosenbachFaculty"
+            "Eric Rosenbach"
         ],
-        "semester": "",
+        "semester": "Spring",
         "school": "HKS",
         "stem": false,
-        "topic": "",
+        "topic": "Artificial Intelligence",
         "cross_register": true,
         "stem_group_a": false,
         "stem_group_b": false,
@@ -1961,7 +1961,7 @@
         "course_number": "IGA-291",
         "course_title": "The War in Vietnam",
         "instructors": [
-            "Fredrik LogevallFaculty"
+            "Fredrik Logevall"
         ],
         "semester": "",
         "school": "HKS",
@@ -1976,7 +1976,7 @@
         "course_number": "IGA-315",
         "course_title": "Global Ethnic Politics",
         "instructors": [
-            "Roya TalibovaFaculty"
+            "Roya Talibova"
         ],
         "semester": "",
         "school": "HKS",
@@ -1991,7 +1991,7 @@
         "course_number": "IGA-342M",
         "course_title": "Human Rights Dilemmas in Child Protection",
         "instructors": [
-            "Jacqueline BhabhaFaculty"
+            "Jacqueline Bhabha"
         ],
         "semester": "",
         "school": "HKS",
@@ -2006,7 +2006,7 @@
         "course_number": "IGA-353M",
         "course_title": "Frontline Negotiation Lab: Strategic Planning for Complex Engagements",
         "instructors": [
-            "Claude BruderleinInstructor"
+            "Claude Bruderlein"
         ],
         "semester": "",
         "school": "HKS",
@@ -2021,7 +2021,7 @@
         "course_number": "IGA-355",
         "course_title": "Migration, Refugees, and Human Rights",
         "instructors": [
-            "Jacqueline BhabhaFaculty"
+            "Jacqueline Bhabha"
         ],
         "semester": "",
         "school": "HKS",
@@ -2036,7 +2036,7 @@
         "course_number": "IGA-402",
         "course_title": "The Climate Energy Challenge: A Foundation in Science, Technology and Policy",
         "instructors": [
-            "Daniel SchragFaculty"
+            "Daniel Schrag"
         ],
         "semester": "",
         "school": "HKS",
@@ -2051,7 +2051,7 @@
         "course_number": "IGA-412",
         "course_title": "Energy, the Energy Transition, and Geopolitics",
         "instructors": [
-            "Meghan O'SullivanFaculty"
+            "Meghan O'Sullivan"
         ],
         "semester": "",
         "school": "HKS",
@@ -2066,7 +2066,7 @@
         "course_number": "IGA-413M",
         "course_title": "The Energy-Climate Transition",
         "instructors": [
-            "Henry LeeFaculty"
+            "Henry Lee"
         ],
         "semester": "",
         "school": "HKS",
@@ -2081,13 +2081,13 @@
         "course_number": "IGA-415M",
         "course_title": "Financing the Clean Energy Transition",
         "instructors": [
-            "Ely SandlerInstructor/Staff",
-            "Daniel SchragFaculty"
+            "Ely Sandler",
+            "Daniel Schrag"
         ],
-        "semester": "",
+        "semester": "Spring 1",
         "school": "HKS",
         "stem": false,
-        "topic": "",
+        "topic": "Climate",
         "cross_register": true,
         "stem_group_a": false,
         "stem_group_b": false,
@@ -2097,12 +2097,12 @@
         "course_number": "IGA-453",
         "course_title": "Reweaving Ourselves and the World: New Perspectives on Climate Change",
         "instructors": [
-            "Rebecca HendersonFaculty"
+            "Rebecca Henderson"
         ],
-        "semester": "",
+        "semester": "Spring",
         "school": "HKS",
         "stem": false,
-        "topic": "",
+        "topic": "Climate",
         "cross_register": true,
         "stem_group_a": false,
         "stem_group_b": false,
@@ -2112,12 +2112,12 @@
         "course_number": "IGA-455",
         "course_title": "Climate Leadership: Persuasion, Advocacy and Negotiation",
         "instructors": [
-            "Rand WentworthFaculty"
+            "Rand Wentworth"
         ],
-        "semester": "",
+        "semester": "Spring",
         "school": "HKS",
         "stem": false,
-        "topic": "",
+        "topic": "Climate",
         "cross_register": true,
         "stem_group_a": false,
         "stem_group_b": false,
@@ -2127,7 +2127,7 @@
         "course_number": "IGA-513",
         "course_title": "Science, Power, and Politics",
         "instructors": [
-            "Sheila JasanoffFaculty"
+            "Sheila Jasanoff"
         ],
         "semester": "",
         "school": "HKS",
@@ -2142,7 +2142,7 @@
         "course_number": "IGA-538",
         "course_title": "Technology, Privacy, and the Trans-National Nature of the Internet",
         "instructors": [
-            "Jim WaldoFaculty"
+            "Jim Waldo"
         ],
         "semester": "",
         "school": "HKS",
@@ -2157,7 +2157,7 @@
         "course_number": "IGA-632",
         "course_title": "African Politics in Perspective: Groups, Governance, and Growth",
         "instructors": [
-            "Gloria AyeeFaculty"
+            "Gloria Ayee"
         ],
         "semester": "",
         "school": "HKS",
@@ -2172,7 +2172,7 @@
         "course_number": "IGA-655",
         "course_title": "Middle Eastern Politics and Policy",
         "instructors": [
-            "Tarek MasoudFaculty"
+            "Tarek Masoud"
         ],
         "semester": "",
         "school": "HKS",
@@ -2187,7 +2187,7 @@
         "course_number": "IGA-662",
         "course_title": "The Future of the European Union: Europe in the World",
         "instructors": [
-            "Senem Aydin DuzgitInstructor"
+            "Senem Aydin Duzgit"
         ],
         "semester": "",
         "school": "HKS",
@@ -2202,12 +2202,12 @@
         "course_number": "IGA-671M",
         "course_title": "Policy and Social Innovations for the Changing Arctic",
         "instructors": [
-            "Halla LogadottirFaculty"
+            "Halla Logadottir"
         ],
-        "semester": "",
+        "semester": "Jan",
         "school": "HKS",
         "stem": false,
-        "topic": "",
+        "topic": "Climate",
         "cross_register": true,
         "stem_group_a": false,
         "stem_group_b": false,
@@ -2217,7 +2217,7 @@
         "course_number": "IGA-956Y",
         "course_title": "Science, Technology, and Society:  Research Seminar",
         "instructors": [
-            "Sheila JasanoffFaculty"
+            "Sheila Jasanoff"
         ],
         "semester": "",
         "school": "HKS",
@@ -2232,7 +2232,7 @@
         "course_number": "MLD-102",
         "course_title": "Getting Things Done: Management and Implementation for Development",
         "instructors": [
-            "Matthew AndrewsFaculty"
+            "Matthew Andrews"
         ],
         "semester": "",
         "school": "HKS",
@@ -2247,7 +2247,7 @@
         "course_number": "MLD-111",
         "course_title": "Critical Pathways: Leadership Dilemmas in U.S. Transportation",
         "instructors": [
-            "Anthony FoxxFaculty"
+            "Anthony Foxx"
         ],
         "semester": "",
         "school": "HKS",
@@ -2262,7 +2262,7 @@
         "course_number": "MLD-125",
         "course_title": "What Works in Public Sector Management",
         "instructors": [
-            "Elizabeth LinosFaculty"
+            "Elizabeth Linos"
         ],
         "semester": "",
         "school": "HKS",
@@ -2277,9 +2277,9 @@
         "course_number": "MLD-201",
         "course_title": "Exercising Leadership: The Politics of Change",
         "instructors": [
-            "Farayi ChipunguFaculty",
-            "Timothy O'BrienFaculty",
-            "Hugh O'DohertyFaculty"
+            "Farayi Chipungu",
+            "Timothy O'Brien",
+            "Hugh O'Doherty"
         ],
         "semester": "",
         "school": "HKS",
@@ -2294,8 +2294,8 @@
         "course_number": "MLD-202M",
         "course_title": "Leadership from the Inside Out: The Capacity to Lead and Stay Alive\u2013Self, Identity, and Freedom",
         "instructors": [
-            "Farayi ChipunguFaculty",
-            "Hugh O'DohertyFaculty"
+            "Farayi Chipungu",
+            "Hugh O'Doherty"
         ],
         "semester": "",
         "school": "HKS",
@@ -2310,7 +2310,7 @@
         "course_number": "MLD-215",
         "course_title": "Negotiation and Leadership: Essential Theory and Practice for Enhancing Your Personal Effectiveness",
         "instructors": [
-            "Robert WilkinsonFaculty"
+            "Robert Wilkinson"
         ],
         "semester": "",
         "school": "HKS",
@@ -2325,8 +2325,8 @@
         "course_number": "MLD-220M",
         "course_title": "Fundamentals of Negotiation Analysis and Practice",
         "instructors": [
-            "Brian MandellFaculty",
-            "Julia MinsonFaculty"
+            "Brian Mandell",
+            "Julia Minson"
         ],
         "semester": "",
         "school": "HKS",
@@ -2341,7 +2341,7 @@
         "course_number": "MLD-223",
         "course_title": "Negotiating Across Differences",
         "instructors": [
-            "Kessely HongFaculty"
+            "Kessely Hong"
         ],
         "semester": "",
         "school": "HKS",
@@ -2356,7 +2356,7 @@
         "course_number": "MLD-234M",
         "course_title": "Conducting Negotiation on the Frontlines: Advanced Techniques for Crisis Situations",
         "instructors": [
-            "Claude BruderleinInstructor"
+            "Claude Bruderlein"
         ],
         "semester": "",
         "school": "HKS",
@@ -2371,7 +2371,7 @@
         "course_number": "MLD-250",
         "course_title": "Bridging the Divide: Issues, Culture and Leadership",
         "instructors": [
-            "Anthony FoxxFaculty"
+            "Anthony Foxx"
         ],
         "semester": "",
         "school": "HKS",
@@ -2386,7 +2386,7 @@
         "course_number": "MLD-257M",
         "course_title": "Why Won\u2019t You Listen to Me? Understanding People, Conflict, and People in Conflict",
         "instructors": [
-            "Julia MinsonFaculty"
+            "Julia Minson"
         ],
         "semester": "",
         "school": "HKS",
@@ -2401,7 +2401,7 @@
         "course_number": "MLD-280",
         "course_title": "Advanced Workshop in Multiparty Negotiation and Conflict Resolution",
         "instructors": [
-            "Brian MandellFaculty"
+            "Brian Mandell"
         ],
         "semester": "",
         "school": "HKS",
@@ -2416,7 +2416,7 @@
         "course_number": "MLD-304",
         "course_title": "Science of Behavior Change",
         "instructors": [
-            "Todd RogersFaculty"
+            "Todd Rogers"
         ],
         "semester": "",
         "school": "HKS",
@@ -2431,7 +2431,7 @@
         "course_number": "MLD-308",
         "course_title": "Leadership Decision Making \u2013 From Individuals to Institutions",
         "instructors": [
-            "Jennifer LernerFaculty"
+            "Jennifer Lerner"
         ],
         "semester": "",
         "school": "HKS",
@@ -2446,7 +2446,7 @@
         "course_number": "MLD-326",
         "course_title": "Principles and Politics When Running for Office",
         "instructors": [
-            "Deval PatrickFaculty"
+            "Deval Patrick"
         ],
         "semester": "",
         "school": "HKS",
@@ -2461,7 +2461,7 @@
         "course_number": "MLD-340M",
         "course_title": "Power and Influence for Positive Impact",
         "instructors": [
-            "Julie BattilanaFaculty"
+            "Julie Battilana"
         ],
         "semester": "",
         "school": "HKS",
@@ -2476,7 +2476,7 @@
         "course_number": "MLD-355",
         "course_title": "Public Narrative",
         "instructors": [
-            "Marshall GanzFaculty"
+            "Marshall Ganz"
         ],
         "semester": "",
         "school": "HKS",
@@ -2491,8 +2491,8 @@
         "course_number": "MLD-360M",
         "course_title": "Being Human",
         "instructors": [
-            "Marshall GanzFaculty",
-            "Christopher RobichaudFaculty"
+            "Marshall Ganz",
+            "Christopher Robichaud"
         ],
         "semester": "",
         "school": "HKS",
@@ -2507,7 +2507,7 @@
         "course_number": "MLD-375",
         "course_title": "Creating Justice in Real Time: Vision, Strategies and Campaigns",
         "instructors": [
-            "Cornell William BrooksFaculty"
+            "Cornell William Brooks"
         ],
         "semester": "",
         "school": "HKS",
@@ -2522,7 +2522,7 @@
         "course_number": "MLD-377",
         "course_title": "Organizing:  People, Power, Change",
         "instructors": [
-            "Marshall GanzFaculty"
+            "Marshall Ganz"
         ],
         "semester": "",
         "school": "HKS",
@@ -2537,7 +2537,7 @@
         "course_number": "MLD-381",
         "course_title": "Mitigating and Managing a Crisis",
         "instructors": [
-            "Juliette KayyemFaculty"
+            "Juliette Kayyem"
         ],
         "semester": "",
         "school": "HKS",
@@ -2552,7 +2552,7 @@
         "course_number": "MLD-385M",
         "course_title": "Leading through Public Crises: High-Stakes Decision-Making in Chaotic Events",
         "instructors": [
-            "Deval PatrickFaculty"
+            "Deval Patrick"
         ],
         "semester": "",
         "school": "HKS",
@@ -2567,7 +2567,7 @@
         "course_number": "MLD-401M",
         "course_title": "Financial Analysis of Public and Nonprofit Organizations",
         "instructors": [
-            "Brian IammartinoFaculty"
+            "Brian Iammartino"
         ],
         "semester": "",
         "school": "HKS",
@@ -2582,8 +2582,8 @@
         "course_number": "MLD-411M",
         "course_title": "Introduction to Budgeting and Financial Management",
         "instructors": [
-            "Linda BilmesFaculty",
-            "Brian IammartinoFaculty"
+            "Linda Bilmes",
+            "Brian Iammartino"
         ],
         "semester": "",
         "school": "HKS",
@@ -2598,7 +2598,7 @@
         "course_number": "MLD-420M",
         "course_title": "Federal Budget Policy",
         "instructors": [
-            "Howell JacksonInstructor"
+            "Howell Jackson"
         ],
         "semester": "",
         "school": "HKS",
@@ -2613,7 +2613,7 @@
         "course_number": "MLD-427",
         "course_title": "Strategic Finance for Nonprofit Leaders",
         "instructors": [
-            "James HonanFaculty"
+            "James Honan"
         ],
         "semester": "",
         "school": "HKS",
@@ -2628,7 +2628,7 @@
         "course_number": "MLD-502",
         "course_title": "Developing People",
         "instructors": [
-            "Timothy O'BrienFaculty"
+            "Timothy O'Brien"
         ],
         "semester": "",
         "school": "HKS",
@@ -2643,7 +2643,7 @@
         "course_number": "MLD-515M",
         "course_title": "Serving the Public Good: Planning for Career and Life",
         "instructors": [
-            "Grant FreelandFaculty"
+            "Grant Freeland"
         ],
         "semester": "",
         "school": "HKS",
@@ -2658,7 +2658,7 @@
         "course_number": "MLD-601",
         "course_title": "Operations Management",
         "instructors": [
-            "Mark FaganFaculty"
+            "Mark Fagan"
         ],
         "semester": "",
         "school": "HKS",
@@ -2673,7 +2673,7 @@
         "course_number": "MLD-605",
         "course_title": "Systems Thinking and Supply Chain Management: Climate, Poverty and Human Rights",
         "instructors": [
-            "Mark FaganFaculty"
+            "Mark Fagan"
         ],
         "semester": "",
         "school": "HKS",
@@ -2688,8 +2688,8 @@
         "course_number": "MLD-617M",
         "course_title": "Effective Implementation: Learning from Effective Implementers",
         "instructors": [
-            "Brittany ButlerFaculty",
-            "Francis HartmannFaculty"
+            "Brittany Butler",
+            "Francis Hartmann"
         ],
         "semester": "",
         "school": "HKS",
@@ -2704,7 +2704,7 @@
         "course_number": "MLD-620M",
         "course_title": "The Data Smart City: Driving Innovation with Technology",
         "instructors": [
-            "Stephen GoldsmithFaculty"
+            "Stephen Goldsmith"
         ],
         "semester": "",
         "school": "HKS",
@@ -2719,7 +2719,7 @@
         "course_number": "MLD-634M",
         "course_title": "Managing the Private Delivery of Public Value",
         "instructors": [
-            "John DonahueFaculty"
+            "John Donahue"
         ],
         "semester": "",
         "school": "HKS",
@@ -2734,7 +2734,7 @@
         "course_number": "MLD-802M",
         "course_title": "Nonprofit Management and Leadership",
         "instructors": [
-            "Arthur BrooksFaculty"
+            "Arthur Brooks"
         ],
         "semester": "",
         "school": "HKS",
@@ -2749,7 +2749,7 @@
         "course_number": "MLD-820",
         "course_title": "Strategies for Social Impact",
         "instructors": [
-            "Matthew LeeFaculty"
+            "Matthew Lee"
         ],
         "semester": "",
         "school": "HKS",
@@ -2764,7 +2764,7 @@
         "course_number": "MLD-830",
         "course_title": "Entrepreneurship and Innovation in the Private and Social Sectors",
         "instructors": [
-            "Richard CavanaghFaculty"
+            "Richard Cavanagh"
         ],
         "semester": "",
         "school": "HKS",
@@ -2779,7 +2779,7 @@
         "course_number": "MLD-831",
         "course_title": "Entrepreneurship and Innovation in the Private and Social Sectors (Business Plan Workshop)",
         "instructors": [
-            "Richard CavanaghFaculty"
+            "Richard Cavanagh"
         ],
         "semester": "",
         "school": "HKS",
@@ -2794,7 +2794,7 @@
         "course_number": "MLD-836M",
         "course_title": "Social Entrepreneurship/Social Enterprise Deep Dive: How to Operationalize & Scale for Social Impact",
         "instructors": [
-            "Jim BildnerFaculty"
+            "Jim Bildner"
         ],
         "semester": "",
         "school": "HKS",
@@ -2822,7 +2822,7 @@
         "course_number": "SUP-110",
         "course_title": "Poverty and Public Policy",
         "instructors": [
-            "Mark ShepardFaculty"
+            "Mark Shepard"
         ],
         "semester": "",
         "school": "HKS",
@@ -2837,7 +2837,7 @@
         "course_number": "SUP-125",
         "course_title": "Public Economics: Designing Government Policy",
         "instructors": [
-            "Stan VeugerInstructor"
+            "Stan Veuger"
         ],
         "semester": "",
         "school": "HKS",
@@ -2852,7 +2852,7 @@
         "course_number": "SUP-135",
         "course_title": "Using Big Data to Solve Economic and Social Problems",
         "instructors": [
-            "Gregory BruichFaculty"
+            "Gregory Bruich"
         ],
         "semester": "",
         "school": "HKS",
@@ -2867,8 +2867,8 @@
         "course_number": "SUP-150Y",
         "course_title": "Seminar: Social and Urban Policy",
         "instructors": [
-            "Suzanne CooperFaculty",
-            "John DonahueFaculty"
+            "Suzanne Cooper",
+            "John Donahue"
         ],
         "semester": "",
         "school": "HKS",
@@ -2883,7 +2883,7 @@
         "course_number": "SUP-151M",
         "course_title": "Medical Policy Writing",
         "instructors": [
-            "Elizabeth RourkeFaculty"
+            "Elizabeth Rourke"
         ],
         "semester": "",
         "school": "HKS",
@@ -2911,7 +2911,7 @@
         "course_number": "SUP-208",
         "course_title": "From the Bottom to the Top: Unequal Opportunities and Unequal Outcomes Across Generations",
         "instructors": [
-            "Deirdre BloomeFaculty"
+            "Deirdre Bloome"
         ],
         "semester": "",
         "school": "HKS",
@@ -2926,7 +2926,7 @@
         "course_number": "SUP-426",
         "course_title": "Collaborative Action for Children: Redesigning Education for Equity",
         "instructors": [
-            "Rob WatsonInstructor"
+            "Rob Watson"
         ],
         "semester": "",
         "school": "HKS",
@@ -2941,7 +2941,7 @@
         "course_number": "SUP-452M",
         "course_title": "Politics and Education Change: Case Studies",
         "instructors": [
-            "Christopher GabrieliInstructor"
+            "Christopher Gabrieli"
         ],
         "semester": "",
         "school": "HKS",
@@ -2956,7 +2956,7 @@
         "course_number": "SUP-518",
         "course_title": "Economics of Disease and Health Equity",
         "instructors": [
-            "Marcella AlsanFaculty"
+            "Marcella Alsan"
         ],
         "semester": "",
         "school": "HKS",
@@ -2971,7 +2971,7 @@
         "course_number": "SUP-578",
         "course_title": "U.S. Healthcare Industry and Regulatory Policy",
         "instructors": [
-            "Leemore S. DafnyFaculty"
+            "Leemore S. Dafny"
         ],
         "semester": "",
         "school": "HKS",
@@ -2986,7 +2986,7 @@
         "course_number": "SUP-600",
         "course_title": "Equitable Development and Housing Policy in Urban Settings",
         "instructors": [
-            "James CarrasFaculty"
+            "James Carras"
         ],
         "semester": "",
         "school": "HKS",
@@ -3001,7 +3001,7 @@
         "course_number": "SUP-612",
         "course_title": "Making the American City: Form and Society",
         "instructors": [
-            "Alexander von HoffmanInstructor"
+            "Alexander von Hoffman"
         ],
         "semester": "",
         "school": "HKS",
@@ -3016,8 +3016,8 @@
         "course_number": "SUP-661",
         "course_title": "Housing and Urbanization in the United States",
         "instructors": [
-            "Jennifer MolinskyInstructor",
-            "James StockardInstructor"
+            "Jennifer Molinsky",
+            "James Stockard"
         ],
         "semester": "",
         "school": "HKS",
@@ -3032,7 +3032,7 @@
         "course_number": "SUP-663",
         "course_title": "Land Use and Environmental Law",
         "instructors": [
-            "Jerold KaydenInstructor"
+            "Jerold Kayden"
         ],
         "semester": "",
         "school": "HKS",
@@ -3047,7 +3047,7 @@
         "course_number": "SUP-668",
         "course_title": "Public and Private Development",
         "instructors": [
-            "Jerold KaydenInstructor"
+            "Jerold Kayden"
         ],
         "semester": "",
         "school": "HKS",
@@ -3062,7 +3062,7 @@
         "course_number": "SUP-674",
         "course_title": "New Visions for Social Housing in the U.S.",
         "instructors": [
-            "Christopher HerbertFaculty"
+            "Christopher Herbert"
         ],
         "semester": "",
         "school": "HKS",
@@ -3077,7 +3077,7 @@
         "course_number": "SUP-680",
         "course_title": "Urban Economic Policy",
         "instructors": [
-            "Gordon HansonFaculty"
+            "Gordon Hanson"
         ],
         "semester": "",
         "school": "HKS",
@@ -3092,7 +3092,7 @@
         "course_number": "SUP-683M",
         "course_title": "State and Local Economic Development",
         "instructors": [
-            "Rafael CarbonellFaculty"
+            "Rafael Carbonell"
         ],
         "semester": "",
         "school": "HKS",
@@ -3107,8 +3107,8 @@
         "course_number": "SUP-921",
         "course_title": "Proseminar on Inequality and Social Policy I",
         "instructors": [
-            "Daniel SchneiderFaculty",
-            "David WeilFaculty"
+            "Daniel Schneider",
+            "David Weil"
         ],
         "semester": "",
         "school": "HKS",
@@ -3123,8 +3123,8 @@
         "course_number": "SUP-922",
         "course_title": "Proseminar on Inequality and Social Policy II",
         "instructors": [
-            "Jennifer HochschildFaculty",
-            "Maya SenFaculty"
+            "Jennifer Hochschild",
+            "Maya Sen"
         ],
         "semester": "",
         "school": "HKS",
@@ -3139,7 +3139,7 @@
         "course_number": "SUP-923",
         "course_title": "Proseminar on Inequality and Social Policy III",
         "instructors": [
-            "Deirdre BloomeFaculty"
+            "Deirdre Bloome"
         ],
         "semester": "",
         "school": "HKS",
@@ -3154,8 +3154,8 @@
         "course_number": "SUP-940Y",
         "course_title": "Economics and Social Policy Graduate Student Workshop",
         "instructors": [
-            "Luis ArmonaFaculty",
-            "Mark ShepardFaculty"
+            "Luis Armona",
+            "Mark Shepard"
         ],
         "semester": "",
         "school": "HKS",
@@ -3170,7 +3170,7 @@
         "course_number": "SUP-951",
         "course_title": "Doctoral Seminar in Health Economics",
         "instructors": [
-            "Mark ShepardFaculty"
+            "Mark Shepard"
         ],
         "semester": "",
         "school": "HKS",
@@ -4154,6 +4154,51 @@
         "cross_register": true,
         "stem_group_a": false,
         "stem_group_b": true,
+        "link": ""
+    },
+    {
+        "course_number": "DPI-686",
+        "course_title": "Case Studies in Public and Private Policy Challenges of Artificial Intelligence",
+        "instructors": [
+            "Jonathan Zittrain"
+        ],
+        "semester": "Spring",
+        "school": "HKS",
+        "stem": false,
+        "topic": "Artificial Intelligence",
+        "cross_register": true,
+        "stem_group_a": false,
+        "stem_group_b": false,
+        "link": ""
+    },
+    {
+        "course_number": "DPI-385M",
+        "course_title": "Race and Racism in the Making of the United States as a Global Power",
+        "instructors": [
+            "Gloria Ayee",
+            "Zoe Marks",
+            "Khalil Gibran Muhammad"
+        ],
+        "semester": "",
+        "school": "HKS",
+        "stem": false,
+        "topic": "Gender",
+        "cross_register": true,
+        "stem_group_a": false,
+        "stem_group_b": false,
+        "link": ""
+    },
+    {
+        "course_number": "GENED-1130",
+        "course_title": "Power to the People: Black Power, Radical Feminism, and Gay Liberation",
+        "instructors": [],
+        "semester": "",
+        "school": "HKS",
+        "stem": false,
+        "topic": "Gender",
+        "cross_register": true,
+        "stem_group_a": false,
+        "stem_group_b": false,
         "link": ""
     }
 ]

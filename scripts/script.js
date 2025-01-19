@@ -4,34 +4,31 @@ document.addEventListener("DOMContentLoaded", () => {
     const stemRegister = document.getElementById("stem-register");
     const crossRegister = document.getElementById("cross-register");
     const instructorSelect = document.getElementById("instructor");
+    const topicSelect = document.getElementById("topic");
     const searchInput = document.getElementById("search");
     const courseTable = document.getElementById("course-table");
     const filterButton = document.getElementById("filter-button");
-    
+
     let coursesData = [];
 
-    // Populate instructor dropdown
-    function populateInstructors(courses) {
-        // Get all instructor arrays and flatten them
-        const allInstructors = courses.reduce((acc, course) => {
-            if (course.instructors) {
-                acc.push(...course.instructors);
+    // General function to populate a dropdown with unique sorted values
+    function populateDropdown(courses, key, dropdown, defaultOptionText) {
+        const allValues = courses.reduce((acc, course) => {
+            const value = course[key];
+            if (Array.isArray(value)) {
+                acc.push(...value); // Flatten arrays (for instructors)
+            } else if (value) {
+                acc.push(value); // Add single values (for topics)
             }
             return acc;
         }, []);
-
-        // Get unique instructors and sort alphabetically
-        const uniqueInstructors = [...new Set(allInstructors)].sort();
-
-        // Clear existing options except the first one (All Instructors)
-        instructorSelect.innerHTML = '<option value="">All Instructors</option>';
-
-        // Add instructor options
-        uniqueInstructors.forEach(instructor => {
+        const uniqueValues = [...new Set(allValues)].sort(); // Unique and sorted values
+        dropdown.innerHTML = `<option value="">${defaultOptionText}</option>`;
+        uniqueValues.forEach(value => {
             const option = document.createElement('option');
-            option.value = instructor;
-            option.textContent = instructor;
-            instructorSelect.appendChild(option);
+            option.value = value;
+            option.textContent = value;
+            dropdown.appendChild(option);
         });
     }
 
@@ -41,7 +38,11 @@ document.addEventListener("DOMContentLoaded", () => {
             const response = await fetch('data/form_data.json');
             const data = await response.json();
             coursesData = data;
-            populateInstructors(coursesData);
+
+            // Populate dropdowns
+            populateDropdown(coursesData, 'instructors', instructorSelect, 'All Instructors');
+            populateDropdown(coursesData, 'topic', topicSelect, 'All Topics');
+
             displayCourses(coursesData);
             console.log("Loaded", coursesData.length, "courses");
         } catch (error) {
@@ -54,58 +55,46 @@ document.addEventListener("DOMContentLoaded", () => {
         const stemSelected = stemRegister.value;
         const crossSelected = crossRegister.value;
         const instructorSelected = instructorSelect.value;
+        const topicSelected = topicSelect.value;
         const searchTerm = searchInput.value.toLowerCase();
-        
-        console.log("Filtering for STEM:", stemSelected, 
-                    "Cross Register:", crossSelected,
-                    "Instructor:", instructorSelected,
-                    "Search:", searchTerm);
 
         const filtered = coursesData.filter(course => {
-            // STEM filter
-            const stemMatch = 
-                !stemSelected || // no STEM filter selected
+            const stemMatch =
+                !stemSelected ||
                 (stemSelected === "Group A - Quantitative Analysis" && course.stem_group_a) ||
                 (stemSelected === "Group B - Research Methods" && course.stem_group_b) ||
                 (stemSelected === "None" && !course.stem_group_a && !course.stem_group_b);
-
-            // Cross registration filter
-            const crossMatch = 
-                !crossSelected || // no cross registration filter selected
+            const crossMatch =
+                !crossSelected ||
                 (crossSelected === "Yes" && course.cross_register) ||
                 (crossSelected === "No" && !course.cross_register);
-
-            // Instructor filter
-            const instructorMatch = 
-                !instructorSelected || // no instructor selected
+            const instructorMatch =
+                !instructorSelected || 
                 (course.instructors && course.instructors.includes(instructorSelected));
-
-            // Search filter
-            const searchMatch = !searchTerm || 
+            const topicMatch =
+                !topicSelected || course.topic === topicSelected;
+            const searchMatch = !searchTerm ||
                 course.course_number.toLowerCase().includes(searchTerm) ||
                 course.course_title.toLowerCase().includes(searchTerm) ||
-                (course.instructors && course.instructors.some(instructor => 
+                (course.instructors && course.instructors.some(instructor =>
                     instructor.toLowerCase().includes(searchTerm)
                 ));
 
-            return stemMatch && crossMatch && instructorMatch && searchMatch;
+            return stemMatch && crossMatch && instructorMatch && topicMatch && searchMatch;
         });
 
-        console.log("Found", filtered.length, "matching courses");
         displayCourses(filtered);
     }
 
     // Display courses in table
     function displayCourses(courses) {
         courseTable.innerHTML = '';
-        
         if (courses.length === 0) {
             const row = document.createElement('tr');
             row.innerHTML = '<td colspan="3" class="text-center">No courses found matching the selected criteria</td>';
             courseTable.appendChild(row);
             return;
         }
-
         courses.forEach(course => {
             const row = document.createElement('tr');
             row.innerHTML = `
@@ -121,16 +110,22 @@ document.addEventListener("DOMContentLoaded", () => {
     stemRegister.addEventListener('change', filterCourses);
     crossRegister.addEventListener('change', filterCourses);
     instructorSelect.addEventListener('change', filterCourses);
-    searchInput.addEventListener('input', filterCourses); // Search as you type
+    topicSelect.addEventListener('change', filterCourses);
+    searchInput.addEventListener('input', filterCourses);
     filterButton.addEventListener('click', (e) => {
         e.preventDefault();
         stemRegister.value = '';
         crossRegister.value = '';
         instructorSelect.value = '';
+        topicSelect.value = '';
         searchInput.value = '';
         filterCourses();
     });
 
     // Load courses when page loads
     loadCourses();
+});
+
+document.getElementById('menu-toggle').addEventListener('click', () => {
+    document.querySelector('.menu').classList.toggle('show');
 });
