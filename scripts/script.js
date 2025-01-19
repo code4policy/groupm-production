@@ -4,6 +4,7 @@ document.addEventListener("DOMContentLoaded", () => {
     const stemRegister = document.getElementById("stem-register");
     const crossRegister = document.getElementById("cross-register");
     const instructorSelect = document.getElementById("instructor");
+    const searchInput = document.getElementById("search");
     const courseTable = document.getElementById("course-table");
     const filterButton = document.getElementById("filter-button");
     
@@ -48,15 +49,17 @@ document.addEventListener("DOMContentLoaded", () => {
         }
     }
 
-    // Filter courses based on all selections
+    // Filter courses based on all selections and search
     function filterCourses() {
         const stemSelected = stemRegister.value;
         const crossSelected = crossRegister.value;
         const instructorSelected = instructorSelect.value;
+        const searchTerm = searchInput.value.toLowerCase();
         
         console.log("Filtering for STEM:", stemSelected, 
                     "Cross Register:", crossSelected,
-                    "Instructor:", instructorSelected);
+                    "Instructor:", instructorSelected,
+                    "Search:", searchTerm);
 
         const filtered = coursesData.filter(course => {
             // STEM filter
@@ -77,7 +80,15 @@ document.addEventListener("DOMContentLoaded", () => {
                 !instructorSelected || // no instructor selected
                 (course.instructors && course.instructors.includes(instructorSelected));
 
-            return stemMatch && crossMatch && instructorMatch;
+            // Search filter
+            const searchMatch = !searchTerm || 
+                course.course_number.toLowerCase().includes(searchTerm) ||
+                course.course_title.toLowerCase().includes(searchTerm) ||
+                (course.instructors && course.instructors.some(instructor => 
+                    instructor.toLowerCase().includes(searchTerm)
+                ));
+
+            return stemMatch && crossMatch && instructorMatch && searchMatch;
         });
 
         console.log("Found", filtered.length, "matching courses");
@@ -110,11 +121,13 @@ document.addEventListener("DOMContentLoaded", () => {
     stemRegister.addEventListener('change', filterCourses);
     crossRegister.addEventListener('change', filterCourses);
     instructorSelect.addEventListener('change', filterCourses);
+    searchInput.addEventListener('input', filterCourses); // Search as you type
     filterButton.addEventListener('click', (e) => {
         e.preventDefault();
         stemRegister.value = '';
         crossRegister.value = '';
         instructorSelect.value = '';
+        searchInput.value = '';
         filterCourses();
     });
 
