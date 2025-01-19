@@ -392,3 +392,42 @@ input:checked + .slider {
 input:checked + .slider:before {
     transform: translateX(26px);
 }
+
+
+/* Ensure fixed table layout */
+.table {
+    table-layout: fixed; /* Ensures consistent column widths */
+    width: 100%; /* Full-width table */
+    border-collapse: collapse; /* Removes double borders */
+}
+
+.table th, .table td {
+    text-align: left; /* Align content to the left */
+    word-wrap: break-word; /* Prevent overflow */
+    padding: 10px; /* Add padding for readability */
+}
+
+/* Lock column widths */
+.table th:nth-child(1),
+.table td:nth-child(1) {
+    width: 20%; /* Course column */
+}
+
+.table th:nth-child(2),
+.table td:nth-child(2) {
+    width: 40%; /* Course Title column */
+}
+
+.table th:nth-child(3),
+.table td:nth-child(3) {
+    width: 40%; /* Instructors column */
+}
+
+/* Sticky Table Header */
+.table thead th {
+    position: sticky; /* Locks header in place */
+    top: 0; /* Sticks to the top */
+    background-color: #f0f5fc; /* Matches header background */
+    z-index: 1; /* Ensures it stays on top */
+}
+
