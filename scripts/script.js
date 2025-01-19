@@ -1,80 +1,54 @@
 // Wait for the DOM to load
 document.addEventListener("DOMContentLoaded", () => {
-    // References to DOM elements
+    // Get elements
     const stemRegister = document.getElementById("stem-register");
     const crossRegister = document.getElementById("cross-register");
     const courseTable = document.getElementById("course-table");
-    const searchInput = document.getElementById("search");
     const filterButton = document.getElementById("filter-button");
-
+    
     let coursesData = [];
 
-    // Convert boolean values to strings
-    function getStemGroup(course) {
-        if (course.stem_group_a) return "Group A - Quantitative Analysis";
-        if (course.stem_group_b) return "Group B - Research Methods";
-        return "None";
-    }
-
-    function getCrossRegisterStatus(course) {
-        return course.cross_register ? "Yes" : "No";
-    }
-
-    // Fetch data from the JSON file
-    async function fetchData() {
+    // Load and display all courses initially
+    async function loadCourses() {
         try {
             const response = await fetch('data/form_data.json');
-            if (!response.ok) {
-                throw new Error("Failed to load JSON file");
-            }
             const data = await response.json();
-            
-            // Process data and add string properties for filtering
-            coursesData = data.map(course => ({
-                ...course,
-                stem_group: getStemGroup(course),
-                cross_register_status: getCrossRegisterStatus(course)
-            }));
-
-            console.log('Data loaded:', coursesData.length, 'courses');
-            return coursesData;
+            coursesData = data;
+            displayCourses(coursesData);
+            console.log("Loaded", coursesData.length, "courses");
         } catch (error) {
-            console.error("Error fetching data:", error);
-            return [];
+            console.error("Error loading courses:", error);
         }
     }
 
-    // Filter courses based on all criteria
+    // Filter courses based on all selections
     function filterCourses() {
-        const selectedStem = stemRegister.value;
-        const selectedCrossRegister = crossRegister.value;
-        const searchTerm = searchInput.value.toLowerCase();
+        const stemSelected = stemRegister.value;
+        const crossSelected = crossRegister.value;
+        console.log("Filtering for STEM:", stemSelected, "Cross Register:", crossSelected);
 
-        console.log('Filtering with:', { selectedStem, selectedCrossRegister, searchTerm });
+        const filtered = coursesData.filter(course => {
+            // STEM filter
+            const stemMatch = 
+                !stemSelected || // no STEM filter selected
+                (stemSelected === "Group A - Quantitative Analysis" && course.stem_group_a) ||
+                (stemSelected === "Group B - Research Methods" && course.stem_group_b) ||
+                (stemSelected === "None" && !course.stem_group_a && !course.stem_group_b);
 
-        const filteredCourses = coursesData.filter(course => {
-            // Check STEM filter
-            const matchesStem = !selectedStem || 
-                              (selectedStem === "None" && course.stem_group === "None") ||
-                              course.stem_group === selectedStem;
+            // Cross registration filter
+            const crossMatch = 
+                !crossSelected || // no cross registration filter selected
+                (crossSelected === "Yes" && course.cross_register) ||
+                (crossSelected === "No" && !course.cross_register);
 
-            // Check Cross Registration filter
-            const matchesCrossRegister = !selectedCrossRegister || 
-                                       course.cross_register_status === selectedCrossRegister;
-
-            // Check search term
-            const matchesSearch = !searchTerm ||
-                                course.course_number.toLowerCase().includes(searchTerm) ||
-                                course.course_title.toLowerCase().includes(searchTerm);
-
-            return matchesStem && matchesCrossRegister && matchesSearch;
+            return stemMatch && crossMatch;
         });
 
-        console.log('Filtered results:', filteredCourses.length, 'courses');
-        displayCourses(filteredCourses);
+        console.log("Found", filtered.length, "matching courses");
+        displayCourses(filtered);
     }
 
-    // Display courses in the table
+    // Display courses in table
     function displayCourses(courses) {
         courseTable.innerHTML = '';
         
@@ -89,33 +63,23 @@ document.addEventListener("DOMContentLoaded", () => {
             const row = document.createElement('tr');
             row.innerHTML = `
                 <td>${course.course_number}</td>
-                <td>
-                    ${course.link 
-                        ? `<a href="${course.link}" target="_blank">${course.course_title}</a>`
-                        : course.course_title}
-                </td>
+                <td>${course.link ? `<a href="${course.link}" target="_blank">${course.course_title}</a>` : course.course_title}</td>
                 <td>${course.instructors ? course.instructors.join(', ') : 'N/A'}</td>
             `;
             courseTable.appendChild(row);
         });
     }
 
-    // Event listeners
-    stemRegister.addEventListener("change", filterCourses);
-    crossRegister.addEventListener("change", filterCourses);
-    searchInput.addEventListener("input", filterCourses);
-    
-    filterButton.addEventListener("click", (e) => {
+    // Add event listeners
+    stemRegister.addEventListener('change', filterCourses);
+    crossRegister.addEventListener('change', filterCourses);
+    filterButton.addEventListener('click', (e) => {
         e.preventDefault();
         stemRegister.value = '';
         crossRegister.value = '';
-        searchInput.value = '';
         filterCourses();
     });
 
-    // Initialize
-    fetchData().then(() => {
-        console.log('Initial load complete');
-        filterCourses();
-    });
+    // Load courses when page loads
+    loadCourses();
 });
