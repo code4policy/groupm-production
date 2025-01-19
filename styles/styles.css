@@ -1,208 +1,296 @@
-/* Base Styles */
+/* GENERAL BODY STYLING */
 body {
     font-family: "Mercury Text G1", Georgia, serif;
-    color: #333;
-    line-height: 1.6;
+    color: #333; /* Default text color */
 }
 
-/* Course Search Section */
-.red-banner {
-    background: linear-gradient(135deg, #cc0033 0%, #ac162c 100%);
-    color: white;
+/* NAVIGATION BAR STYLING */
+.top-bar {
+    background-color: white;
+    border-bottom: 1px solid #ddd; /* Light border for separation */
     padding: 2rem 0;
 }
 
-.red-banner h1 {
-    font-size: 2.5rem;
-    margin-bottom: 1.5rem;
-    font-weight: 600;
+.top-bar.highlight {
+    border-bottom: 2px solid #9E1B32; /* Crimson line for emphasis */
+}
+
+.hks-logo {
+    height: 40px; /* Adjust logo size */
+    width: auto;  /* Maintain aspect ratio */
+}
+
+.nav .nav-item .nav-link {
+    color: #333; /* Dark text color for links */
+    font-weight: bold;
+    text-decoration: none;
+    margin-right: 5px; /* Spacing between links */
+    transition: color 0.3s ease-in-out; /* Smooth hover effect */
+    font-size: 1.3rem;
+}
+
+.nav .nav-item .nav-link:hover {
+    color: #9E1B32; /* Crimson hover effect */
+}
+
+/* MENU STYLING */
+.menu .nav {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    gap: 1rem;
+    display: flex;
+    align-items: center;
+    background: white; /* Background color for the menu */
+}
+
+.site-name {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #333; /* Text color for site name */
+    text-transform: uppercase;
+}
+
+.site-name strong {
+    font-weight: bold;
+}
+
+/* RED BANNER */
+.red-banner {
+    background: #cc0033; /* Crimson background */
+    color: white; /* White text */
     text-align: center;
+    padding: 2rem; /* Adjust spacing */
+    background: -webkit-linear-gradient(135deg, #cc0033 0%, #ac162c 100%);
+    background: -o-linear-gradient(135deg, #cc0033 0%, #ac162c 100%);
+    background: -moz-linear-gradient(135deg, #cc0033 0%, #ac162c 100%);
+    background: linear-gradient(135deg, #cc0033 0%, #ac162c 100%);
 }
 
-/* Search Form Styles */
-.search-form {
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 0 1rem;
+.red-banner h1 {
+    font-size: 2.5rem; /* Reduce heading size */
+    margin-bottom: 1rem; /* Add spacing below the title */
 }
 
-.search-form .form-control {
-    height: 2.5rem;
-    border: none;
+/* Inline Form Styling */
+.red-banner form {
+    display: flex; /* Inline layout for inputs and buttons */
+    gap: 1rem; /* Space between elements */
+    justify-content: center; /* Center the form elements */
+    align-items: center; /* Align elements vertically */
+    flex-wrap: nowrap; /* Keep elements inline on larger screens */
+}
+
+.red-banner form .form-control,
+.red-banner form .form-select {
+    flex: 1 1 auto; /* Allow flexible width */
+    max-width: 200px; /* Limit width of inputs and dropdowns */
+    border-radius: 0; /* Square edges for inputs */
+    border: 1px solid #ddd; /* Light border */
+    padding: 0.5rem; /* Comfortable padding */
+    height: 2.5rem; /* Set consistent height */
+}
+
+.red-banner form button {
+    background-color: white;
+    color: #9E1B32; /* Crimson text */
+    font-weight: bold;
     padding: 0.5rem 1rem;
-    font-size: 1rem;
-    width: 100%;
-    max-width: 400px;
-    border-radius: 4px;
-}
-
-/* Filter Groups */
-.filters-container {
-    display: flex;
-    gap: 2rem;
-    align-items: center;
-    margin: 1rem 0;
-    flex-wrap: wrap;
-}
-
-.filter-group {
-    display: flex;
-    align-items: center;
-    background: rgba(255, 255, 255, 0.1);
-    padding: 0.5rem 1rem;
-    border-radius: 4px;
-    min-width: 200px;
-}
-
-.filter-label {
-    color: white;
-    font-size: 0.9rem;
-    margin-right: 1rem;
-    font-weight: 500;
-}
-
-/* Toggle Switch */
-.switch {
-    position: relative;
-    display: inline-block;
-    width: 50px;
-    height: 24px;
-}
-
-.switch input {
-    opacity: 0;
-    width: 0;
-    height: 0;
-}
-
-.slider {
-    position: absolute;
-    cursor: pointer;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background-color: rgba(255, 255, 255, 0.2);
-    transition: .4s;
-    border-radius: 24px;
-}
-
-.slider:before {
-    position: absolute;
-    content: "";
-    height: 18px;
-    width: 18px;
-    left: 3px;
-    bottom: 3px;
-    background-color: white;
-    transition: .4s;
-    border-radius: 50%;
-}
-
-input:checked + .slider {
-    background-color: #4CAF50;
-}
-
-input:checked + .slider:before {
-    transform: translateX(26px);
-}
-
-/* Dropdowns */
-.form-select {
-    height: 2.5rem;
     border: none;
-    padding: 0.5rem 2rem 0.5rem 1rem;
-    font-size: 3rem;
-    background-color: white;
-    border-radius: 4px;
-    appearance: none;
-    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' viewBox='0 0 12 12'%3E%3Cpath fill='%23333' d='M6 9L0 3h12z'/%3E%3C/svg%3E");
-    background-repeat: no-repeat;
-    background-position: right 1rem center;
-    min-width: 150px;
+    text-transform: uppercase;
+    transition: background-color 0.3s ease-in-out;
+    height: 2.5rem; /* Match height of form controls */
+    display: flex;
+    align-items: center; /* Vertically align text and icon */
+    justify-content: center; /* Center text and icon */
+    border-radius: 5px; /* Slightly rounded corners */
 }
 
-/* Buttons */
-.btn {
-    height: 2.5rem;
-    padding: 0 1.5rem;
-    font-size: 1rem;
-    font-weight: 500;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-    transition: all 0.3s ease;
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.btn-light {
-    background-color: white;
-    color: #ac162c;
-}
-
-.btn-light:hover {
-    background-color: #f8f9fa;
-}
-
-#filter-button {
-    background-color: transparent;
-    border: 1px solid white;
-    color: white;
-}
-
-#filter-button:hover {
-    background-color: rgba(255, 255, 255, 0.1);
-}
-
-/* Course Table Styles */
-.table {
-    width: 100%;
-    margin-top: 2rem;
-    border-collapse: separate;
-    border-spacing: 0;
-}
-
-.table th {
-    background-color: #f8f9fa;
-    padding: 1rem;
-    text-align: left;
-    font-weight: 600;
-    border-bottom: 2px solid #dee2e6;
-}
-
-.table td {
-    padding: 1rem;
-    border-bottom: 1px solid #dee2e6;
-}
-
-.table-striped tbody tr:nth-of-type(odd) {
-    background-color: rgba(0, 0, 0, 0.02);
+.red-banner form button:hover {
+    background-color: #7a1628; /* Darker crimson */
+    color: white; /* Invert text color */
 }
 
 /* Responsive Adjustments */
 @media (max-width: 768px) {
     .red-banner form {
-        flex-direction: column;
-        align-items: stretch;
+        flex-wrap: wrap; /* Stack elements on smaller screens */
+        gap: 1rem; /* Maintain spacing */
     }
-    
-    .filters-container {
-        flex-direction: column;
-        gap: 1rem;
+
+    .red-banner form .form-control,
+    .red-banner form .form-select {
+        max-width: 100%; /* Full width on small screens */
     }
-    
-    .filter-group {
-        width: 100%;
-    }
-    
-    .form-select, .form-control {
-        width: 100%;
-        max-width: none;
-    }
-    
-    .btn {
-        width: 100%;
-    }
+}
+
+/* SEARCH ICON */
+.bi-search {
+    font-size: 1.2rem;
+    vertical-align: middle;
+    color: #333; /* Default color */
+    transition: color 0.3s ease-in-out; /* Smooth hover effect */
+}
+
+.bi-search:hover {
+    color: #9E1B32; /* Crimson hover effect */
+}
+
+/* HERO SECTION */
+.hero {
+    background-color: #f5f5f5; /* Light gray background */
+    padding: 2rem; /* Spacing inside the section */
+    text-align: center;
+}
+
+/* BREADCRUMB STYLING */
+.breadcrumbs {
+    list-style: none; /* Remove bullet points */
+    padding: 0;
+    margin: 1rem 0; /* Add spacing */
+    display: flex;
+    gap: 0.5rem; /* Space between breadcrumb items */
+}
+
+.breadcrumbs li {
+    color: #555; /* Default text color */
+}
+
+.breadcrumbs li a {
+    color: #002F65; /* Link color */
+    text-decoration: none; /* Remove underline */
+}
+
+.breadcrumbs li a:hover {
+    text-decoration: underline; /* Add underline on hover */
+}
+
+/* COURSE CARD STYLING */
+.course-card {
+    border: 1px solid #ddd; /* Light border */
+    border-radius: 5px; /* Rounded corners */
+    padding: 1rem; /* Internal spacing */
+    margin-bottom: 1.5rem; /* Space below the card */
+    background-color: #fff; /* White background */
+}
+
+/* TABLE STYLING */
+.table-primary {
+    background-color: #f0f5fc; /* Light blue header background */
+    color: #002F65; /* Harvard blue text color */
+}
+
+.table-striped tbody tr:nth-of-type(odd) {
+    background-color: #f9f9f9; /* Light gray for odd rows */
+}
+
+.table td, .table th {
+    padding: 0.75rem; /* Add spacing inside table cells */
+    vertical-align: middle; /* Align content vertically */
+}
+
+/* FOOTER STYLING */
+footer {
+    background-color: #002F65; /* Harvard blue background */
+    color: white; /* White text color */
+    padding: 1rem 0; /* Add vertical spacing */
+    text-align: center;
+}
+
+#search {
+    margin-bottom: 0;
+}
+
+.circle--image {
+    border-radius: 50%;
+    filter: grayscale(100%);
+    height: 140px;
+    width: 140px;
+}
+
+/* TEAM PROFILES STYLING */
+.team-profiles {
+    max-width: 800px;
+    margin: 0 auto;
+    font-family: "Mercury Text G1", Georgia, serif;
+    color: #333;
+    line-height: 1.6;
+}
+
+.team-profiles h1 {
+    font-size: 2rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #002F65;
+    margin-bottom: 2rem;
+}
+
+.profile {
+    display: flex;
+    align-items: center;
+    margin-bottom: 2rem;
+    padding: 1.5rem 0;
+    border-bottom: 1px solid #ddd; /* Divider between profiles */
+}
+
+.profile:last-child {
+    border-bottom: none; /* Remove last divider */
+}
+
+.profile-img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%; /* Circular image */
+    margin-right: 1.5rem; /* Space between image and text */
+    object-fit: cover; /* Ensure proper cropping */
+    border: 2px solid #ddd; /* Optional border around the image */
+}
+
+.profile-info h2 {
+    font-size: 2.25rem;
+    font-weight: bold;
+    margin: 0;
+    color: #006080; /* Harvard blue */
+    font-family: "Gotham Narrow A", "Gotham Narrow B", Helvetica, Arial, sans-serif;
+}
+
+.profile-info p {
+    margin: 0.25rem 0;
+    font-size: 1.5rem;
+    color: #555;
+    font-family: "Sentinel A", "Sentinel B", Helvetica, Arial, sans-serif;
+}
+
+.container h1 {
+     font-size: 4rem;
+}
+
+/* Optional custom styling for the switch */
+.form-check.form-switch {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 2.5rem; /* Match height of other form elements */
+    max-width: 200px; /* Match width */
+    margin: 0; /* Remove extra margins */
+}
+
+.form-check-input {
+    width: 2.5rem; /* Adjust width of the toggle */
+    height: 1.5rem; /* Adjust height of the toggle */
+    background-color: #ddd; /* Default toggle color */
+    border-radius: 1rem; /* Fully rounded */
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.form-check-input:checked {
+    background-color: #9E1B32; /* Crimson color for checked state */
+}
+
+.form-check-label {
+    margin-left: 1rem; /* Add spacing between toggle and label */
+    font-size: 1rem; /* Adjust font size */
+    color: #fff; /* Match text color with other form elements */
+    font-weight: bold; /* Make label bold */
 }
