@@ -1536,7 +1536,7 @@
         "stem": false,
         "topic": "Artificial Intelligence",
         "cross_register": false,
-        "stem_group_a": false,
+        "stem_group_a": true,
         "stem_group_b": false,
         "link": "https://www.hks.harvard.edu/courses/dpi-681m"
     },
@@ -1954,7 +1954,7 @@
         "topic": "Artificial Intelligence",
         "cross_register": false,
         "stem_group_a": false,
-        "stem_group_b": false,
+        "stem_group_b": true,
         "link": "https://www.hks.harvard.edu/courses/iga-250"
     },
     {
