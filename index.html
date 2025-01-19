@@ -62,39 +62,50 @@
 <input type="text" id="search" class="form-control" placeholder="Search by course title or number">
 <!-- End Course Table -->
 
- <!-- STEM Filter -->
-<select id="stem" class="form-select">
-<option value="">STEM Eligable</option>
-<option value="true">Group A - Quantitative Analysis</option>
-<option value="false">Group B - Research Methods</option>
-</select>
-<!-- End STEM Filter -->
+<!-- Filter Group -->
+<div class="filters-container">
+  <div class="filter-group">
+    <span class="filter-label">STEM Eligible:</span>
+    <label class="switch">
+      <input type="checkbox" id="stem-toggle">
+      <span class="slider"></span>
+    </label>
+  </div>
 
-<!-- Cross-register Filter -->
-<select id="cross-register" class="form-select">
-<option value="">Cross-register</option>
-<option value="true">Yes</option>
-<option value="false">No</option>
-</select>
-<!-- End Cross-register Filter -->
+  <div class="filter-group">
+    <span class="filter-label">Cross-register:</span>
+    <label class="switch">
+      <input type="checkbox" id="cross-register-toggle">
+      <span class="slider"></span>
+    </label>
+  </div>
+</div>
 
 <!-- Topic Filter -->
 <select id="semester" class="form-select">
-<option value="">Topics</option>
-<option value="Fall">Artificial Intelligence</option>
-<option value="Spring">Climate</option>
-<option value="J-Term">Gender</option>
-<option value="Summer">Racism & Bias</option>
+    <option value="">All Topics</option>
+    <option value="AI">Artificial Intelligence</option>
+    <option value="Climate">Climate</option>
+    <option value="Gender">Gender</option>
+    <option value="RacismAndBias">Racism & Bias</option>
+    <option value="demo">Other</option>
 </select>
-<!-- End Topic Filter -->
 
 <!-- Instructor Filter -->
 <select id="instructor" class="form-select">
-<option value="">Select Instructor</option>
-<option value="Dhrumil Mehta">Dhrumil Mehta</option>
-<option value="Aarushi Sahejpal">Aarushi Sahejpal</option>
+    <option value="">All Instructors</option>
+    <option value="Christopher Norio Avery">Christopher Norio Avery</option>
+    <option value="Pınar Doğan">Pınar Doğan</option>
+    <option value="Anne Le Brun">Anne Le Brun</option>
+    <option value="Juan Saavedra">Juan Saavedra</option>
+    <option value="Joshua Abel">Joshua Abel</option>
+    <option value="Robert Lawrence">Robert Lawrence</option>
+    <option value="Andrés Maggi">Andrés Maggi</option>
+    <option value="Mark Shepard">Mark Shepard</option>
+    <option value="Luis Armona">Luis Armona</option>
+    <option value="Jie Bai">Jie Bai</option>
+    <option value="Gregory Bruich">Gregory Bruich</option>
 </select>
-<!-- End Instructor Filter -->
 
 
 <!-- Filter Button -->

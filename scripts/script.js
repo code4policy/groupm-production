@@ -1,198 +1,98 @@
-document.addEventListener('DOMContentLoaded', async () => {
-    const courseTable = document.getElementById('course-table');
-    const searchInput = document.getElementById('search');
-    const searchBtn = document.getElementById('search-btn');
-    const semesterDropdown = document.getElementById('semester');
-    const instructorDropdown = document.getElementById('instructor');
+// Load the JSON data from the file
+const coursesDataPath = 'data/form_data.json';
 
-    if (!courseTable) {
-        console.error('Table body with ID "course-table" not found in DOM.');
-        return;
+// Function to fetch course data
+async function fetchCourseData() {
+    try {
+        const response = await fetch(coursesDataPath);
+        if (!response.ok) {
+            throw new Error(`Failed to fetch courses data: ${response.status}`);
+        }
+        return await response.json();
+    } catch (error) {
+        console.error('Error fetching course data:', error);
+        return [];
     }
+}
 
-    // Fetch courses from JSON file
-    const fetchCourses = async () => {
-        try {
-            const response = await fetch('data/form_data.json');
-            if (!response.ok) {
-                throw new Error(`HTTP error! status: ${response.status}`);
-            }
-            return await response.json();
-        } catch (error) {
-            console.error('Error fetching courses:', error);
-            return [];
-        }
-    };
+// Function to filter and display courses
+async function filterCourses() {
+    const coursesData = await fetchCourseData();
+    
+    // Get filter values
+    const stemToggle = document.getElementById('stem-toggle')?.checked || false;
+    const crossRegisterToggle = document.getElementById('cross-register-toggle')?.checked || false;
+    const searchQuery = document.getElementById('search')?.value.toLowerCase() || '';
+    const selectedTopic = document.getElementById('semester')?.value || '';
+    const selectedInstructor = document.getElementById('instructor')?.value || '';
 
-    // Fetch instructors from JSON file
-    const fetchInstructors = async (courses) => {
-        const instructors = new Set();
-        courses.forEach(course => {
-            course.instructors.forEach(instructor => instructors.add(instructor));
-        });
-        return Array.from(instructors).sort();
-    };
+    const tableBody = document.getElementById('course-table');
+    if (!tableBody) return;
 
-    const renderCourses = (courses) => {
-        courseTable.innerHTML = ''; // Clear the table
-        if (courses.length === 0) {
-            courseTable.innerHTML = '<tr><td colspan="3">No courses found</td></tr>';
-            return;
-        }
-        courses.forEach(course => {
-            const row = document.createElement('tr');
-            row.innerHTML = `
-                <td>${course.course_number}</td>
-                <td>${course.course_title}</td>
-                <td>${course.instructors.join(', ')}</td>
-            `;
-            courseTable.appendChild(row);
-        });
-    };
+    // Clear the current table rows
+    tableBody.innerHTML = '';
 
-    const populateInstructors = async (courses) => {
-        const instructors = await fetchInstructors(courses);
-        instructors.forEach(name => {
-            const option = document.createElement('option');
-            option.value = name;
-            option.textContent = name;
-            instructorDropdown.appendChild(option);
-        });
-    };
+    // Filter courses based on all criteria
+    const filteredCourses = coursesData.filter(course => {
+        // STEM and Cross-register filters
+        const stemMatch = !stemToggle || course.stem_group_a;
+        const crossMatch = !crossRegisterToggle || course.cross_register;
+        
+        // Search filter (course number or title)
+        const searchMatch = !searchQuery || 
+            course.course_number.toLowerCase().includes(searchQuery) ||
+            course.course_title.toLowerCase().includes(searchQuery);
+        
+        // Topic filter
+        const topicMatch = !selectedTopic || course.topic === selectedTopic;
+        
+        // Instructor filter
+        const instructorMatch = !selectedInstructor || 
+            (course.instructors && course.instructors.includes(selectedInstructor));
 
-    const filterCourses = (courses) => {
-        const searchQuery = searchInput.value.toLowerCase();
-        const selectedSemester = semesterDropdown.value;
-        const selectedInstructor = instructorDropdown.value;
-
-        return courses.filter(course => {
-            const matchesSearch = searchQuery
-                ? course.course_number.toLowerCase().includes(searchQuery) ||
-                  course.course_title.toLowerCase().includes(searchQuery)
-                : true;
-            const matchesSemester = selectedSemester
-                ? course.semester === selectedSemester
-                : true;
-            const matchesInstructor = selectedInstructor
-                ? course.instructors.includes(selectedInstructor)
-                : true;
-
-            return matchesSearch && matchesSemester && matchesInstructor;
-        });
-    };
-
-    // Fetch and render courses
-    const courses = await fetchCourses();
-    await populateInstructors(courses); // Populate the instructor dropdown
-    renderCourses(courses); // Initial render
-
-    // Add event listeners for filtering
-    searchBtn.addEventListener('click', () => {
-        const filteredCourses = filterCourses(courses);
-        renderCourses(filteredCourses);
+        return stemMatch && crossMatch && searchMatch && topicMatch && instructorMatch;
     });
 
-    searchInput.addEventListener('input', () => {
-        const filteredCourses = filterCourses(courses);
-        renderCourses(filteredCourses);
-    });
+    // Populate the table with filtered courses
+    filteredCourses.forEach(course => {
+        const row = document.createElement('tr');
+        
+        const courseNumberCell = document.createElement('td');
+        courseNumberCell.textContent = course.course_number;
+        row.appendChild(courseNumberCell);
 
-    semesterDropdown.addEventListener('change', () => {
-        const filteredCourses = filterCourses(courses);
-        renderCourses(filteredCourses);
-    });
+        const courseTitleCell = document.createElement('td');
+        courseTitleCell.textContent = course.course_title;
+        row.appendChild(courseTitleCell);
 
-    instructorDropdown.addEventListener('change', () => {
-        const filteredCourses = filterCourses(courses);
-        renderCourses(filteredCourses);
-    });
-});
+        const instructorsCell = document.createElement('td');
+        instructorsCell.textContent = course.instructors.join(', ') || 'TBD';
+        row.appendChild(instructorsCell);
 
-document.addEventListener('DOMContentLoaded', async () => {
-    const courseTableBody = document.getElementById('course-table');
+        tableBody.appendChild(row);
+    });
+}
+
+// Add event listeners once DOM is loaded
+document.addEventListener('DOMContentLoaded', () => {
+    // Toggle switches
+    const stemToggle = document.getElementById('stem-toggle');
+    const crossRegisterToggle = document.getElementById('cross-register-toggle');
+    
+    // Search and filter elements
     const searchInput = document.getElementById('search');
-    const semesterDropdown = document.getElementById('semester');
-    const instructorDropdown = document.getElementById('instructor');
+    const topicSelect = document.getElementById('semester');
+    const instructorSelect = document.getElementById('instructor');
     const searchButton = document.getElementById('search-btn');
 
-    if (!courseTableBody) {
-        console.error('Table body with ID "course-table" not found in DOM.');
-        return;
-    }
+    // Add event listeners for all filter changes
+    if (stemToggle) stemToggle.addEventListener('change', filterCourses);
+    if (crossRegisterToggle) crossRegisterToggle.addEventListener('change', filterCourses);
+    if (searchInput) searchInput.addEventListener('input', filterCourses);
+    if (topicSelect) topicSelect.addEventListener('change', filterCourses);
+    if (instructorSelect) instructorSelect.addEventListener('change', filterCourses);
+    if (searchButton) searchButton.addEventListener('click', filterCourses);
 
-    // Fetch courses from JSON file
-    const fetchCourses = async () => {
-        try {
-            const response = await fetch('data/form_data.json');
-            if (!response.ok) {
-                throw new Error(`HTTP error! status: ${response.status}`);
-            }
-            return await response.json();
-        } catch (error) {
-            console.error('Error fetching course data:', error);
-            return [];
-        }
-    };
-
-    const renderCourses = (courses) => {
-        courseTableBody.innerHTML = ''; // Clear all rows
-        if (courses.length === 0) {
-            courseTableBody.innerHTML = '<tr><td colspan="3">No courses found</td></tr>';
-            return;
-        }
-
-        courses.forEach(course => {
-            const row = document.createElement('tr');
-            row.innerHTML = `
-                <td>${course.course_number}</td>
-                <td>${course.course_title}</td>
-                <td>${course.instructors.join(', ')}</td>
-            `;
-            courseTableBody.appendChild(row);
-        });
-    };
-
-    const filterCourses = (courses) => {
-        const searchQuery = searchInput.value.toLowerCase();
-        const selectedSemester = semesterDropdown.value;
-        const selectedInstructor = instructorDropdown.value;
-
-        return courses.filter(course => {
-            const matchesSearch = searchQuery
-                ? course.course_title.toLowerCase().includes(searchQuery) ||
-                  course.course_number.toLowerCase().includes(searchQuery)
-                : true;
-            const matchesSemester = selectedSemester
-                ? course.semester === selectedSemester
-                : true;
-            const matchesInstructor = selectedInstructor
-                ? course.instructors.includes(selectedInstructor)
-                : true;
-
-            return matchesSearch && matchesSemester && matchesInstructor;
-        });
-    };
-
-    const courses = await fetchCourses();
-    renderCourses(courses); // Initial render
-
-    searchButton.addEventListener('click', () => {
-        const filteredCourses = filterCourses(courses);
-        renderCourses(filteredCourses);
-    });
-
-    searchInput.addEventListener('input', () => {
-        const filteredCourses = filterCourses(courses);
-        renderCourses(filteredCourses);
-    });
-
-    semesterDropdown.addEventListener('change', () => {
-        const filteredCourses = filterCourses(courses);
-        renderCourses(filteredCourses);
-    });
-
-    instructorDropdown.addEventListener('change', () => {
-        const filteredCourses = filterCourses(courses);
-        renderCourses(filteredCourses);
-    });
+    // Initial load of courses
+    filterCourses();
 });
