@@ -42,6 +42,7 @@ async function filterCourses() {
     const searchQuery = document.getElementById('search')?.value.toLowerCase() || '';
     const selectedTopic = document.getElementById('semester')?.value || '';
     const selectedInstructor = document.getElementById('instructor')?.value || '';
+    const selectedStem = document.getElementById('dropdown')?.value || '';
 
     const tableBody = document.getElementById('course-table');
     if (!tableBody) return;
