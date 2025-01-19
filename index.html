@@ -54,45 +54,60 @@
 </header>
 <!-- End Navigation Bar -->
 
-<!-- Course Table -->
-<section class="red-banner">
-<div class="container text-white py-5">
-<h1>Courses</h1>
-<form class="mt-3 d-flex justify-content-center align-items-center gap-3">
+<!-- Filter Section -->
+<section class="bg-danger-crimson">
+<div class="container py-4">
+<h1 class="text-white display-4 mb-4">Courses</h1>
+
+<form class="mt-3 d-flex flex-column gap-3">
+
+<!-- Search Input -->
+<div class="row mb-3">
+<div class="col">
 <input type="text" id="search" class="form-control" placeholder="Search by course title or number">
-<!-- End Course Table -->
+</div>
+</div>
 
-<!-- Instructor STEM -->
+<!-- Filters Row -->
+<div class="row">
+<div class="col-md-3 mb-3 mb-md-0">
 <select id="stem-register" class="form-select">
-    <option value="">Stem</option>
-    <option value="Group A - Quantitative Analysis">Group A - Quantitative Analysis</option>
-    <option value="Group B - Research Methods">Group B - Research Methods</option>
+<option value="">Stem</option>
+<option value="Group A - Quantitative Analysis">Group A - Quantitative Analysis</option>
+<option value="Group B - Research Methods">Group B - Research Methods</option>
 </select>
+</div>
 
-
-<!-- Cross Register Filter -->
+<div class="col-md-3 mb-3 mb-md-0">
 <select id="cross-register" class="form-select">
-    <option value="">Cross Registration</option>
-    <option value="Yes">Available</option>
-    <option value="No">Not Available</option>
+<option value="">Cross Registration</option>
+<option value="Yes">Available</option>
+<option value="No">Not Available</option>
 </select>
+</div>
 
-<!-- Topic Filter -->
-<select id="topic" class="form-select">>
-    <option value="">All Topics</option>
+<div class="col-md-3 mb-3 mb-md-0">
+<select id="topic" class="form-select">
+<option value="">All Topics</option>
 </select>
+</div>
 
-<!-- Instructor Filter -->
+<div class="col-md-3">
 <select id="instructor" class="form-select">
-    <option value="">All Instructors</option>
+<option value="">All Instructors</option>
 </select>
+</div>
+</div>
 
-<!-- Filter Button -->
-<button id="filter-button">Reset</button>
+<!-- Reset Button -->
+<div class="row mt-3">
+<div class="col text-end">
+<button id="filter-button" class="btn btn-light">Reset</button>
+</div>
+</div>
 </form>
 </div>
 </section>
-<!-- End Filter Button -->
 
 
 <!-- Course Table -->

@@ -88,7 +88,7 @@ body {
     border-radius: 0; /* Square edges for inputs */
     border: 1px solid #ddd; /* Light border */
     padding: 0.5rem; /* Comfortable padding */
-    height: 2.5rem; /* Set consistent height */
+    height: 5rem; /* Set consistent height */
 }
 
 .red-banner form button {
@@ -334,4 +334,8 @@ footer {
 
 .table a:hover {
     text-decoration: underline;
+}
+
+.bg-danger-crimson{
+    background: #cc0033; /* Crimson background */
 }

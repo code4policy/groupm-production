@@ -45,7 +45,7 @@ document.addEventListener("DOMContentLoaded", () => {
     function updateInstructorDropdown() {
         const filteredCourses = getFilteredCoursesWithoutInstructor();
         const currentInstructor = instructorSelect.value;
-        
+
         // Get all instructors from currently filtered courses
         const instructors = filteredCourses.reduce((acc, course) => {
             if (course.instructors) {
@@ -80,7 +80,7 @@ document.addEventListener("DOMContentLoaded", () => {
             return acc;
         }, new Set());
         const sortedTopics = [...allTopics].sort();
-        
+
         topicSelect.innerHTML = '<option value="">All Topics</option>';
         sortedTopics.forEach(topic => {
             const option = document.createElement('option');
@@ -136,7 +136,7 @@ document.addEventListener("DOMContentLoaded", () => {
             const row = document.createElement('tr');
             row.innerHTML = `
                 <td>${course.course_number}</td>
-                <td>${course.link ? `<a href="${course.link}" target="_blank">${course.course_title}</a>` : course.course_title}</td>
+                <td>${course.course_title}</td>
                 <td>${course.instructors ? course.instructors.join(', ') : 'N/A'}</td>
             `;
             courseTable.appendChild(row);
