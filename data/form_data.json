@@ -108,7 +108,7 @@
         "stem": false,
         "topic": "",
         "cross_register": true,
-        "stem_group_a": false,
+        "stem_group_a": true,
         "stem_group_b": false,
         "link": "https://www.hks.harvard.edu/courses/api-114"
     },
@@ -182,7 +182,7 @@
         "stem": false,
         "topic": "",
         "cross_register": true,
-        "stem_group_a": false,
+        "stem_group_a": true,
         "stem_group_b": false,
         "link": "https://www.hks.harvard.edu/courses/api-135"
     },
@@ -197,7 +197,7 @@
         "stem": false,
         "topic": "",
         "cross_register": true,
-        "stem_group_a": false,
+        "stem_group_a": true,
         "stem_group_b": false,
         "link": "https://www.hks.harvard.edu/courses/api-141"
     },
@@ -212,7 +212,7 @@
         "stem": false,
         "topic": "",
         "cross_register": true,
-        "stem_group_a": false,
+        "stem_group_a": true,
         "stem_group_b": false,
         "link": "https://www.hks.harvard.edu/courses/api-148"
     },
@@ -227,7 +227,7 @@
         "stem": false,
         "topic": "",
         "cross_register": true,
-        "stem_group_a": false,
+        "stem_group_a": true,
         "stem_group_b": false,
         "link": "https://www.hks.harvard.edu/courses/api-165"
     },
@@ -260,7 +260,7 @@
         "stem": false,
         "topic": "",
         "cross_register": true,
-        "stem_group_a": false,
+        "stem_group_a": true,
         "stem_group_b": false,
         "link": "https://www.hks.harvard.edu/courses/api-201"
     },
@@ -278,7 +278,7 @@
         "stem": false,
         "topic": "",
         "cross_register": true,
-        "stem_group_a": false,
+        "stem_group_a": true,
         "stem_group_b": false,
         "link": "https://www.hks.harvard.edu/courses/api-202m"
     },
@@ -296,7 +296,7 @@
         "stem": false,
         "topic": "",
         "cross_register": true,
-        "stem_group_a": false,
+        "stem_group_a": true,
         "stem_group_b": false,
         "link": "https://www.hks.harvard.edu/courses/api-203m"
     },
@@ -311,7 +311,7 @@
         "stem": false,
         "topic": "",
         "cross_register": true,
-        "stem_group_a": false,
+        "stem_group_a": true,
         "stem_group_b": false,
         "link": "https://www.hks.harvard.edu/courses/api-205"
     },
@@ -326,7 +326,7 @@
         "stem": false,
         "topic": "",
         "cross_register": true,
-        "stem_group_a": false,
+        "stem_group_a": true,
         "stem_group_b": false,
         "link": "https://www.hks.harvard.edu/courses/api-209"
     },
@@ -341,7 +341,7 @@
         "stem": false,
         "topic": "",
         "cross_register": true,
-        "stem_group_a": false,
+        "stem_group_a": true,
         "stem_group_b": false,
         "link": "https://www.hks.harvard.edu/courses/api-210"
     },
@@ -356,7 +356,7 @@
         "stem": false,
         "topic": "",
         "cross_register": true,
-        "stem_group_a": false,
+        "stem_group_a": true,
         "stem_group_b": false,
         "link": "https://www.hks.harvard.edu/courses/api-211"
     },
@@ -371,7 +371,7 @@
         "stem": false,
         "topic": "",
         "cross_register": true,
-        "stem_group_a": false,
+        "stem_group_a": true,
         "stem_group_b": false,
         "link": "https://www.hks.harvard.edu/courses/api-222"
     },
@@ -677,7 +677,7 @@
         "stem": false,
         "topic": "",
         "cross_register": true,
-        "stem_group_a": false,
+        "stem_group_a": true,
         "stem_group_b": false,
         "link": "https://www.hks.harvard.edu/courses/bgp-670"
     },
@@ -799,7 +799,7 @@
         "stem": false,
         "topic": "",
         "cross_register": true,
-        "stem_group_a": false,
+        "stem_group_a": true,
         "stem_group_b": false,
         "link": "https://www.hks.harvard.edu/courses/dev-215"
     },
@@ -862,7 +862,7 @@
         "stem": false,
         "topic": "",
         "cross_register": true,
-        "stem_group_a": false,
+        "stem_group_a": true,
         "stem_group_b": false,
         "link": "https://www.hks.harvard.edu/courses/dev-309"
     },
